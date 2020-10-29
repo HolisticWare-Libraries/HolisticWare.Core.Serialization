@@ -1,7 +1,27 @@
 # HolisticWare.Core.Serialization
 
-HolisticWare.Core.Serialization.
+HolisticWare.Core.Serialization package with `Core.Serialization` namespace.
 
+Definition:
+
+*   https://en.wikipedia.org/wiki/Serialization
+
+*   https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
+
+*   https://stackoverflow.com/questions/633402/what-is-serialization#:~:text=Serialization%20is%20the%20process%20of%20converting%20an%20object%20into%20a,reverse%20process%20is%20called%20deserialization.
+
+*   https://en.wikipedia.org/wiki/Marshalling_(computer_science)
+
+Terms:
+
+*   Serialization/Deserialization
+
+    *   C#
+
+*   Marshalling/Unmarshalling
+
+    *   Julia
+    
 ## References / Links
 
 *   https://github.com/khalidabuhakmeh/conversions
