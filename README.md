@@ -8,6 +8,8 @@ HolisticWare.Core.Serialization.
 
     *   https://khalidabuhakmeh.com/convert-a-csharp-object-to-almost-any-format
 
+## Formats
+
 ### JSON
 
 *   `System.Text.Json`
@@ -47,3 +49,81 @@ HolisticWare.Core.Serialization.
 ### OData
 
 ### BSON
+
+## Code Generation
+
+*   code generation
+
+    *   C#
+    
+    *   other
+    
+        using intermediate C#
+        
+        *   Julia
+        
+        *   R
+        
+        *   Python
+        
+        *   Matlab/Octave
+        
+## C# POCO classes from formats
+
+
+### JSON
+
+JSON to JSON Schema
+
+    *   NJsonSchema
+    
+        *   https://github.com/RicoSuter/NJsonSchema
+
+            *   Applications which use the library:
+
+                *   VisualJsonEditor, a JSON schema based file editor for Windows.
+    
+                *   NSwag: The Swagger API toolchain for .NET
+
+                *   SigSpec for SignalR Core: Specification and code generator for SignalR Core.
+
+        *   https://gist.github.com/rushfrisby/c8f58f346548bf31e045
+
+        *   https://stackoverflow.com/questions/21611674/how-to-auto-generate-a-c-sharp-class-file-from-a-json-string
+
+        *   https://stackoverflow.com/questions/9229237/benefits-and-drawbacks-of-generated-c-sharp-classes-for-json-objects
+
+        *   https://medium.com/@nuno.caneco/dont-write-your-web-api-client-code-6f1dd36263b5
+
+        *   https://elanderson.net/2019/11/using-nswag-to-generate-c-client-classes-for-asp-net-core-3/
+        
+### XML 
+
+*   https://github.com/mganss/XmlSchemaClassGenerator
+
+*   https://stackoverflow.com/questions/3680353/how-do-i-programmatically-generate-an-xml-schema-from-a-type
+
+*   http://mikehadlow.blogspot.com/2007/01/writing-your-own-xsdexe.html
+
+*   https://www.itprotoday.com/microsoft-visual-studio/generate-xml-schemas-programmatically-net
+
+
+    1.  invoke `xsd.exe` programmatically by referencing it, which is available with .NET SDK:
+
+        *   http://msdn.microsoft.com/en-us/library/x6c1kb0s.aspx 
+
+    2.  use built-in schema class in .NET
+
+        *   XMLSchemaExporter
+
+            *   http://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlschemaexporter.aspx 
+
+        *   XML Schema Object Model
+
+            *   http://msdn.microsoft.com/en-us/library/bs8hh90b(v=VS.100).aspx 
+
+        *   XML Schema Class
+
+            *   http://msdn.microsoft.com/en-us/library/system.xml.schema.xmlschema.aspx
+
+### YAML
