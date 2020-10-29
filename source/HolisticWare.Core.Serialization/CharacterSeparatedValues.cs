@@ -1,5 +1,8 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
+
+using CsvHelper;
+using CsvHelper.Configuration;
 
 namespace Core.Serialization
 {
@@ -19,21 +22,23 @@ namespace Core.Serialization
         {
             System.Text.StringBuilder csv = new System.Text.StringBuilder();
 
-            System.IO.StringWriter textWriter = new System.IO.StringWriter(csv);
-            using var csvWriter = new CsvWriter(textWriter);
+            System.IO.StringWriter text_writer = new System.IO.StringWriter(csv);
+            CsvConfiguration csv_configuration = new CsvConfiguration(System.Globalization.CultureInfo.CurrentCulture);
+
+            using CsvWriter csvWriter = new CsvWriter(text_writer, csv_configuration);
 
             // automatically map the properties of T
             csvWriter.Configuration.AutoMap<T>();
 
             // we want to have a header row (optional)
             csvWriter.WriteHeader<T>();
-            await csvWriter.NextRecordAsync();
+            csvWriter.NextRecord();
 
             // write our record
-            csvWriter.WriteRecord(input);
+            csvWriter.WriteRecord(t);
 
             // make sure all records are flushed to stream
-            await csvWriter.FlushAsync();
+            csvWriter.Flush();
 
             return csv.ToString();
         }
