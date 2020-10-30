@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,11 +6,22 @@
   </PropertyGroup>
       
   <ItemGroup>
+    <PackageReference Include="ApacheThrift" Version="0.13.0.1" />
+    <PackageReference Include="Bond.Compiler.CSharp" Version="9.0.3" />
+    <PackageReference Include="Bond.Core.CSharp" Version="9.0.3" />
+    <PackageReference Include="Bond.Runtime.CSharp" Version="9.0.3" />
     <PackageReference Include="CsvHelper" Version="15.0.8" />
+    <PackageReference Include="MessagePack" Version="2.2.60" />
+    <PackageReference Include="Microsoft.Avro.Core" Version="0.1.0" />
+    <PackageReference Include="Microsoft.ML.Parquet" Version="0.17.2" />
+    <PackageReference Include="Parquet.Net" Version="3.7.7" />
+    <PackageReference Include="ParquetSharp" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Thrift" Version="0.9.1.3" />
+    <PackageReference Include="ThriftSharp" Version="6.0.2" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="YamlDotNet" Version="8.1.2" />
@@ -25,12 +36,26 @@
     <PackageReference Include="toml-net" Version="0.1.1.35632" />
     -->
   </ItemGroup>
-    
-  <ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Bosima.Google.ProtocolBuffers" Version="1.0.1" />
+        <PackageReference Include="Google.Protobuf" Version="3.13.0" />
+        <PackageReference Include="Google.Protobuf.Tools" Version="3.13.0" />
+        <PackageReference Include="KdSoft.FlatBuffers" Version="1.12.0" />
+        <PackageReference Include="MsBuild.ProtocolBuffers" Version="1.2.0" />
+        <PackageReference Include="protobuf-net" Version="3.0.52" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Dap.FlatBuffers" Version="1.0.0" />
+        <PackageReference Include="DevZH.FlatBuffers" Version="1.4.0" />
+        <PackageReference Include="FlatBuffers.Core" Version="1.12.0" />
+    </ItemGroup>
+
+    <ItemGroup>
     <Folder Include="JSON\" />
     <Folder Include="JSON\System.Text.Json\" />
     <Folder Include="CharacterSeparatedValues\" />
     <Folder Include="CharacterSeparatedValues\CvsHelper\" />
+    <Folder Include="Microsoft.Bond\" />
     <Folder Include="XML\" />
     <Folder Include="YAML\" />
     <Folder Include="TOML\" />
