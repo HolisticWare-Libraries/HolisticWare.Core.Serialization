@@ -4,13 +4,46 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
-
+      
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="15.0.8" />
-    <PackageReference Include="System.Text.Json" Version="4.7.2" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="8.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Nett" Version="0.15.0" />
+    <PackageReference Include="Carbon.Toml" Version="0.20.1" />
+    <PackageReference Include="Flxble.Toml" Version="1.0.3505.14949" />
+    <!--
+    <PackageReference Include="Logary.TOML" Version="3.6.1" />
+    <PackageReference Include="HyperTomlProcessor" Version="2.0.0" />
+    <PackageReference Include="toml-net" Version="0.1.1.35632" />
+    -->
+  </ItemGroup>
+    
   <ItemGroup>
     <Folder Include="JSON\" />
     <Folder Include="JSON\System.Text.Json\" />
+    <Folder Include="CharacterSeparatedValues\" />
+    <Folder Include="CharacterSeparatedValues\CvsHelper\" />
+    <Folder Include="XML\" />
+    <Folder Include="YAML\" />
+    <Folder Include="TOML\" />
+    <Folder Include="JSON\Newtonsoft.Json\" />
+    <Folder Include="XML\System.Xml.Serialization\" />
+    <Folder Include="YAML\YamlDotNet.Serialization\" />
+    <Folder Include="BSON\" />
+    <Folder Include="Apache.Avro\" />
+    <Folder Include="Google.ProtocolBuffers.protobuf\" />
+    <Folder Include="Apache.Parquet\" />
+    <Folder Include="FlattBuffers\" />
+    <Folder Include="MessagePack\" />
+    <Folder Include="SOAP\" />
+    <Folder Include="Apache.Thrift\" />
   </ItemGroup>
 </Project>
