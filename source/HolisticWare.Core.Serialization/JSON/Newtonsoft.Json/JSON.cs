@@ -21,13 +21,14 @@ namespace Core.Serialization.JSON.Newtonsoft.Json
 
         public string Serialize<T>(T t)
         {
-            string json = Newtonsoft.Json.JsonConvert.SerializeObject(t);
+            string json = global::Newtonsoft.Json.JsonConvert.SerializeObject(t);
 
             return json;
         }
 
         public async Task<string> SerializeAsync<T>(T t)
         {
+            return null;
         }
     }
 }

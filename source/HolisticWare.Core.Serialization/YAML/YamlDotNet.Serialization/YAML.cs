@@ -17,6 +17,7 @@ namespace Core.Serialization.YAML.YamlDotNet.Serialization
 
         public string Serialize<T>(T t)
         {
+            return null;
         }
 
         public async Task<string> SerializeAsync<T>(T t)
@@ -26,7 +27,8 @@ namespace Core.Serialization.YAML.YamlDotNet.Serialization
             serializer = new global::YamlDotNet.Serialization.Serializer();
             var yaml = new System.Text.StringBuilder();
 
-            await using System.IO.StringWriter textWriter = new System.IO.StringWriter(yaml);
+            //await using
+            global::System.IO.StringWriter textWriter = new global::System.IO.StringWriter(yaml);
 
             serializer.Serialize(textWriter, t, typeof(T));
 

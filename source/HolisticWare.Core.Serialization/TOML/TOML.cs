@@ -17,18 +17,20 @@ namespace Core.Serialization.TOML.Nett
 
         public string Serialize<T>(T t)
         {
+            return null;
         }
 
         public async Task<string> SerializeAsync<T>(T t)
         {
-            var serializer = new global::YamlDotNet.Serialization.Serializer();
-            var yaml = new StringBuilder();
+            YamlDotNet.Serialization.Serializer serializer = new global::YamlDotNet.Serialization.Serializer();
+            System.Text.StringBuilder yaml = new System.Text.StringBuilder();
 
-            await using var textWriter = new StringWriter(yaml);
+            //await using
+            System.IO.StringWriter textWriter = new System.IO.StringWriter(yaml);
 
-            serializer.Serialize(textWriter, input, typeof(T));
+            serializer.Serialize(textWriter, t, typeof(T));
 
-            Console.WriteLine(yaml.ToString());
+            return yaml.ToString();
         }
     }
 }
