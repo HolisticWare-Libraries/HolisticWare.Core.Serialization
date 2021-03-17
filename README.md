@@ -14,6 +14,8 @@ Definition:
 
 *   https://en.wikipedia.org/wiki/Marshalling_(computer_science)
 
+*   https://github.com/morrisjdev/FileContextCore
+
 Terms:
 
 *   Serialization/Deserialization
@@ -151,7 +153,11 @@ JSON to JSON Schema
 
 ### YAML
 
+*   https://stackoverflow.com/questions/25095893/seeking-guidance-reading-yaml-files-with-c-sharp
 
+*   text formatters
+
+    *   https://github.com/fiyazbinhasan/CoreFormatters
 
 ## Diverse
 
@@ -176,3 +182,7 @@ JSON to JSON Schema
 ## Performance
 
 *   https://blog.fractalia.se/blog/keeping-system-text-json-lean/
+
+# Serialization
+
+
