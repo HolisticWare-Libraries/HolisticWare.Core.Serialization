@@ -1,3 +1,3 @@
-[submodule "externals/Core.Text.Parsing.AbstractSyntaxTree"]
-	path = externals/Core.Text.Parsing.AbstractSyntaxTree
+[submodule "externals-submodules/Core.Text.Parsing.AbstractSyntaxTree"]
+	path = externals-submodules/Core.Text.Parsing.AbstractSyntaxTree
 	url = https://github.com/HolisticWare/HolisticWare.Core.Text.Parsing.AbstractSyntaxTree.git
