@@ -14,6 +14,8 @@ Definition:
 
 *   https://en.wikipedia.org/wiki/Marshalling_(computer_science)
 
+*   https://github.com/morrisjdev/FileContextCore
+
 Terms:
 
 *   Serialization/Deserialization
@@ -150,3 +152,37 @@ JSON to JSON Schema
         *   http://msdn.microsoft.com/en-us/library/system.xml.schema.xmlschema.aspx
 
 ### YAML
+
+*   https://stackoverflow.com/questions/25095893/seeking-guidance-reading-yaml-files-with-c-sharp
+
+*   text formatters
+
+    *   https://github.com/fiyazbinhasan/CoreFormatters
+
+## Diverse
+
+*   Data Annotations (Metadata, ModelMetadata)
+
+    *   https://github.com/search?l=C%23&q=ModelMetadataType
+
+    *   https://github.com/search?q=Microsoft.AspNetCore.Mvc&type=code
+
+    *   https://github.com/search?q=Microsoft.AspNetCore.Mvc.ModelMetadataType&type=code
+
+    *   https://github.com/aspnet/Mvc/blob/master/src/Microsoft.AspNetCore.Mvc.Core/ModelMetadataTypeAttribute.cs
+
+    *   https://github.com/aspnet/Mvc/blob/master/src/Microsoft.AspNetCore.Mvc.Core/ModelBinding/Metadata/ModelAttributes.cs
+
+    *   more
+
+        *   https://github.com/Kentico/kontent-delivery-sdk-net/wiki/Strong-Types-Explained-%E2%80%93-DataAnnotations-attributes
+
+        *   https://github.com/Kentico/kontent-delivery-sdk-net/wiki/Partial-class-customization-techniques
+
+## Performance
+
+*   https://blog.fractalia.se/blog/keeping-system-text-json-lean/
+
+# Serialization
+
+

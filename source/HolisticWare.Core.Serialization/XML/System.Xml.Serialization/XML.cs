@@ -17,6 +17,7 @@ namespace Core.Serialization.JSON.System.Xml.Serialization
 
         public string Serialize<T>(T t)
         {
+            return null;
         }
 
         public async Task<string> SerializeAsync<T>(T t)
@@ -24,14 +25,20 @@ namespace Core.Serialization.JSON.System.Xml.Serialization
             // if you can, only create one serializer
             // creating serializers is an expensive
             // operation and can be slow
-            System.Xml.Serialization.XmlSerializer serializer = null;
+            global::System.Xml.Serialization.XmlSerializer serializer = null;
 
-            serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
+            serializer = new global::System.Xml.Serialization.XmlSerializer(typeof(T));
 
             // we will write the our result to memory
-            await using global::System.IO.MemoryStream stream = new global::System.IO.MemoryStream();
+            //await using
+            global::System.IO.MemoryStream stream = new global::System.IO.MemoryStream();
             // the string will be utf8 encoded
-            await using global::System.IO.StreamWriter writer = new global::System.IO.StreamWriter(stream, Encoding.UTF8);
+            //await using
+            global::System.IO.StreamWriter writer = new global::System.IO.StreamWriter
+                                                                                (
+                                                                                    stream,
+                                                                                    global::System.Text.Encoding.UTF8
+                                                                                );
 
             // here we go!
             serializer.Serialize(writer, t);
