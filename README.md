@@ -186,3 +186,136 @@ JSON to JSON Schema
 # Serialization
 
 
+
+
+Workflow
+
+1.  generate C# classes from XML or JSON or ________ (file the blank)
+
+2.  copy file to preserve attributes and create new class (Buddy class) by:
+
+    2.1 renaming class
+
+    2.2 renaming namespace
+
+        add namespace suffix `.Serialization.Formatters`
+
+2.  add partial class for serialization api
+
+    `*.Serialization.cs`
+
+    2.1 mark the class with Metadata attribute
+
+    2.2 add API for serialization
+
+3.  convert C# class to Buddy class with Serialization Attributes from step 1
+
+    *   XML
+
+    *   JSON
+
+        *   
+
+
+https://github.com/Wagsn/SerializerSharp/tree/master/SerializerSharp
+https://nugetmusthaves.com/Tag/serializer
+https://github.com/eallegretta/serialization-providers
+http://universalserializer.com/
+https://github.com/BillBensing/MessageSerializer-CSharp
+
+http://www.iana.org/assignments/media-types/media-types.xhtml
+https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.M1/reference/html/contenttypemanagement.html#mime-types
+
+## WebApi
+
+*   https://github.com/WebApiContrib/WebAPIContrib.Core#formatters
+
+*   https://wakeupandcode.com/xml-json-serialization-in-asp-net-core/
+
+*   https://blog.elmah.io/lessons-learned-after-migrating-25-projects-to-net-core/
+
+*   https://weblog.west-wind.com/posts/2012/mar/09/using-an-alternate-json-serializer-in-aspnet-web-api
+
+
+
+
+
+protobuf
+
+https://developers.google.com/protocol-buffers/docs/csharptutorial
+
+https://developers.google.com/protocol-buffers/docs/reference/csharp-generated
+
+https://docs.microsoft.com/en-us/aspnet/core/grpc/protobuf?view=aspnetcore-5.0
+
+https://docs.microsoft.com/en-us/aspnet/core/grpc/basics?view=aspnetcore-5.0
+
+https://github.com/protobuf-net/protobuf-net#1-first-decorate-your-classes
+
+    https://github.com/protobuf-net/protobuf-net/wiki/Attributes
+
+
+bond
+
+http://microsoft.github.io/bond/manual/bond_cs.html#attributes
+
+http://microsoft.github.io/bond/manual/bond_over_grpc.html
+
+https://microsoft.github.io/bond/why_bond.html
+
+https://stackoverflow.com/questions/39571388/using-microsoft-bond-in-a-c-sharp-project
+
+https://github.com/microsoft/bond
+
+https://github.com/jterry75/Bond-ASP.NET-Core-Formatters/tree/master/test/Bond.AspNetCore.Mvc.Formatters.Tests
+
+MessagePack
+
+https://github.com/neuecc/MessagePack-CSharp
+https://github.com/neuecc/MessagePack-CSharp#high-level-api-messagepackserializer
+
+ZeroFormatter
+
+https://github.com/neuecc/ZeroFormatter/
+
+flatbuffers
+
+https://github.com/jamescourtney/FlatSharp
+
+https://google.github.io/flatbuffers/flatbuffers_guide_use_c-sharp.html
+
+FBS schema file
+
+https://github.com/jamescourtney/FlatSharp/blob/master/samples/Example2-SchemaFiles/SchemaFilesExample.fbs
+
+https://medium.com/@icex33/beyond-json-introduction-to-flatbuffers-fba1dfd0dcfe
+
+
+avro
+
+https://engineering.chrobinson.com/dotnet-avro/guides/cli-generate/
+
+https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractattribute?view=net-5.0
+
+https://github.com/apache/avro/pulls?q=is%3Apr+moljac+is%3Aclosed
+
+https://github.com/apache/avro/pull/307
+
+
+thrift
+
+https://livebook.manning.com/book/programmers-guide-to-apache-thrift/chapter-13/86
+
+http://www.alternatestack.com/uncategorized/apache-thrift-and-its-usage-in-c/
+
+https://github.com/sivabudh/thrifly
+https://dev.to/jeikabu/migrating-to-aspnet-core-w-apache-thrift-45f6
+
+https://thrift.apache.org/tutorial/netstd
+
+MessageShark
+
+https://github.com/rpgmaker/MessageShark
+
+https://github.com/rpgmaker/MessageShark/blob/master/Samples/MessageShark.Samples.ProtoBufVsMessageShark/MessageShark.Samples.ProtoBufVsMessageShark/SimpleObject.cs
+
