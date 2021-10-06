@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>TRACE;DEBUG;NETCOREAPP3_1;NUNIT</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>TRACE;RELEASE;NETCOREAPP3_1;NUNIT</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+  </ItemGroup> 
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1">
+    </PackageReference>
+    <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21">
+    </PackageReference>
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.11.0">
+    </PackageReference>
+    <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="3.1.6">
+    </PackageReference>
+    <PackageReference Include="Nito.AsyncEx" Version="5.1.0">
+    </PackageReference>
+    <PackageReference Include="Nito.AsyncEx.Tasks" Version="5.1.0">
+    </PackageReference>
+    <PackageReference Include="Nito.Disposables" Version="2.2.1">
+    </PackageReference>
+    <PackageReference Include="NUnit" Version="3.13.2">
+    </PackageReference>
+    <PackageReference Include="System.Console" Version="4.3.1">
+    </PackageReference>
+    <PackageReference Include="System.IO" Version="4.3.0">
+    </PackageReference>
+    <PackageReference Include="System.Reflection.Extensions" Version="4.3.0">
+    </PackageReference>
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.7.0">
+    </PackageReference>
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1">
+    </PackageReference>
+    <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.2">
+    </PackageReference>
+    <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0">
+    </PackageReference>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0">
+    </PackageReference>
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4">
+    </PackageReference>
+    <PackageReference Include="System.ValueTuple" Version="4.5.0">
+    </PackageReference>
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1">
+    </PackageReference>
+    <PackageReference Include="System.Memory" Version="4.5.4">
+    </PackageReference>
+    <PackageReference Include="CsvHelper" Version="27.1.1">
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization.JSON\HolisticWare.Core.Serialization.JSON.csproj" />
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization.XML\HolisticWare.Core.Serialization.XML.csproj" />
+  </ItemGroup>
+  <Import Project="..\..\..\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.projitems" Label="Shared" Condition="Exists('..\..\..\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.projitems')" />
+  <Import Project="..\..\..\..\Tests.CommonShared\Tests.CommonShared.projitems" Label="Shared" Condition="Exists('..\..\..\..\Tests.CommonShared\Tests.CommonShared.projitems')" />
+
+</Project>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="*" />
+    <PackageReference Include="System.Text.Json" Version="*" />
+    <PackageReference Include="System.Threading.Tasks" Version="*" />
+    <PackageReference Include="System.ValueTuple" Version="*" />
+    <PackageReference Include="System.Globalization" Version="*" />
+    <PackageReference Include="System.Runtime.Extensions" Version="*" />
+
+    <PackageReference Include="BenchmarkDotNet" Version="*" />
+
+    <PackageReference Include="Nito.AsyncEx.Tasks" Version="*" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="*" />
+
+    <PackageReference Include="CsvHelper" Version="*" />
+  </ItemGroup>
+</Project>

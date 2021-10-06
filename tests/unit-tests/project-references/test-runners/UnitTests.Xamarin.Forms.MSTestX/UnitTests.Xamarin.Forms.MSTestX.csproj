@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD;NETSTANDARD2_0;MSTEST</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="MSTestX.TestAdapter" Version="2.2.4" />
+    <PackageReference Include="MSTestX.UnitTestRunner" Version="1.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MSTestX.TestAdapter" />
+    <None Remove="MSTestX.UnitTestRunner" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization.JSON\HolisticWare.Core.Serialization.JSON.csproj" />
+    <ProjectReference Include="..\..\..\..\..\source\HolisticWare.Core.Serialization.XML\HolisticWare.Core.Serialization.XML.csproj" />
+  </ItemGroup>
+  <Import Project="..\..\..\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.projitems" Label="Shared" Condition="Exists('..\..\..\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.projitems')" />
+  <Import Project="..\..\..\..\Tests.CommonShared\Tests.CommonShared.projitems" Label="Shared" Condition="Exists('..\..\..\..\Tests.CommonShared\Tests.CommonShared.projitems')" />
+</Project>
