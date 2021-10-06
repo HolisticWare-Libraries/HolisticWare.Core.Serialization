@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+      
+  <ItemGroup>
+    <PackageReference Include="ApacheThrift" Version="0.15.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="Apache.Thrift\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

@@ -18,6 +18,16 @@ namespace Core.Serialization
             throw new NotImplementedException();
         }
 
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ValueTask DisposeAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         public string Serialize<T>(T t)
         {
             System.Text.StringBuilder csv = new System.Text.StringBuilder();
@@ -28,7 +38,7 @@ namespace Core.Serialization
             using CsvWriter csvWriter = new CsvWriter(text_writer, csv_configuration);
 
             // automatically map the properties of T
-            csvWriter.Configuration.AutoMap<T>();
+            //csvWriter.Configuration.AutoMap<T>();
 
             // we want to have a header row (optional)
             csvWriter.WriteHeader<T>();
@@ -44,6 +54,26 @@ namespace Core.Serialization
         }
 
         public Task<string> SerializeAsync<T>(T t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Write(string[] record)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task WriteAsync(string[] record)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WriteLine()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task WriteLineAsync()
         {
             throw new NotImplementedException();
         }

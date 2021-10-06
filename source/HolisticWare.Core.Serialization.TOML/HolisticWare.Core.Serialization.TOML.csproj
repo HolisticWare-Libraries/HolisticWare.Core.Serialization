@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+      
+  <ItemGroup>
+    <PackageReference Include="Nett" Version="0.15.0" />
+    <PackageReference Include="Carbon.Toml" Version="0.20.1" />
+    <PackageReference Include="Flxble.Toml" Version="1.0.3505.14949" />
+    <!--
+    <PackageReference Include="Logary.TOML" Version="3.6.1" />
+    <PackageReference Include="HyperTomlProcessor" Version="2.0.0" />
+    <PackageReference Include="toml-net" Version="0.1.1.35632" />
+    -->
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="TOML\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

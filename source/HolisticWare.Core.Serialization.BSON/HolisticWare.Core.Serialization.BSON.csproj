@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+      
+
+<ItemGroup>
+<Folder Include="BSON\" />
+</ItemGroup>
+    <ItemGroup>
+      <None Remove="Newtonsoft.Json.Bson" />
+      <None Remove="MongoDB.Bson" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+      <PackageReference Include="MongoDB.Bson" Version="2.13.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

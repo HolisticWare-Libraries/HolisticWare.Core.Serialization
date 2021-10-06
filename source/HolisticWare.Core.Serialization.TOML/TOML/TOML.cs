@@ -1,13 +1,9 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Core.Serialization.JSON.Newtonsoft.Json
+namespace Core.Serialization.TOML.Nett
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// https://www.newtonsoft.com/json/help/html/SerializingJSON.htm
-    public class JSON : ISerializer
+    public class TOML : ISerializer
     {
         public T Deserialize<T>(string text)
         {
@@ -21,14 +17,12 @@ namespace Core.Serialization.JSON.Newtonsoft.Json
 
         public string Serialize<T>(T t)
         {
-            string json = global::Newtonsoft.Json.JsonConvert.SerializeObject(t);
-
-            return json;
+            return null;
         }
 
         public async Task<string> SerializeAsync<T>(T t)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

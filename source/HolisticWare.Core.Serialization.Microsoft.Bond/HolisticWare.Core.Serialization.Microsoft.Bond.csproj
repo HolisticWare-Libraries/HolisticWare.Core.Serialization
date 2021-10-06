@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+      
+  <ItemGroup>
+    <PackageReference Include="Bond.Compiler.CSharp" Version="9.0.3" />
+    <PackageReference Include="Bond.Core.CSharp" Version="9.0.3" />
+    <PackageReference Include="Bond.Runtime.CSharp" Version="9.0.3" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="Microsoft.Bond\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>
