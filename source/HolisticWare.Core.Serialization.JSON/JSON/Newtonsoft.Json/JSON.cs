@@ -11,12 +11,7 @@ namespace Core.Serialization.JSON.Newtonsoft.Json
     {
         public T Deserialize<T>(string text)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<T> DeserializeAsync<T>(string text)
-        {
-            throw new NotImplementedException();
+            return global::Newtonsoft.Json.JsonConvert.DeserializeObject<T>(text);
         }
 
         public string Serialize<T>(T t)
@@ -24,11 +19,6 @@ namespace Core.Serialization.JSON.Newtonsoft.Json
             string json = global::Newtonsoft.Json.JsonConvert.SerializeObject(t);
 
             return json;
-        }
-
-        public async Task<string> SerializeAsync<T>(T t)
-        {
-            return null;
         }
 
     }
