@@ -6,6 +6,8 @@ json-to-json-schema.md
 
 *   https://json-schema.org/implementations.html
 
+*   https://github.com/RicoSuter/NJsonSchema
+
     https://www.newtonsoft.com/jsonschema
 
     https://www.newtonsoft.com/json/help/html/JsonSchema.htm
