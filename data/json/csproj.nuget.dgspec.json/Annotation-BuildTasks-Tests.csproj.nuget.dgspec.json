@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation-tests/Annotation-BuildTasks-Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation-tests/Annotation-BuildTasks-Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation-tests/Annotation-BuildTasks-Tests.csproj",
+        "projectName": "buildtasks.tests",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation-tests/Annotation-BuildTasks-Tests.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation-tests/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net47"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net47": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation/Annotation-BuildTasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation/Annotation-BuildTasks.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net47": {
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation/Annotation-BuildTasks.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation/Annotation-BuildTasks.csproj",
+        "projectName": "Annotation-BuildTasks",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/media-player/source/buildtasks/annotation/Annotation-BuildTasks.csproj",
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}

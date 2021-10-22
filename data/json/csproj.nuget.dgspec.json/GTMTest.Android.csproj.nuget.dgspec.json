@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/moljac/Downloads/GTMTest/GTMTest.Android/GTMTest.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/moljac/Downloads/GTMTest/GTMTest.Android/GTMTest.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moljac/Downloads/GTMTest/GTMTest.Android/GTMTest.Android.csproj",
+        "projectName": "GTMTest.Android",
+        "projectPath": "/Users/moljac/Downloads/GTMTest/GTMTest.Android/GTMTest.Android.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/moljac/Downloads/GTMTest/GTMTest.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/moljac/Downloads/GTMTest/GTMTest/GTMTest.csproj": {
+                "projectPath": "/Users/moljac/Downloads/GTMTest/GTMTest/GTMTest.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Firebase.Analytics": {
+              "target": "Package",
+              "version": "[71.1630.4, )"
+            },
+            "Xamarin.Firebase.Analytics.Impl": {
+              "target": "Package",
+              "version": "[71.1630.4, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1142, )"
+            },
+            "Xamarin.GooglePlayServices.TagManager": {
+              "target": "Package",
+              "version": "[71.1604.1, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/moljac/Downloads/GTMTest/GTMTest/GTMTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moljac/Downloads/GTMTest/GTMTest/GTMTest.csproj",
+        "projectName": "GTMTest",
+        "projectPath": "/Users/moljac/Downloads/GTMTest/GTMTest/GTMTest.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/moljac/Downloads/GTMTest/GTMTest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

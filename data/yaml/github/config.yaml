@@ -1,0 +1,48 @@
+data: 
+  dataset: 'fashionmnist' # 'fashionmnist', 'custom'
+  size: 128
+  ratio: 0.8
+  num_classes: 10
+  custom: 
+    metadata: 'custom/metadata.csv'
+    images: 'custom/images'
+
+---
+train:
+  device: 'cpu' # 'cuda', 'cpu'
+  parallel: False
+  epochs: 50
+  num_workers: 4
+  batch_size: 16
+  criterion: 'CrossEntropyLoss'
+  optimizer: 'SGD'
+  lr: 0.001
+  momentum: 0.9
+  gamma: 0.5
+  scheduler_milestones: [5, 15, 30]
+
+---
+model:
+  network: 'resnet18'
+
+---
+log:
+  save_interval: 5
+  chkpt_dir: 'chkpt'
+
+---
+subscription:
+  sleep: 0.01
+  device: 'cpu' # 'cuda', 'cpu'
+  lifespan: 1 # Hours
+  data:
+    size: 5000
+  kafka:
+    bootstrap_server: 'localhost:9092'
+    topic: 'imagedata'
+  pubsub:
+    topic_id: 'projects/pubsub-329711/topics/pubsub'
+    project_id: 'pubsub-329711'
+    subscription_id: 'imagedata'
+    keyfile: 'pubsub_key.json'
+    timeout: 60

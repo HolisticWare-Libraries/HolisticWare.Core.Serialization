@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Tests/Xamarin.AndroidX.Migration.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj",
+        "projectName": "Xamarin.Android.Tools.Bytecode",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj",
+        "packagesPath": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/$/../packages",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/NuGet.Config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/Xamarin.AndroidX.Migration.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/Xamarin.AndroidX.Migration.Core.csproj",
+        "projectName": "Xamarin.AndroidX.Migration.Core",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/Xamarin.AndroidX.Migration.Core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "ILRepack.Lib": {
+              "target": "Package",
+              "version": "[2.0.18, )",
+              "noWarn": [
+                "NU1701"
+              ]
+            },
+            "Mono.Cecil": {
+              "target": "Package",
+              "version": "[0.11.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Tests/Xamarin.AndroidX.Migration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Tests/Xamarin.AndroidX.Migration.Tests.csproj",
+        "projectName": "Xamarin.AndroidX.Migration.Tests",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Tests/Xamarin.AndroidX.Migration.Tests.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/externals/java.interop/java.interop/src/Xamarin.Android.Tools.Bytecode/Xamarin.Android.Tools.Bytecode.csproj"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/Xamarin.AndroidX.Migration.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Migration/Xamarin.AndroidX.Migration.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Mono.Cecil": {
+              "target": "Package",
+              "version": "[0.11.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

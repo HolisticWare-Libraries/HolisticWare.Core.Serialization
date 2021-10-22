@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinIOS/XamarinProjectsStructureTemplate.Bindings.XamarinIOS.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinIOS/XamarinProjectsStructureTemplate.Bindings.XamarinIOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinIOS/XamarinProjectsStructureTemplate.Bindings.XamarinIOS.csproj",
+        "projectName": "HolisticWare.XamarinProjectsStructureTemplate.Bindings",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinIOS/XamarinProjectsStructureTemplate.Bindings.XamarinIOS.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinIOS/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "Xamarin.iOS10"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "targetAlias": "Xamarin.iOS10",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "targetAlias": "Xamarin.iOS10",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

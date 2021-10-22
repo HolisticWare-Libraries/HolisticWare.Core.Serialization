@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X.private/polaris-msft/Portable/RiderXApp.Portable.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X.private/polaris-msft/Portable/RiderXApp.Portable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X.private/polaris-msft/Portable/RiderXApp.Portable.csproj",
+        "projectName": "RiderXApp.Portable",
+        "projectPath": "/Users/Shared/Projects/d/X.private/polaris-msft/Portable/RiderXApp.Portable.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X.private/polaris-msft/Portable/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X.private/polaris-msft/NuGet.Config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/Shared/Projects/d/X.private/polaris-msft/nuget": {},
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/naxam/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Acr.Core": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.35, )"
+            },
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "CommonMark.NET": {
+              "target": "Package",
+              "version": "[0.15.1, )"
+            },
+            "FodyHelpers": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Marvin.JsonPatch.NetStandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Naxam.Mapbox.Forms": {
+              "target": "Package",
+              "version": "[1.0.9.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Plugin.BluetoothLE": {
+              "target": "Package",
+              "version": "[6.2.6, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "RangeSlider": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Raygun4Xamarin.Forms": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Refractored.XamForms.PullToRefresh": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "SharpZipLib.NETStandard": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Sharpnado.Presentation.Forms": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Splat": {
+              "target": "Package",
+              "version": "[9.3.4, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.396, )"
+            },
+            "akavache": {
+              "target": "Package",
+              "version": "[6.9.10, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

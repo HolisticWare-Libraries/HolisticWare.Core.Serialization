@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/user-interface/xamarin-forms/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+      "version": "0.0.1-alpha-202106121308",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/user-interface/xamarin-forms/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/user-interface/xamarin-forms/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/user-interface/xamarin-forms/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/user-interface/xamarin-forms/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.UI.XamarinForms/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

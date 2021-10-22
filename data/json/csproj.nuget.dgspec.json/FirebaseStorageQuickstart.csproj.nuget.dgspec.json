@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-storage/FirebaseStorageQuickstart/FirebaseStorageQuickstart.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-storage/FirebaseStorageQuickstart/FirebaseStorageQuickstart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-storage/FirebaseStorageQuickstart/FirebaseStorageQuickstart.csproj",
+        "projectName": "FirebaseStorageQuickstart",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-storage/FirebaseStorageQuickstart/FirebaseStorageQuickstart.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-storage/FirebaseStorageQuickstart/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/NuGet.Config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/output": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.7, )"
+            },
+            "Xamarin.AndroidX.Migration": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Xamarin.AndroidX.MultiDex": {
+              "target": "Package",
+              "version": "[2.0.1.7, )"
+            },
+            "Xamarin.Firebase.Auth": {
+              "target": "Package",
+              "version": "[121.0.1.2, )"
+            },
+            "Xamarin.Firebase.Storage": {
+              "target": "Package",
+              "version": "[120.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

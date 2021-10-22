@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/e/personal/Web-sites/playground/cvjetko-sisters.piranha-razor-sqlite/cvjetko-sisters.piranha-razor-sqlite.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/e/personal/Web-sites/playground/cvjetko-sisters.piranha-razor-sqlite/cvjetko-sisters.piranha-razor-sqlite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/e/personal/Web-sites/playground/cvjetko-sisters.piranha-razor-sqlite/cvjetko-sisters.piranha-razor-sqlite.csproj",
+        "projectName": "cvjetko-sisters.piranha-razor-sqlite",
+        "projectPath": "/Users/Shared/Projects/e/personal/Web-sites/playground/cvjetko-sisters.piranha-razor-sqlite/cvjetko-sisters.piranha-razor-sqlite.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/e/personal/Web-sites/playground/cvjetko-sisters.piranha-razor-sqlite/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Piranha": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Piranha.AspNetCore.Identity.SQLite": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Piranha.AttributeBuilder": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Piranha.Data.EF.SQLite": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Piranha.ImageSharp": {
+              "target": "Package",
+              "version": "[8.3.0-rc1, )"
+            },
+            "Piranha.Local.FileStorage": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Piranha.Manager": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Piranha.Manager.TinyMCE": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

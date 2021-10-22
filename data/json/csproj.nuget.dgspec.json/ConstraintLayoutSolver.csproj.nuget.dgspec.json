@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/source/ConstraintLayoutSolver/ConstraintLayoutSolver.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/source/ConstraintLayoutSolver/ConstraintLayoutSolver.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/source/ConstraintLayoutSolver/ConstraintLayoutSolver.csproj",
+        "projectName": "Xamarin.Android.Support.Constraint.Layout.Solver",
+        "projectPath": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/source/ConstraintLayoutSolver/ConstraintLayoutSolver.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/source/ConstraintLayoutSolver/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-invites/FirebaseInvitesQuickstart/FirebaseInvitesQuickstart.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-invites/FirebaseInvitesQuickstart/FirebaseInvitesQuickstart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-invites/FirebaseInvitesQuickstart/FirebaseInvitesQuickstart.csproj",
+        "projectName": "FirebaseInviteQuickstart",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-invites/FirebaseInvitesQuickstart/FirebaseInvitesQuickstart.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.firebase/firebase-invites/FirebaseInvitesQuickstart/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/NuGet.Config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/output": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.2.0.1, )"
+            },
+            "Xamarin.AndroidX.Migration": {
+              "target": "Package",
+              "version": "[1.0.7.1, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "Xamarin.Firebase.Invites": {
+              "target": "Package",
+              "version": "[117.0.0.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.1.0.1-rc3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

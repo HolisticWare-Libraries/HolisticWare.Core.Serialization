@@ -1,0 +1,3085 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/tests/unit-tests/project-references/test-runners/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Core",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Core",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "TensorFlow.NET": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Morphological",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Motorical",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.DiagnosticTests.Physiological",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Core",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.1": {
+            "targetAlias": "netstandard1.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.1": {
+          "targetAlias": "netstandard1.1",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ComponentModel.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Serialization.Xml": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Xml.XmlSerializer": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj": {
+      "version": "0.0.1-alpha-202110052235",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj",
+        "projectName": "HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/tests/unit-tests/project-references/test-runners/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/tests/unit-tests/project-references/test-runners/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX.csproj",
+        "projectName": "UnitTests.MAUI.MSTestX",
+        "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/tests/unit-tests/project-references/test-runners/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/tests/unit-tests/project-references/test-runners/UnitTests.MAUI.MSTestX/UnitTests.MAUI.MSTestX/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/nuget.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-android",
+          "net6.0-ios",
+          "net6.0-maccatalyst"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj"
+              }
+            }
+          },
+          "net6.0-ios13.6": {
+            "targetAlias": "net6.0-ios",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj"
+              }
+            }
+          },
+          "net6.0-maccatalyst13.5": {
+            "targetAlias": "net6.0-maccatalyst",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining/HolisticWare.Ph4ct3x.Core.PhysicalActivityTraining.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Core/HolisticWare.Ph4ct3x.Core/HolisticWare.Ph4ct3x.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Core/HolisticWare.Ph4ct3x.DiagnosticTests.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.ML.Training.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological/HolisticWare.Ph4ct3x.DiagnosticTests.Morphological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical/HolisticWare.Ph4ct3x.DiagnosticTests.Motorical.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition/HolisticWare.Ph4ct3x.DiagnosticTests.Nutrition.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/DiagnosticTests/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological/HolisticWare.Ph4ct3x.DiagnosticTests.Physiological.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Core/HolisticWare.Ph4ct3x.Utilities.Weather.Core.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.AccuWeather.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.ClimaCell.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.DHMZ_MeteoHR_PrognozaHR.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Foreca.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.NOOA_NationalClimaticDataCenter.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.OpenWeatherMaps.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.PredictWind.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Tommorow_io.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.VisualCrossing_WeatherAPI.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Weatherbit.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.WindFinder.csproj"
+              },
+              "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Ph4ct3x/gl/Ph4ct3x/source/business-domain-logic/Utilities/Weather/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No/HolisticWare.Ph4ct3x.Utilities.Weather.Providers.Yr_No.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "MSTestX.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTestX.UnitTestRunner": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.Maui": {
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Nito.AsyncEx.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net6.0-ios13.6": {
+          "targetAlias": "net6.0-ios",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "MSTestX.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTestX.UnitTestRunner": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.Maui": {
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Nito.AsyncEx.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net6.0-maccatalyst13.5": {
+          "targetAlias": "net6.0-maccatalyst",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "MSTestX.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTestX.UnitTestRunner": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.Maui": {
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Nito.AsyncEx.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
+        "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

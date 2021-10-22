@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.dagger.dagger/com.google.dagger.dagger.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.dagger.dagger/com.google.dagger.dagger.csproj": {
+      "version": "2.27.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.dagger.dagger/com.google.dagger.dagger.csproj",
+        "projectName": "Xamarin.Google.Dagger",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.dagger.dagger/com.google.dagger.dagger.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.dagger.dagger/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj",
+        "projectName": "Xamarin.JavaX.Inject",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/javax.inject.javax.inject.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/javax.inject.javax.inject/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

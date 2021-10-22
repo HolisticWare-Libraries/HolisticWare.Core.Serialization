@@ -1,0 +1,1044 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime-rxjava2/androidx.compose.runtime.runtime-rxjava2.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+      "version": "1.2.0.3",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+        "projectName": "Xamarin.AndroidX.Annotation",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime-rxjava2/androidx.compose.runtime.runtime-rxjava2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime-rxjava2/androidx.compose.runtime.runtime-rxjava2.csproj",
+        "projectName": "Xamarin.AndroidX.Compose.Runtime.Runtime.RxJava2",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime-rxjava2/androidx.compose.runtime.runtime-rxjava2.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime-rxjava2/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj",
+        "projectName": "Xamarin.AndroidX.Compose.Runtime.Runtime",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/androidx.compose.runtime.runtime.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.compose.runtime.runtime/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj": {
+      "version": "2.2.21.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj",
+        "projectName": "Xamarin.Android.ReactiveX.RxJava",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/io.reactivex.rxjava2.rxjava.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/io.reactivex.rxjava2.rxjava/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj": {
+      "version": "22.0.0.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj",
+        "projectName": "Xamarin.Jetbrains.Annotations",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj": {
+      "version": "1.5.31.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+        "projectName": "Xamarin.Kotlin.StdLib.Common",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj": {
+      "version": "1.5.31.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj",
+        "projectName": "Xamarin.Kotlin.StdLib.Jdk7",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj": {
+      "version": "1.5.31.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+        "projectName": "Xamarin.Kotlin.StdLib.Jdk8",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk7/org.jetbrains.kotlin.kotlin-stdlib-jdk7.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj": {
+      "version": "1.5.31.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+        "projectName": "Xamarin.Kotlin.StdLib",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/org.jetbrains.kotlin.kotlin-stdlib.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.annotations/org.jetbrains.annotations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj": {
+      "version": "1.5.2.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj",
+        "projectName": "Xamarin.KotlinX.Coroutines.Android",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/org.jetbrains.kotlinx.kotlinx-coroutines-android.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-android/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj": {
+      "version": "1.5.2.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj",
+        "projectName": "Xamarin.KotlinX.Coroutines.Core.Jvm",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-common/org.jetbrains.kotlin.kotlin-stdlib-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.jetbrains.kotlin.kotlin-stdlib-jdk8/org.jetbrains.kotlin.kotlin-stdlib-jdk8.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj": {
+      "version": "1.0.3.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj",
+        "projectName": "Xamarin.Android.ReactiveStreams",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/org.reactivestreams.reactive-streams.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/generated/org.reactivestreams.reactive-streams/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid9.0",
+          "net6.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "MonoAndroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "MonoAndroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+      "version": "1.0.8",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+        "projectName": "Xamarin.AndroidX.Migration",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/source/migration/Dummy/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

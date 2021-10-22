@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.android.gms/play-services-wallet/AndroidPayQuickstart/AndroidPayQuickstart.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.android.gms/play-services-wallet/AndroidPayQuickstart/AndroidPayQuickstart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.android.gms/play-services-wallet/AndroidPayQuickstart/AndroidPayQuickstart.csproj",
+        "projectName": "AndroidPayQuickstart",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.android.gms/play-services-wallet/AndroidPayQuickstart/AndroidPayQuickstart.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/com.google.android.gms/play-services-wallet/AndroidPayQuickstart/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/samples/NuGet.Config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/output": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.Fragment": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Xamarin.AndroidX.Migration": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "Xamarin.GooglePlayServices.Maps": {
+              "target": "Package",
+              "version": "[117.0.1.1, )"
+            },
+            "Xamarin.GooglePlayServices.Plus": {
+              "target": "Package",
+              "version": "[117.0.0.2, )"
+            },
+            "Xamarin.GooglePlayServices.Wallet": {
+              "target": "Package",
+              "version": "[118.1.3.2, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

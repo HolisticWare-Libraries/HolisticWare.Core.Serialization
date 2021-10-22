@@ -1,0 +1,513 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharpView.Maui/LiveChartsCore.SkiaSharpView.Maui.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj": {
+      "version": "2.0.0-beta.71",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj",
+        "projectName": "LiveChartsCore",
+        "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/nuget.config",
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net462",
+          "netcoreapp2.0",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          },
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj": {
+      "version": "2.0.0-beta.71",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView",
+        "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/nuget.config",
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net462",
+          "netcoreapp2.0",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj"
+              }
+            }
+          },
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/LiveChartsCore/LiveChartsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharpView.Maui/LiveChartsCore.SkiaSharpView.Maui.csproj": {
+      "version": "2.0.0-beta.71",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharpView.Maui/LiveChartsCore.SkiaSharpView.Maui.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView.Maui",
+        "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharpView.Maui/LiveChartsCore.SkiaSharpView.Maui.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharpView.Maui/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/nuget.config",
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "net6.0-android",
+          "net6.0-ios",
+          "net6.0-maccatalyst"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          },
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          },
+          "net6.0-ios13.6": {
+            "targetAlias": "net6.0-ios",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          },
+          "net6.0-maccatalyst13.5": {
+            "targetAlias": "net6.0-maccatalyst",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/Samples-Playgrounds/MAUI/samples/beto-rodriguez--LiveCharts2-maui/src/skiasharp/LiveChartsCore.SkiaSharp/LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[2.88.0-preview.127, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[2.88.0-preview.127, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net6.0-ios13.6": {
+          "targetAlias": "net6.0-ios",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[2.88.0-preview.127, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "net6.0-maccatalyst13.5": {
+          "targetAlias": "net6.0-maccatalyst",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.100-rc.1.1608, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[2.88.0-preview.127, )"
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

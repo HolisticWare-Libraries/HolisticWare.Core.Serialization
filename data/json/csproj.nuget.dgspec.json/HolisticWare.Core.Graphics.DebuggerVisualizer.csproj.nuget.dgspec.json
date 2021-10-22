@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer/HolisticWare.Core.Graphics.DebuggerVisualizer.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy.csproj": {
+      "version": "0.0.1-alpha-202012011352",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy.csproj",
+        "projectName": "HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer/HolisticWare.Core.Graphics.DebuggerVisualizer.csproj": {
+      "version": "0.0.1-alpha-202012011352",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer/HolisticWare.Core.Graphics.DebuggerVisualizer.csproj",
+        "projectName": "HolisticWare.Core.Graphics.DebuggerVisualizer",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer/HolisticWare.Core.Graphics.DebuggerVisualizer.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-core/gh/HWC.Graphics.DebuggerVisualizer/source/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy/HolisticWare.Core.Graphics.DebuggerVisualizer.Legacy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

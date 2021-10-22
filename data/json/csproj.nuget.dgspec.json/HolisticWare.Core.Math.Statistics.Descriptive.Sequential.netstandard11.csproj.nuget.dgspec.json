@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11.csproj": {
+      "version": "2018.10.22",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11.csproj",
+        "projectName": "HolisticWare.Core.Math.Statistics.Descriptive.Sequential",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Math.Statistics.Descriptive.Sequential.netstandard11/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.1": {
+            "targetAlias": "netstandard1.1",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/HolisticWare.Core.Memory.netstandard11.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/HolisticWare.Core.Memory.netstandard11.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.1": {
+          "targetAlias": "netstandard1.1",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.Threading.Tasks.Dataflow": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.8.20417.9/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/HolisticWare.Core.Memory.netstandard11.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/HolisticWare.Core.Memory.netstandard11.csproj",
+        "projectName": "HolisticWare.Core.Memory.netstandard11",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/HolisticWare.Core.Memory.netstandard11.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/2511-HWC.Math.Statistics.Descriptive.Sequential/source/HolisticWare.Core.Memory.netstandard11/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.1": {
+            "targetAlias": "netstandard1.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.1": {
+          "targetAlias": "netstandard1.1",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.8.20417.9/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

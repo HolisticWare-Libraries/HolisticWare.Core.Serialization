@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-tools/Decompilers/source/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-tools/Decompilers/source/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers.csproj": {
+      "version": "0.0.7-alpha-20200809230804",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/Decompilers/source/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers.csproj",
+        "projectName": "HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/Decompilers/source/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/Decompilers/source/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.8.166, )"
+            },
+            "Microsoft.Build.Tasks.Core": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.8.166, )"
+            },
+            "Microsoft.Build.Utilities.Core": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.8.166, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

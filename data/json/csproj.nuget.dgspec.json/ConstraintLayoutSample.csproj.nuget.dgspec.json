@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/ConstraintLayoutSample/ConstraintLayoutSample.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/ConstraintLayoutSample/ConstraintLayoutSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/ConstraintLayoutSample/ConstraintLayoutSample.csproj",
+        "projectName": "ConstraintLayoutSample",
+        "projectPath": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/ConstraintLayoutSample/ConstraintLayoutSample.csproj",
+        "packagesPath": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/externals/packages",
+        "outputPath": "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/ConstraintLayoutSample/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/NuGet.config",
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/output": {},
+          "/Users/Shared/Projects/d/X/XC/ci-target/Android/ConstraintLayout/samples/../output": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.Constraint.Layout": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Xamarin.Android.Support.Constraint.Layout.Solver": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

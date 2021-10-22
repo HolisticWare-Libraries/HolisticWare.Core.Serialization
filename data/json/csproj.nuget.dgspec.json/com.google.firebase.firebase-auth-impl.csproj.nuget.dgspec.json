@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-impl/com.google.firebase.firebase-auth-impl.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+      "version": "71.1610.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Base",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+      "version": "71.1620.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Basement",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.v4": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/com.google.android.gms.play-services-flags.csproj": {
+      "version": "71.1601.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/com.google.android.gms.play-services-flags.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Flags",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/com.google.android.gms.play-services-flags.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+      "version": "71.1601.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Tasks",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-impl/com.google.firebase.firebase-auth-impl.csproj": {
+      "version": "71.1610.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-impl/com.google.firebase.firebase-auth-impl.csproj",
+        "projectName": "Xamarin.Firebase.Auth.Impl",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-impl/com.google.firebase.firebase-auth-impl.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-impl/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/com.google.firebase.firebase-auth.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/com.google.firebase.firebase-auth.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Square.OkHttp": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
+            "Square.Retrofit": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj": {
+      "version": "71.1601.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+        "projectName": "Xamarin.Firebase.Auth.Interop",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/com.google.firebase.firebase-auth.csproj": {
+      "version": "71.1605.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/com.google.firebase.firebase-auth.csproj",
+        "projectName": "Xamarin.Firebase.Auth",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/com.google.firebase.firebase-auth.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/com.google.android.gms.play-services-flags.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-flags/com.google.android.gms.play-services-flags.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+      "version": "71.1610.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+        "projectName": "Xamarin.Firebase.Common",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.firebase.firebase-common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid90"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB/m/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Xamarin.Google.AutoValue.Annotations": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.6.5, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

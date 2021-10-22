@@ -1,0 +1,2375 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-appinvite/com.google.android.gms.play-services-appinvite.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+      "version": "117.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Ads.Identifier",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-appinvite/com.google.android.gms.play-services-appinvite.csproj": {
+      "version": "118.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-appinvite/com.google.android.gms.play-services-appinvite.csproj",
+        "projectName": "Xamarin.GooglePlayServices.AppInvite",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-appinvite/com.google.android.gms.play-services-appinvite.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-appinvite/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+      "version": "117.6.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Base",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.AndroidX.Fragment": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.AndroidX.Fragment": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+      "version": "117.6.0.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Basement",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.AndroidX.Fragment": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.AndroidX.Fragment": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement.Api",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement.Base",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement.Impl",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.3.2.3, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement.Sdk.Api",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/com.google.android.gms.play-services-measurement-sdk-api.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk-api/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement.Sdk",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Measurement",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-ads-identifier/com.google.android.gms.play-services-ads-identifier.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-base/com.google.android.gms.play-services-measurement-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-impl/com.google.android.gms.play-services-measurement-impl.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Collection": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.1.0.7, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj": {
+      "version": "117.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Stats",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/com.google.android.gms.play-services-stats.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-stats/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+      "version": "117.2.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+        "projectName": "Xamarin.GooglePlayServices.Tasks",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj": {
+      "version": "119.0.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj",
+        "projectName": "Xamarin.Firebase.Analytics",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/com.google.firebase.firebase-analytics.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-analytics/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-api/com.google.android.gms.play-services-measurement-api.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement-sdk/com.google.android.gms.play-services-measurement-sdk.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-measurement/com.google.android.gms.play-services-measurement.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+      "version": "116.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+        "projectName": "Xamarin.Firebase.Annotations",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {}
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj": {
+      "version": "120.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+        "projectName": "Xamarin.Firebase.Auth.Interop",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+      "version": "120.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+        "projectName": "Xamarin.Firebase.Common",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+      "version": "117.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+        "projectName": "Xamarin.Firebase.Components",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Annotation": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Annotation": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj": {
+      "version": "120.1.1.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj",
+        "projectName": "Xamarin.Firebase.Dynamic.Links",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/com.google.firebase.firebase-dynamic-links.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-dynamic-links/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-base/com.google.android.gms.play-services-base.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-auth-interop/com.google.firebase.firebase-auth-interop.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.AndroidX.Annotation": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.AndroidX.Annotation": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj": {
+      "version": "117.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+        "projectName": "Xamarin.Firebase.Installations.InterOp",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj": {
+      "version": "117.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj",
+        "projectName": "Xamarin.Firebase.Installations",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/com.google.firebase.firebase-installations.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-common/com.google.firebase.firebase-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-components/com.google.firebase.firebase-components.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-installations-interop/com.google.firebase.firebase-installations-interop.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj": {
+      "version": "119.0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+        "projectName": "Xamarin.Firebase.Measurement.Connector",
+        "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/com.google.firebase.firebase-measurement-connector.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-measurement-connector/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90",
+          "net6.0-android31.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android31.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid90": {
+            "targetAlias": "monoandroid90",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.android.gms.play-services-basement/com.google.android.gms.play-services-basement.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/GPS-FB-MLKit/template-sets-bumptech-glide/generated/com.google.firebase.firebase-annotations/com.google.firebase.firebase-annotations.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android31.0",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid90": {
+          "targetAlias": "monoandroid90",
+          "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

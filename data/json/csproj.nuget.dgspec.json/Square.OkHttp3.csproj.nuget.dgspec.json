@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/XC/m/Android/SquareOkHttp3/source/Square.OkHttp3/Square.OkHttp3.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/XC/m/Android/SquareOkHttp3/source/Square.OkHttp3/Square.OkHttp3.csproj": {
+      "version": "4.9.2",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/XC/m/Android/SquareOkHttp3/source/Square.OkHttp3/Square.OkHttp3.csproj",
+        "projectName": "Square.OkHttp3",
+        "projectPath": "/Users/Shared/Projects/d/X/XC/m/Android/SquareOkHttp3/source/Square.OkHttp3/Square.OkHttp3.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/XC/m/Android/SquareOkHttp3/source/Square.OkHttp3/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "targetAlias": "monoandroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "targetAlias": "monoandroid9.0",
+          "dependencies": {
+            "Square.OkIO": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.4.32.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

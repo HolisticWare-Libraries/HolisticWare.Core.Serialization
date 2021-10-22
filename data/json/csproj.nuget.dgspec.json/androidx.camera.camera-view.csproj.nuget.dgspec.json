@@ -1,0 +1,800 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-view/androidx.camera.camera-view.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj": {
+      "version": "1.0.0.8",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj",
+        "projectName": "Xamarin.AndroidX.Annotation.Experimental",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          },
+          "monoandroid10.0": {
+            "projectReferences": {}
+          },
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+      "version": "1.1.0.8",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+        "projectName": "Xamarin.AndroidX.Annotation",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+      "version": "2.1.0.7",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+        "projectName": "Xamarin.AndroidX.Arch.Core.Common",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+      "version": "2.1.0.7",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+        "projectName": "Xamarin.AndroidX.Arch.Core.Runtime",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj": {
+      "version": "1.0.0.4-rc01",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj",
+        "projectName": "Xamarin.AndroidX.Camera.Core",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation-experimental/androidx.annotation.annotation-experimental.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Google.Guava.ListenableFuture": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.Google.Guava.ListenableFuture": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Google.Guava.ListenableFuture": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[1.0.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-view/androidx.camera.camera-view.csproj": {
+      "version": "1.0.0.4-alpha20",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-view/androidx.camera.camera-view.csproj",
+        "projectName": "Xamarin.AndroidX.Camera.View",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-view/androidx.camera.camera-view.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-view/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.camera.camera-core/androidx.camera.camera-core.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+      "version": "2.2.0.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+        "projectName": "Xamarin.AndroidX.Lifecycle.Common",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.annotation.annotation/androidx.annotation.annotation.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj": {
+      "version": "2.2.0.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj",
+        "projectName": "Xamarin.AndroidX.Lifecycle.LiveData.Core",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-common/androidx.lifecycle.lifecycle-common.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj": {
+      "version": "2.2.0.4",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj",
+        "projectName": "Xamarin.AndroidX.Lifecycle.LiveData",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/androidx.lifecycle.lifecycle-livedata.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "MonoAndroid10.0",
+          "MonoAndroid11.0",
+          "MonoAndroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj",
+                "privateAssets": "none"
+              }
+            }
+          },
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-common/androidx.arch.core.core-common.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.arch.core.core-runtime/androidx.arch.core.core-runtime.csproj",
+                "privateAssets": "none"
+              },
+              "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/generated/androidx.lifecycle.lifecycle-livedata-core/androidx.lifecycle.lifecycle-livedata-core.csproj",
+                "privateAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj": {
+      "version": "1.0.8",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+        "projectName": "Xamarin.AndroidX.Migration",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/Xamarin.AndroidX.Migration.Dummy.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/multitargeting/source/migration/Dummy/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

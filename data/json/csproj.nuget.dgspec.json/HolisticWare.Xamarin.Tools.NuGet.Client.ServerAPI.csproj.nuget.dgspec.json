@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj",
+        "projectName": "HolisticWare.Core.Net.HTTP",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.7.21379.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/HolisticWare.Xamarin.Tools.NuGet.Client.Core.csproj": {
+      "version": "0.0.1-alpha-202109071558",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/HolisticWare.Xamarin.Tools.NuGet.Client.Core.csproj",
+        "projectName": "HolisticWare.Xamarin.Tools.NuGet.Client.Core",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/HolisticWare.Xamarin.Tools.NuGet.Client.Core.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.7.21379.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI.csproj": {
+      "version": "0.0.1-alpha-202109071558",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI.csproj",
+        "projectName": "HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.ServerAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Core.Net.HTTP/HolisticWare.Core.Net.HTTP.csproj"
+              },
+              "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/HolisticWare.Xamarin.Tools.NuGet.Client.Core.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-tools/FassBinderMeister/source/HolisticWare.Xamarin.Tools.NuGet.Client.Core/HolisticWare.Xamarin.Tools.NuGet.Client.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AsyncFixer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AsyncUsageAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-alpha003, )"
+            },
+            "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Roslynator.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.7.21379.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

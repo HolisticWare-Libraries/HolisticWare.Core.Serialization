@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization.Apache.Avro/HolisticWare.Core.Serialization.Apache.Avro.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization.Apache.Avro/HolisticWare.Core.Serialization.Apache.Avro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization.Apache.Avro/HolisticWare.Core.Serialization.Apache.Avro.csproj",
+        "projectName": "HolisticWare.Core.Serialization.Apache.Avro",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization.Apache.Avro/HolisticWare.Core.Serialization.Apache.Avro.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization.Apache.Avro/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/HolisticWare.Core.Serialization.csproj": {
+                "projectPath": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/HolisticWare.Core.Serialization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Avro.Core": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/HolisticWare.Core.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/HolisticWare.Core.Serialization.csproj",
+        "projectName": "HolisticWare.Core.Serialization",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/HolisticWare.Core.Serialization.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/31-HWC.Serialization/source/HolisticWare.Core.Serialization/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

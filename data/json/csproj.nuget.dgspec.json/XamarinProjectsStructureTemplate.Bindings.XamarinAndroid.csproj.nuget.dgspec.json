@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid.csproj": {
+      "version": "0.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid.csproj",
+        "projectName": "HolisticWare.XamarinProjectsStructureTemplate.Bindings",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/DotNetNew.XamarinProjectsStructureTemplate/Content/source/XamarinProjectsStructureTemplate.Bindings.XamarinAndroid/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0",
+          "monoandroid11.0",
+          "monoandroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "targetAlias": "monoandroid9.0",
+            "projectReferences": {}
+          },
+          "monoandroid10.0": {
+            "targetAlias": "monoandroid10.0",
+            "projectReferences": {}
+          },
+          "monoandroid11.0": {
+            "targetAlias": "monoandroid11.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "targetAlias": "monoandroid9.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid10.0": {
+          "targetAlias": "monoandroid10.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        },
+        "monoandroid11.0": {
+          "targetAlias": "monoandroid11.0",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

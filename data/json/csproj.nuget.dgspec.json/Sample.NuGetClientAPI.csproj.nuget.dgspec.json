@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-tools/NuGetLumper/samples/Sample.NuGetClientAPI/Sample.NuGetClientAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-tools/NuGetLumper/samples/Sample.NuGetClientAPI/Sample.NuGetClientAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-tools/NuGetLumper/samples/Sample.NuGetClientAPI/Sample.NuGetClientAPI.csproj",
+        "projectName": "Sample.NuGetClientAPI",
+        "projectPath": "/Users/Shared/Projects/d/hw-tools/NuGetLumper/samples/Sample.NuGetClientAPI/Sample.NuGetClientAPI.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-tools/NuGetLumper/samples/Sample.NuGetClientAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "NuGet.Resolver": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

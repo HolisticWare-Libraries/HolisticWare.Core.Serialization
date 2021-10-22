@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/hw-core/gh/262-HWC.Math.Intervals/source/HolisticWare.Core.Math.Intervals.netstandard13/HolisticWare.Core.Math.Intervals.netstandard13.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/hw-core/gh/262-HWC.Math.Intervals/source/HolisticWare.Core.Math.Intervals.netstandard13/HolisticWare.Core.Math.Intervals.netstandard13.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/hw-core/gh/262-HWC.Math.Intervals/source/HolisticWare.Core.Math.Intervals.netstandard13/HolisticWare.Core.Math.Intervals.netstandard13.csproj",
+        "projectName": "HolisticWare.Core.Math.Intervals.netstandard13",
+        "projectPath": "/Users/Shared/Projects/d/hw-core/gh/262-HWC.Math.Intervals/source/HolisticWare.Core.Math.Intervals.netstandard13/HolisticWare.Core.Math.Intervals.netstandard13.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/hw-core/gh/262-HWC.Math.Intervals/source/HolisticWare.Core.Math.Intervals.netstandard13/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.2.20176.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

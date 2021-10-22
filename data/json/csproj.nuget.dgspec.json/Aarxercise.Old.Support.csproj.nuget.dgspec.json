@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Aarxercise.Old.Support/Aarxercise.Old.Support.csproj": {}
+  },
+  "projects": {
+    "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Aarxercise.Old.Support/Aarxercise.Old.Support.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Aarxercise.Old.Support/Aarxercise.Old.Support.csproj",
+        "projectName": "Aarxercise.Old.Support",
+        "projectPath": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Aarxercise.Old.Support/Aarxercise.Old.Support.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/Shared/Projects/d/X/AX/mu-compose/tests/AndroidXMigrationTests/Aarxercise.Old.Support/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

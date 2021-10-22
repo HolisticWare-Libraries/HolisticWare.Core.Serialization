@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/moljac/Downloads/MVVMCross02/ClassLibrary1/ClassLibrary1.csproj": {}
+  },
+  "projects": {
+    "/Users/moljac/Downloads/MVVMCross02/ClassLibrary1/ClassLibrary1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moljac/Downloads/MVVMCross02/ClassLibrary1/ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "/Users/moljac/Downloads/MVVMCross02/ClassLibrary1/ClassLibrary1.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/moljac/Downloads/MVVMCross02/ClassLibrary1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid9.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "targetAlias": "monoandroid9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "targetAlias": "monoandroid9.0",
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.6, )"
+            },
+            "Xamarin.AndroidX.RecyclerView": {
+              "target": "Package",
+              "version": "[1.1.0.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

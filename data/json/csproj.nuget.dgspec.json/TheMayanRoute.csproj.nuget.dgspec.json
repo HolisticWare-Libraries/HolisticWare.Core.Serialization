@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/moljac/Downloads/lrm-android/TheMayanRoute/TheMayanRoute.csproj": {}
+  },
+  "projects": {
+    "/Users/moljac/Downloads/lrm-android/TheMayanRoute/TheMayanRoute.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moljac/Downloads/lrm-android/TheMayanRoute/TheMayanRoute.csproj",
+        "projectName": "TheMayanRoute",
+        "projectPath": "/Users/moljac/Downloads/lrm-android/TheMayanRoute/TheMayanRoute.csproj",
+        "packagesPath": "/Users/moljac/.nuget/packages/",
+        "outputPath": "/Users/moljac/Downloads/lrm-android/TheMayanRoute/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/moljac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/moljac/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "MonoDroid.Toolkit": {
+              "target": "Package",
+              "version": "[2.1.0.3-beta, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SpotsDialog.Xamarin": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xamarin-MaterialSearchBar": {
+              "target": "Package",
+              "version": "[2.0.0.1, )"
+            },
+            "Xamarin-MaterialSearchView": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xamarin.Android.Support.Core.UI": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.2.0.1, )"
+            },
+            "Xamarin.AndroidX.CoordinatorLayout": {
+              "target": "Package",
+              "version": "[1.1.0.1, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.2.0.1, )"
+            },
+            "Xamarin.AndroidX.Media": {
+              "target": "Package",
+              "version": "[1.1.0.1, )"
+            },
+            "Xamarin.AndroidX.Migration": {
+              "target": "Package",
+              "version": "[1.0.6.1, )"
+            },
+            "Xamarin.AndroidX.Preference": {
+              "target": "Package",
+              "version": "[1.1.1.1, )"
+            },
+            "Xamarin.AuditApp": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Xamarin.GooglePlayServices.Ads.Lite": {
+              "target": "Package",
+              "version": "[119.1.0-preview02, )"
+            },
+            "Xamarin.GooglePlayServices.Maps": {
+              "target": "Package",
+              "version": "[117.0.0-preview04, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
