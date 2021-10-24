@@ -9,7 +9,12 @@
     <Import_RootNamespace>Tests.CommonShared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)JSON\JSON.cs" />
+    <Folder Include="$(MSBuildThisFileDirectory)JSON\" />
+    <Folder Include="$(MSBuildThisFileDirectory)XML\" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Something.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSON\JSON.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XML\XML.cs" />
   </ItemGroup>
 </Project>
