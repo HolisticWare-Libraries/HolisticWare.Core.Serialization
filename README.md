@@ -46,7 +46,61 @@ Terms:
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
 
+https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
+
+https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
+
 ### XML
+
+```csharp
+namespace Tests.CommonShared
+{
+    public class Something
+    {
+        public Something()
+        {
+        }
+
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        public DateTime DateOfBirth
+        {
+            get;
+            set;
+        }
+    }
+}
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+    <Something>
+        <DateOfBirth>2021-10-06T18:07:06.901969+02:00</DateOfBirth>
+        <Name>something</Name>
+    </Something>   
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+        <DateOfBirth>2021-10-06T18:07:06.901969+02:00</DateOfBirth>
+        <Name>something</Name>
+    </root>   
+```
+
+```
+System.InvalidOperationException : There is an error in XML document (2, 2).
+---- System.InvalidOperationException : <root xmlns=''> was not expected.
+```
+
+```
+System.InvalidOperationException : There is an error in XML document (2, 2).
+xmlns='' was not expected.
+```
 
 ### YAML
 
