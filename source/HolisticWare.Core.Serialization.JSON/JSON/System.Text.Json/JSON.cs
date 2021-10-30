@@ -3,26 +3,50 @@ using System.Threading.Tasks;
 
 namespace Core.Serialization.JSON.System.Text.Json.Simple
 {
-    public class JSON : ISerializer
+    public class JSON : IStorageTransmission
     {
-        public T Deserialize<T>(string text)
+        public T DeserializeUnmarshall<T>(string text)
         {
-            throw new NotImplementedException();
+            global::System.Text.Json.JsonSerializerOptions options = null;
+            options = new global::System.Text.Json.JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            T t = global::System.Text.Json.JsonSerializer.Deserialize<T>(text, options);
+
+            return t;
         }
 
-        public Task<T> DeserializeAsync<T>(string text)
+        public async Task<T> DeserializeUnmarshallAsync<T>(string text)
         {
-            throw new NotImplementedException();
+            global::System.Text.Json.JsonSerializerOptions options = null;
+            options = new global::System.Text.Json.JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+            T t = default(T);
+            using
+                (
+                    global::System.IO.MemoryStream ms
+                                = new global::System.IO.MemoryStream
+                                                        (
+                                                            global::System.Text.Encoding.UTF8.GetBytes(text)
+                                                        )
+                )
+            {
+                t = await global::System.Text.Json.JsonSerializer.DeserializeAsync<T>(ms, options);
+            }
+
+            return t;
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
-            string json = global::System.Text.Json.JsonSerializer.Serialize(t);
-
-            return json;
+            return global::System.Text.Json.JsonSerializer.Serialize(t);
         }
 
-        public async Task<string> SerializeAsync<T>(T t)
+        public async Task<string> SerializeMarshallAsync<T>(T t)
         {
             global::System.IO.MemoryStream stream = new global::System.IO.MemoryStream();
             await global::System.Text.Json.JsonSerializer.SerializeAsync(stream, t);
