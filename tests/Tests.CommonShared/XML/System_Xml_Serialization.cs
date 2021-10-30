@@ -73,11 +73,11 @@ namespace Tests.HolisticWare.Core.Serialization
     [TestClass] // for MSTest - NUnit [TestFixture] and XUnit not needed
     //[SimpleJob(launchCount: 1, warmupCount: 3, targetCount: 5, invocationCount: 100, id: "QuickJob")]
     //[ShortRunJob]
-    public class Tests_JSON
+    public class Tests_XML
     {
 
         [Test]
-        public void JSON_Serialize_Newtonsoft_Json()
+        public void XML_SerializeMarshall()
         {
             CommonShared.Something s = new CommonShared.Something
             {
@@ -85,45 +85,34 @@ namespace Tests.HolisticWare.Core.Serialization
                 DateOfBirth = DateTime.Now
             };
 
-            global::Core.Serialization.JSON.Newtonsoft.Json.JSON json = null;
+            global::Core.Serialization.XML.System.Xml.Serialization.XML xml = null;
 
-            json = new global::Core.Serialization.JSON.Newtonsoft.Json.JSON();
+            xml = new global::Core.Serialization.XML.System.Xml.Serialization.XML();
 
-            string json_text = json.Serialize<CommonShared.Something>(s);
-
-            return;
-        }
-
-        [Test]
-        public void JSON_Deserialize_Newtonsoft_Json()
-        {
-            string json_text = @"{""Name"":""something"",""DateOfBirth"":""2021-10-06T18:07:06.901969+02:00""}";
-
-            global::Core.Serialization.JSON.Newtonsoft.Json.JSON json = null;
-
-            json = new global::Core.Serialization.JSON.Newtonsoft.Json.JSON();
-
-            CommonShared.Something s = json.Deserialize<CommonShared.Something>(json_text);
+            string xml_text = xml.SerializeMarshall<CommonShared.Something>(s);
 
             return;
         }
 
         [Test]
-        public void JSON_Serialize_System_Text_Json_Simple()
+        public void XML_Deserialize()
         {
-            CommonShared.Something s = new CommonShared.Something
-            {
-                Name = "something",
-                DateOfBirth = DateTime.Now
-            };
+            string xml_text =
+                @"<?xml version=""1.0"" encoding=""UTF-8""?>
+                    <Something>
+                        <DateOfBirth>2021-10-06T18:07:06.901969+02:00</DateOfBirth>
+                        <Name>something</Name>
+                    </Something>
+                  ";
 
-            global::Core.Serialization.JSON.System.Text.Json.Simple.JSON json = null;
+            global::Core.Serialization.XML.System.Xml.Serialization.XML xml = null;
 
-            json = new global::Core.Serialization.JSON.System.Text.Json.Simple.JSON();
+            xml = new global::Core.Serialization.XML.System.Xml.Serialization.XML();
 
-            string json_text = json.Serialize<CommonShared.Something>(s);
+            CommonShared.Something s = xml.DeserializeUnmarshall<CommonShared.Something>(xml_text);
 
             return;
         }
+
     }
 }

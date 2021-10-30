@@ -14,7 +14,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Something.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)JSON\JSON.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)XML\XML.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSON\Newtonsoft_Json.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSON\System_Text_Json.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XML\System_Xml_Serialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XML\System_Runtime_Serialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WeatherData.cs" />
   </ItemGroup>
 </Project>
