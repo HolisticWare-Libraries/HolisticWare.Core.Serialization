@@ -7,14 +7,14 @@ namespace Core.Serialization.JSON.Newtonsoft.Json
     /// 
     /// </summary>
     /// https://www.newtonsoft.com/json/help/html/SerializingJSON.htm
-    public class JSON : ISerializer
+    public class JSON : IStorageTransmission
     {
-        public T Deserialize<T>(string text)
+        public T DeserializeUnmarshall<T>(string text)
         {
             return global::Newtonsoft.Json.JsonConvert.DeserializeObject<T>(text);
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
             string json = global::Newtonsoft.Json.JsonConvert.SerializeObject(t);
 
