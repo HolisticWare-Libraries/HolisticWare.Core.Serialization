@@ -12,12 +12,16 @@
     <PackageReference Include="NJsonSchema" Version="10.5.2" />
     <PackageReference Include="NJsonSchema.CodeGeneration" Version="10.5.2" />
     <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="10.5.2" />
+    <PackageReference Include="fastJSON" Version="2.4.0.4" />
+    <PackageReference Include="Utf8Json" Version="1.3.7" />
+    <PackageReference Include="NetJSON" Version="1.3.7" />
   </ItemGroup>
 
     <ItemGroup>
     <Folder Include="JSON\" />
     <Folder Include="JSON\System.Text.Json\" />
     <Folder Include="JSON\Newtonsoft.Json\" />
+    <Folder Include="JSON\fastJSON\" />
   </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
@@ -26,5 +30,9 @@
       <None Remove="NJsonSchema" />
       <None Remove="NJsonSchema.CodeGeneration" />
       <None Remove="NJsonSchema.CodeGeneration.CSharp" />
+      <None Remove="JSON\fastJSON\" />
+      <None Remove="fastJSON" />
+      <None Remove="Utf8Json" />
+      <None Remove="NetJSON" />
     </ItemGroup>
 </Project>
