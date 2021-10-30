@@ -42,14 +42,21 @@ Terms:
     
 *   `Newtonsoft.Json`
 
-    *   
+*   `fastJSON`
+
+*   `NetJSON`
+
+*   
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
 
-https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
+*   https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
 
-https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
+*   https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
 
+https://github.com/rpgmaker/NetJSON/
+
+https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
 ### XML
 
 ```csharp
@@ -102,6 +109,17 @@ System.InvalidOperationException : There is an error in XML document (2, 2).
 xmlns='' was not expected.
 ```
 
+```
+[Serializable, XmlRoot("root")]
+public partial class Something
+{
+}
+```
+
+```
+XmlSerializer xs = new XmlSerializer
+(typeof(User), new XmlRootAttribute("yourRootName")); 
+```
 ### YAML
 
 ### TOML
