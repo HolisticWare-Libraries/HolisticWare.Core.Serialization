@@ -7,9 +7,9 @@ namespace Core.Serialization.XML.System.Xml.Serialization
     /// 
     /// </summary>
     /// https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=netframework-4.7.2
-    public class XML : ISerializer
+    public class XML : IStorageTransmission
     {
-        public T Deserialize<T>(string text)
+        public T DeserializeUnmarshall<T>(string text)
         {
             global::System.Xml.Serialization.XmlSerializer serializer = null;
             serializer = new global::System.Xml.Serialization.XmlSerializer(typeof(T));
@@ -24,18 +24,18 @@ namespace Core.Serialization.XML.System.Xml.Serialization
             return result;
         }
 
-        public async Task<T> DeserializeAsync<T>(string text)
+        public async Task<T> DeserializeUnmarshallAsync<T>(string text)
         {
             return await Task.Run
                 (
                     () =>
                     {
-                        return Deserialize<T>(text);
+                        return DeserializeUnmarshall<T>(text);
                     }
                 );
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
             // if you can, only create one serializer
             // creating serializers is an expensive
@@ -71,7 +71,7 @@ namespace Core.Serialization.XML.System.Xml.Serialization
             return xml;
         }
 
-        public async Task<string> SerializeAsync<T>(T t)
+        public async Task<string> SerializeMarshallAsync<T>(T t)
         {
             // if you can, only create one serializer
             // creating serializers is an expensive

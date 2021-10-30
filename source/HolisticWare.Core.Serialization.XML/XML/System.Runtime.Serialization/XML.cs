@@ -7,37 +7,41 @@ namespace Core.Serialization.XML.System.Runtime.Serialization
     /// 
     /// </summary>
     /// https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=netframework-4.7.2
-    public class XML : ISerializer
+    public class XML : IStorageTransmission
     {
-        public T Deserialize<T>(string text)
+        public T DeserializeUnmarshall<T>(string text)
         {
             T result = default(T);
 
-            using (global::System.IO.StringReader r = new global::System.IO.StringReader(text))
+            using
+                (
+                    global::System.IO.MemoryStream ms
+                                = new global::System.IO.MemoryStream
+                                                        (
+                                                            global::System.Text.Encoding.UTF8.GetBytes(text)
+                                                        )
+                )
             {
-                using (global::System.Xml.XmlReader r_xml = global::System.Xml.XmlReader.Create(r))
-                {
-                    global::System.Runtime.Serialization.DataContractSerializer serializer = null;
-                    serializer = new global::System.Runtime.Serialization.DataContractSerializer(typeof(T));
-                    result = (T)serializer.ReadObject(r_xml);
-                }
+                global::System.Runtime.Serialization.DataContractSerializer serializer = null;
+                serializer = new global::System.Runtime.Serialization.DataContractSerializer(typeof(T));
+                result = (T)serializer.ReadObject(ms);
             }
 
             return result;
         }
 
-        public async Task<T> DeserializeAsync<T>(string text)
+        public async Task<T> DeserializeUnmarshallAsync<T>(string text)
         {
             return await Task.Run
                 (
                     () =>
                     {
-                        return Deserialize<T>(text);
+                        return DeserializeUnmarshall<T>(text);
                     }
                 );
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
             string result = null;
 
@@ -59,7 +63,7 @@ namespace Core.Serialization.XML.System.Runtime.Serialization
             return result;
         }
 
-        public async Task<string> SerializeAsync<T>(T t)
+        public async Task<string> SerializeMarshallAsync<T>(T t)
         {
             string result = null;
 
