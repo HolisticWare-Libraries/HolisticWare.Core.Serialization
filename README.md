@@ -44,9 +44,26 @@ Terms:
 
 *   `fastJSON`
 
+    *   https://github.com/mgholam/fastJSON
+  
 *   `NetJSON`
 
-*   
+    *   https://github.com/rpgmaker/NetJSON/
+
+*   `Utf8Json`
+
+    *   https://github.com/neuecc/Utf8Json
+
+*   `Jsonincs`
+
+    *   https://github.com/trampster/Jsonics
+
+*   `Jil`
+
+    *   https://github.com/kevin-montrose/Jil
+
+
+### References / Links
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
 
@@ -54,9 +71,10 @@ Terms:
 
 *   https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
 
-https://github.com/rpgmaker/NetJSON/
+*   https://theburningmonk.com/2014/08/json-serializers-benchmarks-updated-2/
 
-https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
+*   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
+
 ### XML
 
 ```csharp
