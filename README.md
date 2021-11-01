@@ -62,7 +62,16 @@ Terms:
 
     *   https://github.com/kevin-montrose/Jil
 
+        ```
+        Jil.DeserializationException
+        "Expected character: '\\'"
+        ```
 
+        https://stackoverflow.com/questions/29536206/jil-net-json-deserialization-exception
+
+        https://github.com/kevin-montrose/Jil/blob/master/Jil/Options.cs
+        
+                
 ### References / Links
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
