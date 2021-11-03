@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Core.Serialization.TOML.Nett
 {
-    public class TOML : ISerializer
+    public class TOML : ISerializerMarshaller
     {
         public T Deserialize<T>(string text)
         {
@@ -15,12 +15,12 @@ namespace Core.Serialization.TOML.Nett
             throw new NotImplementedException();
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
             return null;
         }
 
-        public async Task<string> SerializeAsync<T>(T t)
+        public async Task<string> SerializeMarshallAsync<T>(T t)
         {
             throw new NotImplementedException();
         }

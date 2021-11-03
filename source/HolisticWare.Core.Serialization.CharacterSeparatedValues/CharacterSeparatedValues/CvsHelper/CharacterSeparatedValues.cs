@@ -6,7 +6,7 @@ using CsvHelper.Configuration;
 
 namespace Core.Serialization
 {
-    public class CharacterSeparatedValues : ISerializer
+    public class CharacterSeparatedValues : ISerializerMarshaller
     {
         public T Deserialize<T>(string text)
         {
@@ -28,7 +28,7 @@ namespace Core.Serialization
             throw new NotImplementedException();
         }
 
-        public string Serialize<T>(T t)
+        public string SerializeMarshall<T>(T t)
         {
             System.Text.StringBuilder csv = new System.Text.StringBuilder();
 
@@ -53,7 +53,7 @@ namespace Core.Serialization
             return csv.ToString();
         }
 
-        public Task<string> SerializeAsync<T>(T t)
+        public Task<string> SerializeMarshallAsync<T>(T t)
         {
             throw new NotImplementedException();
         }
