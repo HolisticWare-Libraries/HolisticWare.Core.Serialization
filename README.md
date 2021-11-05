@@ -70,8 +70,8 @@ Terms:
         https://stackoverflow.com/questions/29536206/jil-net-json-deserialization-exception
 
         https://github.com/kevin-montrose/Jil/blob/master/Jil/Options.cs
-        
-                
+
+
 ### References / Links
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
@@ -83,6 +83,17 @@ Terms:
 *   https://theburningmonk.com/2014/08/json-serializers-benchmarks-updated-2/
 
 *   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
+
+https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
+
+JSON schema generators proposed so far:
+
+Online:
+
+https://www.liquid-technologies.com/online-json-to-schema-converter (1 input)
+http://www.jsonschema.net (1 input)
+https://easy-json-schema.github.io (1 input)
+
 
 ### XML
 
@@ -147,6 +158,21 @@ public partial class Something
 XmlSerializer xs = new XmlSerializer
 (typeof(User), new XmlRootAttribute("yourRootName")); 
 ```
+xsd
+
+https://stackoverflow.com/questions/3680353/how-do-i-programmatically-generate-an-xml-schema-from-a-type/
+
+http://mikehadlow.blogspot.com/2007/01/writing-your-own-xsdexe.html
+
+XmlCodeExporter
+
+https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlcodeexporter?redirectedfrom=MSDN&view=netframework-4.8
+
+XmlSchemaInference
+
+https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference?view=net-5.0
+
+
 ### YAML
 
 ### TOML
