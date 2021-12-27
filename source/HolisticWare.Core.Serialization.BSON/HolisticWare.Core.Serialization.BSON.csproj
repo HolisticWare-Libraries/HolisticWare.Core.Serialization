@@ -1,10 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.BSON</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.BSON</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.BSON
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.BSON
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.BSON package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.BSON package
+        </Description>
+    </PropertyGroup>
 
 <ItemGroup>
 <Folder Include="BSON\" />

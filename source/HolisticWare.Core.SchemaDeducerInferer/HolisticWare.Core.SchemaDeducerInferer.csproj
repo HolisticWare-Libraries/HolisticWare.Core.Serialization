@@ -1,8 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.SchemaDeducerInferer</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.SchemaDeducerInferer</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.SchemaDeducerInferer
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.SchemaDeducerInferer
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.SchemaDeducerInferer package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.SchemaDeducerInferer package
+        </Description>
+    </PropertyGroup>
+
 </Project>

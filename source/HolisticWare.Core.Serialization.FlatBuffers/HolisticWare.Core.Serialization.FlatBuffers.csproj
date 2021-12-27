@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.FlatBuffers</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.FlatBuffers</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.FlatBuffers
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.FlatBuffers
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.FlatBuffers package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.FlatBuffers package
+        </Description>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Dap.FlatBuffers" Version="1.0.0" />
         <PackageReference Include="DevZH.FlatBuffers" Version="1.4.0" />

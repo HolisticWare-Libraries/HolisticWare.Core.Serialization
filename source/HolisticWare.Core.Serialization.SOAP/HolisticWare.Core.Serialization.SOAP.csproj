@@ -1,10 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.SOAP</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.SOAP</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.SOAP
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.SOAP
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.SOAP package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.SOAP package
+        </Description>
+    </PropertyGroup>
 
     <ItemGroup>
     <Folder Include="SOAP\" />

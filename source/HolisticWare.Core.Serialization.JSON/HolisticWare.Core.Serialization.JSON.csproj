@@ -1,10 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.JSON</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.JSON</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.JSON
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.JSON
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.JSON package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.JSON package
+        </Description>
+    </PropertyGroup>
+
+     
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
