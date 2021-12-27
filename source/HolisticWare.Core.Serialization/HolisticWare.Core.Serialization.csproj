@@ -1,8 +1,64 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
+        <LangVersion>Latest</LangVersion>
+        <RootNamespace>Core.Serialization</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <!--
+        If moved to separate PropertyGroup - UI in VSMac4 is cleared?!?!
+        -->
+        <PackOnBuild>true</PackOnBuild>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>
+            HolisticWare.Core.Serialization
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization
+        </Title>
+        <summary>
+            Core.Serialziation package
+        </summary>
+        <Description>
+            Core.Serialziation package
+        </Description>
+        <Owners>HolisticWare, moljac</Owners>
+        <Authors>HolisticWare, moljac</Authors>
+        <Copyright>2020</Copyright>
+        <ProjectUrl>
+            https://github.com/HolisticWare/HolisticWare.Core.Serialization
+        </ProjectUrl>
+        <PackageProjectUrl>
+            https://github.com/HolisticWare/HolisticWare.Core.Serialization
+        </PackageProjectUrl>
+        <RepositoryUrl>
+            https://github.com/HolisticWare/HolisticWare.Core.Serialization
+        </RepositoryUrl>
+        <iconUrl>
+            https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5
+        </iconUrl>
+        <PackageIconUrl>
+            https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5        
+        </PackageIconUrl>
+        <license>LICENSE</license>
+        <licenseUrl>
+            https://github.com/HolisticWare/HolisticWare.Core.Serialization/blob/master/LICENSE
+        </licenseUrl>
+        <PackageLicenseUrl>
+            https://github.com/HolisticWare/HolisticWare.Core.Serialization/blob/master/LICENSE
+        </PackageLicenseUrl>
+        <VersionPrefix>0.0.1</VersionPrefix>
+        <!--
+        VersionSuffix - For debugging and local nuget feed 
+        -->        
+        <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+        <PackageVersion>$(Version)</PackageVersion>
+        <PackageOutputPath>../../output</PackageOutputPath>
+    </PropertyGroup>
+
+
+
 </Project>
