@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.TOML</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.TOML</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.TOML
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.TOML
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.TOML package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.TOML package
+        </Description>
+    </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Nett" Version="0.15.0" />
     <PackageReference Include="Carbon.Toml" Version="0.20.1" />

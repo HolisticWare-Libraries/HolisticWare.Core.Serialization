@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Bond</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.Bond</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.Bond
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.Bond
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.Bond package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.Bond package
+        </Description>
+    </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Bond.Compiler.CSharp" Version="9.0.3" />
     <PackageReference Include="Bond.Core.CSharp" Version="9.0.3" />

@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Apache.Avro</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.Apache.Avro</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.Apache.Avro
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.Apache.Avro
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.Apache.Avro package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.Apache.Avro package
+        </Description>
+    </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Avro.Core" Version="0.1.0" />
   </ItemGroup>

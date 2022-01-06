@@ -1,8 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation package
+        </Description>
+    </PropertyGroup>
+
 </Project>

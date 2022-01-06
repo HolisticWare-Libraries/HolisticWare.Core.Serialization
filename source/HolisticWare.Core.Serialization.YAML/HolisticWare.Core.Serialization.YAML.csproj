@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.YAML</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.YAML</AssemblyName>
+    </PropertyGroup>
       
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.YAML
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.YAML
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.YAML package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.YAML package
+        </Description>
+    </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="YamlDotNet" Version="11.2.1" />
   </ItemGroup>

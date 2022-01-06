@@ -1,19 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>Latest</LangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.SchemaDeducerInferer</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.SchemaDeducerInferer</AssemblyName>
+    </PropertyGroup>
       
-  <ItemGroup>
-    <None Remove="NJsonSchema" />
-    <None Remove="NJsonSchema.CodeGeneration" />
-    <None Remove="NJsonSchema.Yaml" />
-    <None Remove="NJsonSchema.CodeGeneration.CSharp" />
-    <None Remove="JSON\" />
-    <None Remove="XML\" />
-    <None Remove="XmlSchemaClassGenerator-beta" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NJsonSchema" Version="10.5.2" />
     <PackageReference Include="NJsonSchema.CodeGeneration" Version="10.5.2" />
@@ -25,4 +16,19 @@
     <Folder Include="JSON\" />
     <Folder Include="XML\" />
   </ItemGroup>
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.SchemaDeducerInferer
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.SchemaDeducerInferer
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.SchemaDeducerInferer package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.SchemaDeducerInferer package
+        </Description>
+    </PropertyGroup>
+
 </Project>
