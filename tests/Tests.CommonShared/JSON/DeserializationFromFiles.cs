@@ -73,46 +73,38 @@ namespace Tests.HolisticWare.Core.Serialization
     [TestClass] // for MSTest - NUnit [TestFixture] and XUnit not needed
     //[SimpleJob(launchCount: 1, warmupCount: 3, targetCount: 5, invocationCount: 100, id: "QuickJob")]
     //[ShortRunJob]
-    public class Tests_JSON_Jil
+    public class Tests_JSON_DeserializationFromFiles
     {
-        [Test]
-        public void JSON_SerializeMarshall()
+        static string root = @"../../../../../../../../data/json/";
+        static string[] files = null;
+
+        static Tests_JSON_DeserializationFromFiles()
         {
-            CommonShared.Something s = new CommonShared.Something
-            {
-                Name = "something",
-                DateOfBirth = DateTime.Now
-            };
-
-            global::Core.Serialization.JSON.Jil.JSON json = null;
-
-            json = new global::Core.Serialization.JSON.Jil.JSON();
-
-            string json_text = json.SerializeMarshall<CommonShared.Something>(s);
-
-            return;
+            files = System.IO.Directory.GetFiles
+                                            (
+                                                root,
+                                                "*.json",
+                                                new System.IO.EnumerationOptions()
+                                                {
+                                                    RecurseSubdirectories = true
+                                                }
+                                            );
         }
 
         [Test]
         public void JSON_DeserializeUnmarshall()
         {
-            string json_text =
-                @"
-                    {
-                        ""Name"":""something""
-                    }
-                ";
-            // https://github.com/kevin-montrose/Jil/blob/master/Jil/DateTimeFormat.cs
-            // ""DateOfBirth"":""""
-            // ""DateOfBirth"":""null""
-            // ""DateOfBirth"":""2021-10-06T18:07:06.901969+02:00""
-            // ""DateOfBirth"":""2021-10-06T18:07:06Z""
+            string json_text = null;
+            global::Core.Serialization.JSON.System.Text.Json.Simple.JSON json = null;
 
-            global::Core.Serialization.JSON.Jil.JSON json = null;
+            foreach (string f in Tests_JSON_DeserializationFromFiles.files)
+            {
+                json_text = global::System.IO.File.ReadAllText(f);
+            }
 
-            json = new global::Core.Serialization.JSON.Jil.JSON();
+            json = new global::Core.Serialization.JSON.System.Text.Json.Simple.JSON();
 
-            CommonShared.Something s = json.DeserializeUnmarshall<CommonShared.Something>(json_text);
+            CommonShared.Something s = json.InferDeduceSchema(json_text);
 
             return;
         }
