@@ -5,4 +5,24 @@
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
       
+  <ItemGroup>
+    <None Remove="NJsonSchema" />
+    <None Remove="NJsonSchema.CodeGeneration" />
+    <None Remove="NJsonSchema.Yaml" />
+    <None Remove="NJsonSchema.CodeGeneration.CSharp" />
+    <None Remove="JSON\" />
+    <None Remove="XML\" />
+    <None Remove="XmlSchemaClassGenerator-beta" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NJsonSchema" Version="10.5.2" />
+    <PackageReference Include="NJsonSchema.CodeGeneration" Version="10.5.2" />
+    <PackageReference Include="NJsonSchema.Yaml" Version="10.5.2" />
+    <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="10.5.2" />
+    <PackageReference Include="XmlSchemaClassGenerator-beta" Version="2.0.594" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JSON\" />
+    <Folder Include="XML\" />
+  </ItemGroup>
 </Project>
