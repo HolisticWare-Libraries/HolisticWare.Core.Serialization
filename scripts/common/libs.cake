@@ -1,9 +1,9 @@
 #load "./nuget-restore.cake"
 
-LibrarySourceSolutions  = GetFiles(source_solutions);
-LibrarySourceProjects   = GetFiles(source_projects);
+LibSourceSolutions = GetFiles(source_solutions);
+LibSourceProjects = GetFiles(source_projects);
 
-string[] configurations = new string[] 
+string[] configs = new string[] 
 { 
     "Debug", 
     "Release" 
@@ -11,8 +11,6 @@ string[] configurations = new string[]
 
 //---------------------------------------------------------------------------------------
 Task("libs")
-    .IsDependentOn ("clean")
-    .IsDependentOn ("nuget-restore")
     .IsDependentOn ("nuget-restore-libs")
     .IsDependentOn ("libs-msbuild-solutions")
     .IsDependentOn ("libs-msbuild-projects")
@@ -32,20 +30,18 @@ Task("libs-msbuild-solutions")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath sln in LibSourceSolutions)
             {
-                foreach(FilePath sln in LibrarySourceSolutions)
+				foreach (string config in configs)
                 {
                     MSBuild
                     (
                         sln.ToString(),
                         new MSBuildSettings
                         {
-                            Configuration = configuration,
-                            Restore = true,
+                            Configuration = config,
                         }
                         //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
-                        .WithRestore()
                     );
                 }
             }
@@ -59,16 +55,16 @@ Task("libs-dotnet-solutions")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath sln in LibSourceSolutions)
             {
-                foreach(FilePath sln in LibrarySourceSolutions)
+				foreach (string config in configs)
                 {
                     DotNetCoreBuild
                     (
                         sln.ToString(),
                         new DotNetCoreBuildSettings
                         {
-                            Configuration = configuration,
+                            Configuration = config,
                         }
                         //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
                     );
@@ -84,22 +80,26 @@ Task("libs-msbuild-projects")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath prj in LibSourceProjects)
             {
-                foreach(FilePath prj in LibrarySourceProjects)
-                {
-                    MSBuild
-                    (
-                        prj.ToString(),
-                        new MSBuildSettings
-                        {
-                            Configuration = configuration,
-                            Restore = true,
-                        }
-                        //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
-                        .WithRestore()
-                    );
-                }
+                MSBuild
+                (
+                    prj.ToString(),
+                    new MSBuildSettings
+                    {
+                        Configuration = "Debug",
+                    }
+                    //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
+                );
+                MSBuild
+                (
+                    prj.ToString(),
+                    new MSBuildSettings
+                    {
+                        Configuration = "Release",
+                    }
+                    //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
+                );
             }
 
             return;
@@ -111,20 +111,26 @@ Task("libs-dotnet-projects")
     (
         () =>
         {
-            foreach(string configuration in configurations)
+            foreach(FilePath prj in LibSourceProjects)
             {
-                foreach(FilePath prj in LibrarySourceProjects)
-                {
-                    DotNetCoreBuild
-                    (
-                        prj.ToString(),
-                        new DotNetCoreBuildSettings
-                        {
-                            Configuration = configuration,
-                        }
-                        //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
-                    );
-                }
+                DotNetCoreBuild
+                (
+                    prj.ToString(),
+                    new DotNetCoreBuildSettings
+                    {
+                        Configuration = "Debug",
+                    }
+                    //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
+                );
+                DotNetCoreBuild
+                (
+                    prj.ToString(),
+                    new DotNetCoreBuildSettings
+                    {
+                        Configuration = "Release",
+                    }
+                    //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
+                );
             }
 
             return;
@@ -137,19 +143,18 @@ public void Build(string pattern)
 
 	foreach(FilePath file in files)
 	{
-		foreach (string configuration in configurations)
+		foreach (string config in configs)
 		{
 			MSBuild
 			(
 				file.ToString(),
 				new MSBuildSettings
 				{
-					Configuration = configuration,
-                    Restore = true,
+					Configuration = config,
 				}
 				//.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
 				.WithProperty("AndroidClassParser", "jar2xml")
-				.WithRestore()
+				
 			);
 		}
 	}
