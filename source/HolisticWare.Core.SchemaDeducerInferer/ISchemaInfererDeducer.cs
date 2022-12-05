@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
 
-namespace Core.Serialization
+namespace Core.Serialization.SchemaInferenceDeduction
 {
     /// <summary>
     /// 
     /// </summary>
-    public interface IInferenceDeduction
+    public interface ISchemaInfererDeducer
     {
         string InferDeduceSchema(string data);
     }

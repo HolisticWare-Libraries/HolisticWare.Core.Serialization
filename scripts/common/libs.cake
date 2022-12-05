@@ -1,7 +1,7 @@
 #load "./nuget-restore.cake"
 
-LibrarySourceSolutions  = GetFiles(source_solutions);
-LibrarySourceProjects   = GetFiles(source_projects);
+LibSourceSolutions = GetFiles(source_solutions);
+LibSourceProjects = GetFiles(source_projects);
 
 //---------------------------------------------------------------------------------------
 Task("libs")
@@ -17,9 +17,9 @@ Task("libs-msbuild-solutions")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath sln in LibSourceSolutions)
             {
-                foreach(FilePath sln in LibrarySourceSolutions)
+				foreach (string config in configs)
                 {
                     DotNetMSBuild
                     (
@@ -42,16 +42,16 @@ Task("libs-dotnet-solutions")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath sln in LibSourceSolutions)
             {
-                foreach(FilePath sln in LibrarySourceSolutions)
+				foreach (string config in configs)
                 {
                     DotNetBuild
                     (
                         sln.ToString(),
                         new DotNetBuildSettings
                         {
-                            Configuration = configuration,
+                            Configuration = config,
                         }
                         //.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
                     );
@@ -67,7 +67,7 @@ Task("libs-msbuild-projects")
     (
         () =>
         {
-            foreach (string configuration in configurations)
+            foreach(FilePath prj in LibSourceProjects)
             {
                 foreach(FilePath prj in LibrarySourceProjects)
                 {
@@ -92,7 +92,7 @@ Task("libs-dotnet-projects")
     (
         () =>
         {
-            foreach(string configuration in configurations)
+            foreach(FilePath prj in LibSourceProjects)
             {
                 foreach(FilePath prj in LibrarySourceProjects)
                 {
@@ -118,17 +118,16 @@ public void Build(string pattern)
 
 	foreach(FilePath file in files)
 	{
-		foreach (string configuration in configurations)
+		foreach (string config in configs)
 		{
 			DotNetMSBuild
 			(
 				file.ToString(),
 				new DotNetMSBuildSettings
 				{
-				}
-                .SetConfiguration(configuration)
-				.WithProperty("AndroidClassParser", "class-parse")
-				//.WithProperty("DefineConstants", "TRACE;DEBUG;NETCOREAPP2_0;NUNIT")
+					Configuration = config,
+                }
+				.WithProperty("AndroidClassParser", "jar2xml")
 			);
 		}
 	}

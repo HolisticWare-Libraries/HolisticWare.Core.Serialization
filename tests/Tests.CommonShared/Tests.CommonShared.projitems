@@ -22,6 +22,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)JSON\Utf8Json.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)JSON\Jsonincs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)JSON\Jil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSON\DeserializationFromFiles.cs" />
+    
     <Compile Include="$(MSBuildThisFileDirectory)XML\System_Xml_Serialization.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)XML\System_Runtime_Serialization.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WeatherData.cs" />
