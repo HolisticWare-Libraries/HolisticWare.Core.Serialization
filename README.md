@@ -25,7 +25,7 @@ Terms:
 *   Marshalling/Unmarshalling
 
     *   Julia
-    
+
 ## References / Links
 
 *   https://github.com/khalidabuhakmeh/conversions
@@ -39,13 +39,13 @@ Terms:
 *   `System.Text.Json`
 
     *   https://docs.microsoft.com/en-us/dotnet/api/system.text.json
-    
+
 *   `Newtonsoft.Json`
 
 *   `fastJSON`
 
     *   https://github.com/mgholam/fastJSON
-  
+
 *   `NetJSON`
 
     *   https://github.com/rpgmaker/NetJSON/
@@ -67,12 +67,41 @@ Terms:
         "Expected character: '\\'"
         ```
 
-        https://stackoverflow.com/questions/29536206/jil-net-json-deserialization-exception
+        *   https://stackoverflow.com/questions/29536206/jil-net-json-deserialization-exception
 
-        https://github.com/kevin-montrose/Jil/blob/master/Jil/Options.cs
+        *   https://github.com/kevin-montrose/Jil/blob/master/Jil/Options.cs
 
+*   `SpanJson`
 
-### References / Links
+    *   https://github.com/Tornhoof/SpanJson
+
+        *   problem: `net6`, `net5`
+
+        *   https://github.com/Tornhoof/SpanJson/issues?q=is%3Aissue+netstandard
+
+        *   fork
+
+            *   https://github.com/cuteant/SpanJson
+
+            *   fork for nugets
+
+                *   https://github.com/HolisticWare/HolisticWare.SpanJson
+
+#### Online Tools
+
+*   JSON to C#
+
+    *   https://json2csharp.com/
+
+    *   https://app.quicktype.io/?l=csharp
+
+    *   https://www.site24x7.com/tools/json-to-csharp.html
+
+    *   https://wtools.io/convert-json-to-csharp-class
+
+    *   https://jsonutils.com/
+
+#### References / Links
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
 
@@ -84,15 +113,17 @@ Terms:
 
 *   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
 
-https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
+*   https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
 
-JSON schema generators proposed so far:
+*   JSON schema generators proposed so far:
 
-Online:
+    *   Online:
 
-https://www.liquid-technologies.com/online-json-to-schema-converter (1 input)
-http://www.jsonschema.net (1 input)
-https://easy-json-schema.github.io (1 input)
+        *   https://www.liquid-technologies.com/online-json-to-schema-converter
+
+        *   http://www.jsonschema.net (1 input)
+
+        *   https://easy-json-schema.github.io (1 input)
 
 
 ### XML
@@ -126,7 +157,7 @@ namespace Tests.CommonShared
     <Something>
         <DateOfBirth>2021-10-06T18:07:06.901969+02:00</DateOfBirth>
         <Name>something</Name>
-    </Something>   
+    </Something>
 ```
 
 ```xml
@@ -134,7 +165,7 @@ namespace Tests.CommonShared
     <root>
         <DateOfBirth>2021-10-06T18:07:06.901969+02:00</DateOfBirth>
         <Name>something</Name>
-    </root>   
+    </root>
 ```
 
 ```
@@ -156,7 +187,7 @@ public partial class Something
 
 ```
 XmlSerializer xs = new XmlSerializer
-(typeof(User), new XmlRootAttribute("yourRootName")); 
+(typeof(User), new XmlRootAttribute("yourRootName"));
 ```
 xsd
 
@@ -204,19 +235,19 @@ https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference
 *   code generation
 
     *   C#
-    
+
     *   other
-    
+
         using intermediate C#
-        
+
         *   Julia
-        
+
         *   R
-        
+
         *   Python
-        
+
         *   Matlab/Octave
-        
+
 ## C# POCO classes from formats
 
 
@@ -225,7 +256,7 @@ https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference
 JSON to JSON Schema
 
 *   NJsonSchema
-    
+
     *   https://github.com/RicoSuter/NJsonSchema
 
         *   Applications which use the library:
@@ -247,7 +278,7 @@ JSON to JSON Schema
     *   https://elanderson.net/2019/11/using-nswag-to-generate-c-client-classes-for-asp-net-core-3/
 
 
-### XML 
+### XML
 
 *   https://github.com/mganss/XmlSchemaClassGenerator
 
@@ -260,17 +291,17 @@ JSON to JSON Schema
 
 1.  invoke `xsd.exe` programmatically by referencing it, which is available with .NET SDK:
 
-    *   http://msdn.microsoft.com/en-us/library/x6c1kb0s.aspx 
+    *   http://msdn.microsoft.com/en-us/library/x6c1kb0s.aspx
 
 2.  use built-in schema class in .NET
 
     *   XMLSchemaExporter
 
-        *   http://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlschemaexporter.aspx 
+        *   http://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlschemaexporter.aspx
 
     *   XML Schema Object Model
 
-        *   http://msdn.microsoft.com/en-us/library/bs8hh90b(v=VS.100).aspx 
+        *   http://msdn.microsoft.com/en-us/library/bs8hh90b(v=VS.100).aspx
 
     *   XML Schema Class
 
@@ -425,7 +456,7 @@ JSON to JSON Schema
 
     *   JSON
 
-        *   
+        *
 
 ## WebApi
 
