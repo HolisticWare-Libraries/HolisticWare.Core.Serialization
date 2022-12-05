@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <RootNamespace>Core.Serialization.Apache.Parquet</RootNamespace>
@@ -24,7 +24,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ML.Parquet" Version="0.18.0" />
     <PackageReference Include="Parquet.Net" Version="3.9.0" />
-    <PackageReference Include="ParquetSharp" Version="4.0.0" />
+    <PackageReference Include="ParquetSharp" Version="8.0.0" />
   </ItemGroup>
 
     <ItemGroup>

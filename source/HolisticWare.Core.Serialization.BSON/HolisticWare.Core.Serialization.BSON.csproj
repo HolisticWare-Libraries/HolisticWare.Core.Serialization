@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <RootNamespace>Core.Serialization.BSON</RootNamespace>
@@ -29,7 +29,7 @@
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
-      <PackageReference Include="MongoDB.Bson" Version="2.13.1" />
+      <PackageReference Include="MongoDB.Bson" Version="2.18.0" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />

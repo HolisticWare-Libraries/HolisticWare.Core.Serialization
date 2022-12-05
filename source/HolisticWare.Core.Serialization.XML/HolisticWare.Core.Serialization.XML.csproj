@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <RootNamespace>Core.Serialization.XML</RootNamespace>
@@ -37,7 +37,7 @@
       <PackageReference Include="XSerializer" Version="0.4.4" />
       <PackageReference Include="YAXLib" Version="3.0.1" />
       <PackageReference Include="SharpSerializer" Version="3.0.1" />
-      <PackageReference Include="ExtendedXmlSerializer" Version="3.7.5" />
+      <PackageReference Include="ExtendedXmlSerializer" Version="3.7.6" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
