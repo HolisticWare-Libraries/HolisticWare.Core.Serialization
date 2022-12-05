@@ -13,6 +13,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)XML\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)JSON\JSON_Deserialization_BuddyClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Something.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)JSON\Newtonsoft_Json.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)JSON\System_Text_Json.cs" />
