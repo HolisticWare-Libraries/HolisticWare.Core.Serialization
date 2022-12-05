@@ -1,6 +1,11 @@
 
 //---------------------------------------------------------------------------------------
 Task("nuget-pack")
+    .IsDependentOn ("nuget-pack-dotnet")
+    .IsDependentOn ("nuget-pack-msbuild")
+	;
+
+Task("nuget-pack-dotnet")
     .IsDependentOn ("libs")
     .Does
     (
@@ -14,32 +19,51 @@ Task("nuget-pack")
 			{
 				Information($"Project: 		{prj}");
 
-				MSBuild
-				(
-					prj,
-					configuration => 
-						configuration
-							.SetConfiguration("Release")
-							.WithTarget("Pack")
-							//.WithProperty("PackageVersion", NUGET_VERSION)
-							.WithProperty("PackageOutputPath", "../../output")
-				);
-
-				DotNetCorePack
+				DotNetPack
 				(
 					prj.ToString(),
-					new DotNetCorePackSettings
+					new DotNetPackSettings
 					{
 						Configuration = "Release",
-						OutputDirectory = "../../output/"
+						// PATH!!!!!!!!
+						OutputDirectory = "./output/dotnet-pack/"
 					}
 				);
 			}
-
-
 
             return;
         }
     );
 
+Task("nuget-pack-msbuild")
+    .IsDependentOn ("libs")
+    .Does
+    (
+        () =>
+        {
+			foreach(FilePath sln in LibrarySourceSolutions)
+			{
+				Information($"Solution: 	{sln}");
+			}
+			foreach(FilePath prj in LibrarySourceProjects)
+			{
+				Information($"Project: 		{prj}");
+
+				DotNetMSBuild
+				(
+					prj.ToString(),
+					new DotNetMSBuildSettings
+								{
+								}
+								.SetConfiguration("Release")
+								.WithTarget("Pack")
+								//.WithProperty("PackageVersion", NUGET_VERSION)
+								// PATH!!!!!!!!
+								.WithProperty("PackageOutputPath", "../../output/msbuild-pack/")
+				);
+			}
+
+            return;
+        }
+    );
 //---------------------------------------------------------------------------------------
