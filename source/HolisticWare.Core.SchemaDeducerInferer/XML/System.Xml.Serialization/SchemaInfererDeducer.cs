@@ -55,7 +55,7 @@ namespace Core.Serialization.SchemaInferenceDeduction.XML.System.Xml.Serializati
             global::System.Xml.XmlElement root = doc.DocumentElement;
 
             global::System.Xml.XmlReader reader = null;
-            reader = global::System.Xml.XmlReader.Create(new System.IO.StringReader(data));
+            reader = global::System.Xml.XmlReader.Create(new global::System.IO.StringReader(data));
             global::System.Xml.Schema.XmlSchemaSet schema_set = null;
             schema_set = new global::System.Xml.Schema.XmlSchemaSet();
             global::System.Xml.Schema.XmlSchemaInference schema_inferred = null;

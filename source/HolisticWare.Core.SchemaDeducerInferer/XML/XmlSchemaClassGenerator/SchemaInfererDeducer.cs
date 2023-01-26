@@ -27,6 +27,8 @@ namespace Core.Serialization.SchemaInferenceDeduction.XML.XmlSchemaClassGenerato
                                                                 string data
                                                             )
         {
+            global::System.Xml.Schema.XmlSchema schema = null;
+
             return
                 //(
                     schema
@@ -35,5 +37,9 @@ namespace Core.Serialization.SchemaInferenceDeduction.XML.XmlSchemaClassGenerato
                 ;
         }
 
+        string ISchemaInfererDeducer.InferDeduceSchema(string data)
+        {
+            throw new global::System.NotImplementedException();
+        }
     }
 }
