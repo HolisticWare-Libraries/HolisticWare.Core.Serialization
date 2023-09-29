@@ -5,12 +5,31 @@ using NJsonSchema;
 namespace Core.Serialization.SchemaInferenceDeduction.JSON
 {
     /// <summary>
+    /// SchemaInfererDeducer
     /// 
     /// </summary>
-    public class SchemaInfererDeducer
-                        :
-                        ISchemaInfererDeducer
+    public partial class
+                                        SchemaInfererDeducer
+                                        :
+                                        ISchemaInfererDeducer
     {
+        public
+            NJsonSchema.JsonSchema
+                                        InferDeduceSchemaAsync
+                                        (
+                                            string data
+                                        )
+        {
+            NJsonSchema.JsonSchema schema = NJsonSchema.JsonSchema.FromSampleJson(data);
+
+            schema = NJsonSchema.JsonSchema.FromJsonAsync();
+
+            NJsonSchema.JsonSchema schema1 = JsonSchema.FromSampleJson("...");
+            string schemaJson = schema1.ToJson();
+
+            return schema;
+        }
+
         public async
             Task
                 <
@@ -19,10 +38,10 @@ namespace Core.Serialization.SchemaInferenceDeduction.JSON
                     IEnumerable<NJsonSchema.CodeGeneration.CodeArtifact> types
                 )
                 >
-                                                InferDeduceSchema
-                                                            (
-                                                                string data
-                                                            )
+                                        InferDeduceSchemaAsync
+                                        (
+                                            string data
+                                        )
         {
             NJsonSchema.JsonSchema schema = await NJsonSchema.JsonSchema.FromJsonAsync(data);
 
@@ -37,20 +56,15 @@ namespace Core.Serialization.SchemaInferenceDeduction.JSON
 
         private
             IEnumerable<NJsonSchema.CodeGeneration.CodeArtifact>
-                                                GenerateTypes
-                                                            (
-                                                                JsonSchema schema
-                                                            )
+                                        GenerateTypes
+                                        (
+                                            JsonSchema schema
+                                        )
         {
             NJsonSchema.CodeGeneration.CSharp.CSharpGenerator generator = null;
             generator = new NJsonSchema.CodeGeneration.CSharp.CSharpGenerator(schema);
 
             return generator.GenerateTypes();
-        }
-
-        string ISchemaInfererDeducer.InferDeduceSchema(string data)
-        {
-            throw new System.NotImplementedException();
         }
     }
 }
