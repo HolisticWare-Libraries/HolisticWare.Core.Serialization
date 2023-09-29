@@ -3,10 +3,16 @@
 namespace Core.Serialization.SchemaInferenceDeduction
 {
     /// <summary>
-    /// 
+    /// ISchemaInfererDeducer.
     /// </summary>
-    public interface ISchemaInfererDeducer
+    public interface
+                                        ISchemaInfererDeducer
     {
-        string InferDeduceSchema(string data);
+        public
+            string
+                                        InferDeduceSchema
+                                        (
+                                            string data
+                                        );
     }
 }
