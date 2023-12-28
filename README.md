@@ -86,6 +86,11 @@ Terms:
             *   fork for nugets
 
                 *   https://github.com/HolisticWare/HolisticWare.SpanJson
+             
+*   `litJSON`
+
+   *   https://litjson.net/
+   
 
 #### Online Tools
 
