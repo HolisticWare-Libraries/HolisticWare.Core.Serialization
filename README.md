@@ -1,6 +1,10 @@
 # HolisticWare.Core.Serialization
 
-HolisticWare.Core.Serialization package with `Core.Serialization` namespace.
+readme.md
+
+*   package `HolisticWare.Core.Serialization`
+
+    *   namespace `Core.Serialization`
 
 Definition:
 
@@ -100,6 +104,10 @@ Terms:
     *   https://wtools.io/convert-json-to-csharp-class
 
     *   https://jsonutils.com/
+
+*   https://transform.tools/json-to-json-schema
+
+*   https://github.com/jsonsystems/public#cli
 
 #### References / Links
 
