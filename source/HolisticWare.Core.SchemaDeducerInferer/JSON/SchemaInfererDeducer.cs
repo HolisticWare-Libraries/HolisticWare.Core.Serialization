@@ -66,5 +66,10 @@ namespace Core.Serialization.SchemaInferenceDeduction.JSON
 
             return generator.GenerateTypes();
         }
+
+        public string InferDeduceSchema(string data)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

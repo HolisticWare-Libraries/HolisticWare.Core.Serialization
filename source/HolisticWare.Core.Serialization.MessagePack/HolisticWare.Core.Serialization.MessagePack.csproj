@@ -22,7 +22,7 @@
 
       
   <ItemGroup>
-    <PackageReference Include="MessagePack" Version="2.2.60" />
+    <PackageReference Include="MessagePack" Version="2.5.172" />
   </ItemGroup>
 
     <ItemGroup>

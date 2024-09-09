@@ -19,5 +19,15 @@
             HolisticWare.Core.Serialziation package
         </Description>
     </PropertyGroup>
+      
+    <ItemGroup>
+      <PackageReference Update="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" />
+      <PackageReference Update="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" />
+      <PackageReference Update="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" />
+      <PackageReference Update="Roslynator.Analyzers" Version="4.12.4" />
+      <PackageReference Update="Roslynator.CodeAnalysis.Analyzers" Version="4.12.4" />
+      <PackageReference Update="Roslynator.Formatting.Analyzers" Version="4.12.4" />
+      <PackageReference Update="AsyncFixer" Version="1.6.0" />
+    </ItemGroup>
 
 </Project>

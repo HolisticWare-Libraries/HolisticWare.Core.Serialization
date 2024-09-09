@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Nett" Version="0.15.0" />
-    <PackageReference Include="Carbon.Toml" Version="0.20.1" />
+    <PackageReference Include="Carbon.Toml" Version="0.23.0" />
     <PackageReference Include="Flxble.Toml" Version="1.0.3505.14949" />
     <!--
     <PackageReference Include="Logary.TOML" Version="3.6.1" />
