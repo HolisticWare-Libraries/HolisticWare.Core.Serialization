@@ -96,7 +96,11 @@ Terms:
    *   https://litjson.net/
    
 
-#### Online Tools
+#### JSON Schema
+
+*   https://github.com/dansiegel/Mobile.BuildTools/blob/master/tools/Mobile.BuildTools.SchemaGenerator/Program.cs#L34-L45
+
+## Online Tools
 
 *   JSON to C#
 
