@@ -241,6 +241,10 @@ https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference
 
 *   https://en.wikipedia.org/wiki/Recfiles
 
+### INI 
+
+*   https://www.codeproject.com/Articles/5387487/Csharp-INI-File-Parser
+
 ### SOAP
 
 ### OData
@@ -501,6 +505,4 @@ JSON to JSON Schema
 *   http://www.iana.org/assignments/media-types/media-types.xhtml
 
 *   https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.M1/reference/html/contenttypemanagement.html#mime-types
-
-
 
