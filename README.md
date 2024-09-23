@@ -46,9 +46,15 @@ Terms:
 
 *   `Newtonsoft.Json`
 
-*   `fastJSON`
+*   `fastJSON` `PowerJSON`
 
     *   https://github.com/mgholam/fastJSON
+
+        *   https://github.com/kamranayub/fastJSON
+
+        *   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
+
+        *   https://github.com/chuxuantinh/PowerJSON
 
 *   `NetJSON`
 
@@ -362,6 +368,29 @@ JSON to JSON Schema
 
     *   https://github.com/fiyazbinhasan/CoreFormatters
 
+### HyperSerializer
+
+*   https://github.com/adam-dot-cohen/HyperSerializer
+
+### Apex.Serialization
+
+*   https://github.com/dbolin/Apex.Serialization
+
+    *   Tips for best performance
+
+        *   Use sealed type declarations when possible - this allows the serializer to skip writing any type information
+
+        *   Create empty constructors (or constructors that assign to every field from parameters matching the field types) for classes that will be serialized/deserialized a lot (only helps if there's no inline field initialization as well)
+
+        *   Use different serializer instances for different workloads (e.g. one for serializing a few objects at a time and one for large graphs), and pool serializer instances
+
+        *   Don't inherit from standard collections
+
+*   https://github.com/Alois-xx/SerializerTests/pull/9/files
+
+```
+    <PackageReference Include="Apex.Serialization" Version="1.0.0" />
+```
 
 ### protobuf
 
@@ -398,7 +427,24 @@ JSON to JSON Schema
 
 *   https://github.com/neuecc/MessagePack-CSharp#high-level-api-messagepackserializer
 
+*   variable length
 
+*   adopted by Microsoft standard products such as 
+
+    *   Visual Studio 2022, 
+    
+    *   SignalR MessagePack Hub Protocol, and 
+    
+    *   the Blazor Server protocol(blazorpack).
+
+### MemoryPack
+
+*   https://github.com/Cysharp/MemoryPack
+
+    *   faster than `MessagePack` for C#/.NET only environments
+
+*   fixed length (zero formatter)
+*   https://neuecc.medium.com/how-to-make-the-fastest-net-serializer-with-net-7-c-11-case-of-memorypack-ad28c0366516
 
 ### ZeroFormatter
 
@@ -406,9 +452,14 @@ JSON to JSON Schema
 
 ### flatbuffers
 
+*   https://github.com/google/flatbuffers
+
+    *   https://www.nuget.org/packages/Google.FlatBuffers
+
 *   https://github.com/jamescourtney/FlatSharp
 
 *   https://google.github.io/flatbuffers/flatbuffers_guide_use_c-sharp.html
+
 
 *   FBS schema file
 
@@ -536,3 +587,9 @@ JSON to JSON Schema
 
 *   https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.M1/reference/html/contenttypemanagement.html#mime-types
 
+
+### tests
+
+*   https://github.com/Alois-xx/SerializerTests
+
+*   https://github.com/neuecc/SerializerTests
