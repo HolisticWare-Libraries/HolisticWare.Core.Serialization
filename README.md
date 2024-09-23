@@ -145,6 +145,26 @@ Terms:
 
 ### XML
 
+*   https://www.reddit.com/r/csharp/comments/s8wky4/which_xml_parser_should_i_use/
+
+*   `XmlDocument`
+
+    is focused on full, piece-by-piece XML DOM control. Use this if you need to inspect or edit the DOM with extreme precision. It uses XmlNode objects as a generic container for the XML elements, attributes, and contents. XPath queries can be used with this.
+
+*   `XDocument` 
+
+    is geared toward LINQ usage. Use this if you need to retrieve or edit entire sets of data within an XML document based on filters. It, too, uses a generic XML node representation. XPath queries can be used with this.
+
+*   `XmlSerializer` 
+
+    is used to convert between XML-formatted text and C# objects. If you have POCOs you need to map from/to XML, use this.
+
+*   `XmlReader` 
+
+    is an XML-aware stream reader that gets used by the serializer and other tools. Use this if you need to just ferry XML blobs between files and other sources/consumers.
+
+Which one you use is really up to you. Underneath it all, they're all mostly the same, and are intertwined with each other.
+
 ```csharp
 namespace Tests.CommonShared
 {
@@ -206,20 +226,26 @@ public partial class Something
 XmlSerializer xs = new XmlSerializer
 (typeof(User), new XmlRootAttribute("yourRootName"));
 ```
-xsd
 
-https://stackoverflow.com/questions/3680353/how-do-i-programmatically-generate-an-xml-schema-from-a-type/
+#### `xsd`
 
-http://mikehadlow.blogspot.com/2007/01/writing-your-own-xsdexe.html
+*   https://stackoverflow.com/questions/3680353/how-do-i-programmatically-generate-an-xml-schema-from-a-type/
 
-XmlCodeExporter
+*   http://mikehadlow.blogspot.com/2007/01/writing-your-own-xsdexe.html
 
-https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlcodeexporter?redirectedfrom=MSDN&view=netframework-4.8
+*   `XmlCodeExporter`
 
-XmlSchemaInference
+    *   https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlcodeexporter?redirectedfrom=MSDN&view=netframework-4.8
 
-https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference?view=net-5.0
+#### `XmlSchemaInference`
 
+*   https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference?view=net-5.0
+
+#### Alternatives
+
+*   https://github.com/ZingBallyhoo/StackXML
+
+*   https://neuecc.medium.com/how-to-make-the-fastest-net-serializer-with-net-7-c-11-case-of-memorypack-ad28c0366516
 
 ### YAML
 
@@ -372,6 +398,8 @@ JSON to JSON Schema
 
 *   https://github.com/neuecc/MessagePack-CSharp#high-level-api-messagepackserializer
 
+
+
 ### ZeroFormatter
 
 *   https://github.com/neuecc/ZeroFormatter/
@@ -445,6 +473,8 @@ JSON to JSON Schema
         *   https://github.com/Kentico/kontent-delivery-sdk-net/wiki/Partial-class-customization-techniques
 
 ## Performance
+
+### `System.Text.Json`
 
 *   https://blog.fractalia.se/blog/keeping-system-text-json-lean/
 
