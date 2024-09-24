@@ -32,6 +32,12 @@ Terms:
 
 ## References / Links
 
+*   https://github.com/AoxeTech/Aoxe.Serialization
+
+*   https://github.com/StoyanShopov/XmlFacade/
+
+*   https://github.com/Marvin-Brouwer/FluentSerializer
+
 *   https://github.com/khalidabuhakmeh/conversions
 
     *   https://khalidabuhakmeh.com/convert-a-csharp-object-to-almost-any-format
@@ -232,6 +238,53 @@ public partial class Something
 XmlSerializer xs = new XmlSerializer
 (typeof(User), new XmlRootAttribute("yourRootName"));
 ```
+
+
+PerfXml
+
+    https://github.com/CoderWeather/PerfXml
+
+        https://www.nuget.org/packages/PerfXml
+
+ExtendedXmlSerializer
+
+    https://github.com/ExtendedXmlSerializer/home
+
+NetBike.Xml
+
+    https://github.com/netbike/netbike.xml
+
+https://github.com/JonCanning/CerealBox
+
+YAXLib
+
+    https://github.com/YAXLib/YAXLib
+
+SharpSerializer
+
+    https://github.com/polenter/SharpSerializer
+    
+        https://www.sharpserializer.net/en/index.html
+
+Bender
+
+    https://github.com/mikeobrien/Bender
+
+XSerializer
+
+    https://github.com/bfriesen/XSerializer
+
+AtlasXmlSerializer
+
+    https://github.com/Atlas-Project/AtlasXmlSerializer
+
+https://github.com/tangdf/FastXmlSerialization
+
+https://github.com/leonbreedt/xmapper
+
+https://www.erikthecoder.net/2019/08/02/xml-parsing-performance-csharp-versus-go/
+
+https://www.reddit.com/r/csharp/comments/drz89h/i_made_binarypack_the_fastest_and_most_efficient/
 
 #### `xsd`
 
