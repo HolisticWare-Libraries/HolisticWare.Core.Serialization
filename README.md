@@ -44,6 +44,175 @@ Terms:
 
 ## Formats
 
+## Binary
+
+### MemoryPack
+
+*   https://github.com/Cysharp/MemoryPack
+
+    *   faster than `MessagePack` for C#/.NET only environments
+
+*   fixed length (zero formatter)
+
+*   https://neuecc.medium.com/how-to-make-the-fastest-net-serializer-with-net-7-c-11-case-of-memorypack-ad28c0366516
+
+### MessagePack
+
+*   https://github.com/neuecc/MessagePack-CSharp
+
+*   https://github.com/neuecc/MessagePack-CSharp#high-level-api-messagepackserializer
+
+*   variable length
+
+*   adopted by Microsoft standard products such as 
+
+    *   Visual Studio 2022, 
+    
+    *   SignalR MessagePack Hub Protocol, and 
+    
+    *   the Blazor Server protocol(blazorpack).
+
+*   https://github.com/akkadotnet/Akka.Serialization.MessagePack
+
+### protobuf
+
+*   https://developers.google.com/protocol-buffers/docs/csharptutorial
+
+*   https://developers.google.com/protocol-buffers/docs/reference/csharp-generated
+
+*   https://docs.microsoft.com/en-us/aspnet/core/grpc/protobuf?view=aspnetcore-5.0
+
+*   https://docs.microsoft.com/en-us/aspnet/core/grpc/basics?view=aspnetcore-5.0
+
+*   https://github.com/protobuf-net/protobuf-net#1-first-decorate-your-classes
+
+*   https://github.com/protobuf-net/protobuf-net/wiki/Attributes
+
+### bond
+
+*   http://microsoft.github.io/bond/manual/bond_cs.html#attributes
+
+*   http://microsoft.github.io/bond/manual/bond_over_grpc.html
+
+*   https://microsoft.github.io/bond/why_bond.html
+
+*   https://stackoverflow.com/questions/39571388/using-microsoft-bond-in-a-c-sharp-project
+
+*   https://github.com/microsoft/bond
+
+*   https://github.com/jterry75/Bond-ASP.NET-Core-Formatters/tree/master/test/Bond.AspNetCore.Mvc.Formatters.Tests
+
+### flatbuffers
+
+*   https://github.com/google/flatbuffers
+
+    *   https://www.nuget.org/packages/Google.FlatBuffers
+
+*   https://github.com/jamescourtney/FlatSharp
+
+*   https://google.github.io/flatbuffers/flatbuffers_guide_use_c-sharp.html
+
+
+*   FBS schema file
+
+    *   https://github.com/jamescourtney/FlatSharp/blob/master/samples/Example2-SchemaFiles/SchemaFilesExample.fbs
+
+*   https://medium.com/@icex33/beyond-json-introduction-to-flatbuffers-fba1dfd0dcfe
+
+### BinaryPack
+
+*   https://github.com/Sergio0694/BinaryPack
+
+*   https://github.com/SubnauticaNitrox/BinaryPack
+
+### avro
+
+*   https://github.com/AdrianStrugala/AvroConvert
+
+*   https://engineering.chrobinson.com/dotnet-avro/guides/cli-generate/
+
+*   https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractattribute?view=net-5.0
+
+*   https://github.com/apache/avro/pulls?q=is%3Apr+moljac+is%3Aclosed
+
+*   https://github.com/apache/avro/pull/307
+
+### thrift
+
+*   https://livebook.manning.com/book/programmers-guide-to-apache-thrift/chapter-13/86
+
+*   http://www.alternatestack.com/uncategorized/apache-thrift-and-its-usage-in-c/
+
+*   https://github.com/sivabudh/thrifly
+
+*   https://dev.to/jeikabu/migrating-to-aspnet-core-w-apache-thrift-45f6
+
+*   https://thrift.apache.org/tutorial/netstd
+
+### MessageShark
+
+*   https://github.com/rpgmaker/MessageShark
+
+*   https://github.com/rpgmaker/MessageShark/blob/master/Samples/MessageShark.Samples.ProtoBufVsMessageShark/MessageShark.Samples.ProtoBufVsMessageShark/SimpleObject.cs
+
+### ZeroFormatter
+
+*   https://github.com/neuecc/ZeroFormatter/
+
+### Binaron
+
+*   https://github.com/zachsaw/Binaron.Serializer
+
+*   https://github.com/salarcode/Bois
+
+### Hyperion
+
+*   https://github.com/akkadotnet/Hyperion
+
+### bebop
+
+*   https://github.com/betwixt-labs/bebop
+
+### netserializer
+
+*   https://github.com/tomba/netserializer
+
+### Wire
+
+*   https://github.com/asynkron/Wire
+
+### Apex.Serialization
+
+*   https://github.com/dbolin/Apex.Serialization
+
+### BinarySerializer
+
+*   https://github.com/jefffhaynes/BinarySerializer
+
+### Combined
+
+*   https://github.com/bfriesen/XSerializer/tree/master
+
+*   https://github.com/AoxeTech/Aoxe.Serialization
+
+#### Bender
+
+*   https://github.com/mikeobrien/Bender
+
+
+
+https://github.com/xfrogcn/Xfrogcn.BinaryFormatter
+
+
+*   https://github.com/Mallos/Mallos.Serialization
+
+https://github.com/ReubenBond/Hagar
+
+https://github.com/skbkontur/GroBuf
+
+
+## Textual
+
 ### JSON
 
 *   `System.Text.Json`
@@ -107,6 +276,17 @@ Terms:
 
    *   https://litjson.net/
    
+*   `Swifter.Json`
+
+    *   https://github.com/Dogwei/Swifter.Json
+
+*   `jsonfx`
+
+    https://github.com/jsonfx/jsonfx
+
+*   https://github.com/gregsdennis/Manatee.Json
+
+*   https://github.com/libla/TinyJSON
 
 #### JSON Schema
 
@@ -132,6 +312,9 @@ Terms:
 
 #### References / Links
 
+
+#### Benchmarks
+
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
 
 *   https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
@@ -144,6 +327,8 @@ Terms:
 
 *   https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
 
+*   https://github.com/maximn/SerializationPerformanceTest_CSharp
+
 *   JSON schema generators proposed so far:
 
     *   Online:
@@ -154,6 +339,9 @@ Terms:
 
         *   https://easy-json-schema.github.io (1 input)
 
+*   https://github.com/Alois-xx/SerializerTests
+
+*   https://github.com/Im5tu/SerializationBenchmarks
 
 ### XML
 
@@ -240,11 +428,11 @@ XmlSerializer xs = new XmlSerializer
 ```
 
 
-PerfXml
+*   PerfXml
 
-    https://github.com/CoderWeather/PerfXml
+    *   https://github.com/CoderWeather/PerfXml
 
-        https://www.nuget.org/packages/PerfXml
+        *   https://www.nuget.org/packages/PerfXml
 
 ExtendedXmlSerializer
 
@@ -266,17 +454,13 @@ SharpSerializer
     
         https://www.sharpserializer.net/en/index.html
 
-Bender
-
-    https://github.com/mikeobrien/Bender
-
 XSerializer
 
     https://github.com/bfriesen/XSerializer
 
-AtlasXmlSerializer
+*   AtlasXmlSerializer
 
-    https://github.com/Atlas-Project/AtlasXmlSerializer
+    *   https://github.com/Atlas-Project/AtlasXmlSerializer
 
 https://github.com/tangdf/FastXmlSerialization
 
@@ -330,11 +514,21 @@ https://www.reddit.com/r/csharp/comments/drz89h/i_made_binarypack_the_fastest_an
 
 *   https://www.codeproject.com/Articles/5387487/Csharp-INI-File-Parser
 
+
+### CSV
+
+*   https://github.com/kevin-montrose/Cesil
+
 ### SOAP
 
 ### OData
 
 ### BSON
+
+*   https://github.com/karlseguin/Metsys.Bson
+
+*   https://github.com/atheken/NoRM
+
 
 ## Code Generation
 
@@ -445,116 +639,16 @@ JSON to JSON Schema
     <PackageReference Include="Apex.Serialization" Version="1.0.0" />
 ```
 
-### protobuf
-
-*   https://developers.google.com/protocol-buffers/docs/csharptutorial
-
-*   https://developers.google.com/protocol-buffers/docs/reference/csharp-generated
-
-*   https://docs.microsoft.com/en-us/aspnet/core/grpc/protobuf?view=aspnetcore-5.0
-
-*   https://docs.microsoft.com/en-us/aspnet/core/grpc/basics?view=aspnetcore-5.0
-
-*   https://github.com/protobuf-net/protobuf-net#1-first-decorate-your-classes
-
-*   https://github.com/protobuf-net/protobuf-net/wiki/Attributes
-
-
-### bond
-
-*   http://microsoft.github.io/bond/manual/bond_cs.html#attributes
-
-*   http://microsoft.github.io/bond/manual/bond_over_grpc.html
-
-*   https://microsoft.github.io/bond/why_bond.html
-
-*   https://stackoverflow.com/questions/39571388/using-microsoft-bond-in-a-c-sharp-project
-
-*   https://github.com/microsoft/bond
-
-*   https://github.com/jterry75/Bond-ASP.NET-Core-Formatters/tree/master/test/Bond.AspNetCore.Mvc.Formatters.Tests
-
-### MessagePack
-
-*   https://github.com/neuecc/MessagePack-CSharp
-
-*   https://github.com/neuecc/MessagePack-CSharp#high-level-api-messagepackserializer
-
-*   variable length
-
-*   adopted by Microsoft standard products such as 
-
-    *   Visual Studio 2022, 
-    
-    *   SignalR MessagePack Hub Protocol, and 
-    
-    *   the Blazor Server protocol(blazorpack).
-
-### MemoryPack
-
-*   https://github.com/Cysharp/MemoryPack
-
-    *   faster than `MessagePack` for C#/.NET only environments
-
-*   fixed length (zero formatter)
-*   https://neuecc.medium.com/how-to-make-the-fastest-net-serializer-with-net-7-c-11-case-of-memorypack-ad28c0366516
-
-### ZeroFormatter
-
-*   https://github.com/neuecc/ZeroFormatter/
-
-### flatbuffers
-
-*   https://github.com/google/flatbuffers
-
-    *   https://www.nuget.org/packages/Google.FlatBuffers
-
-*   https://github.com/jamescourtney/FlatSharp
-
-*   https://google.github.io/flatbuffers/flatbuffers_guide_use_c-sharp.html
-
-
-*   FBS schema file
-
-    *   https://github.com/jamescourtney/FlatSharp/blob/master/samples/Example2-SchemaFiles/SchemaFilesExample.fbs
-
-*   https://medium.com/@icex33/beyond-json-introduction-to-flatbuffers-fba1dfd0dcfe
-
-
-### avro
-
-*   https://engineering.chrobinson.com/dotnet-avro/guides/cli-generate/
-
-*   https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractattribute?view=net-5.0
-
-*   https://github.com/apache/avro/pulls?q=is%3Apr+moljac+is%3Aclosed
-
-*   https://github.com/apache/avro/pull/307
-
-
-### thrift
-
-*   https://livebook.manning.com/book/programmers-guide-to-apache-thrift/chapter-13/86
-
-*   http://www.alternatestack.com/uncategorized/apache-thrift-and-its-usage-in-c/
-
-*   https://github.com/sivabudh/thrifly
-
-*   https://dev.to/jeikabu/migrating-to-aspnet-core-w-apache-thrift-45f6
-
-*   https://thrift.apache.org/tutorial/netstd
-
-### MessageShark
-
-*   https://github.com/rpgmaker/MessageShark
-
-*   https://github.com/rpgmaker/MessageShark/blob/master/Samples/MessageShark.Samples.ProtoBufVsMessageShark/MessageShark.Samples.ProtoBufVsMessageShark/SimpleObject.cs
 
 ### INI file
 
 *   https://www.codeproject.com/Tips/5319923/IniReader-A-Simple-Tiny-INI-Reader
 
+### Microformats
 
+#### vCards
+
+*   https://github.com/mixerp/MixERP.Net.VCards
 
 ## Diverse
 
