@@ -9,7 +9,7 @@
         <!--
         There is no nuget
         -->
-        <PackageReference Include="HolisticWare.StackXml" Version="0.0.1-alpha-202409242242" />
+        <PackageReference Include="HolisticWare.StackXml" Version="0.0.1-alpha-202409272206" />
     </ItemGroup>
 
     <ItemGroup>
