@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 using NetBike.Xml;
 
-namespace Core.Serialization.Text.XML.HolisticWare.NetBike.Xml;
+namespace Core.Serialization.Text.XML.NetBike.Xml;
 
 /// <summary>
 /// XML class for serialization/deserialization with System.Xml.Serialization.XmlSerializer
