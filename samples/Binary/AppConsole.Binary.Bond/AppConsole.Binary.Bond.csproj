@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!--
+        https://stackoverflow.com/questions/39571388/using-microsoft-bond-in-a-c-sharp-project
+        https://microsoft.github.io/bond/manual/compiler.html
+        -->
+        <PackageReference Include="Bond.CSharp" Version="11.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!--
+        <BondCodegen Include="Record.bond" />
+        -->
+    </ItemGroup>
+</Project>
