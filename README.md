@@ -44,9 +44,9 @@ Terms:
 
 ## Formats
 
-## Binary
+### Binary
 
-### MemoryPack
+#### MemoryPack
 
 *   https://github.com/Cysharp/MemoryPack
 
@@ -56,7 +56,7 @@ Terms:
 
 *   https://neuecc.medium.com/how-to-make-the-fastest-net-serializer-with-net-7-c-11-case-of-memorypack-ad28c0366516
 
-### MessagePack
+#### MessagePack
 
 *   https://github.com/neuecc/MessagePack-CSharp
 
@@ -74,7 +74,17 @@ Terms:
 
 *   https://github.com/akkadotnet/Akka.Serialization.MessagePack
 
-### protobuf
+#### MessageShark
+
+*   https://github.com/rpgmaker/MessageShark
+
+*   https://github.com/rpgmaker/MessageShark/blob/master/Samples/MessageShark.Samples.ProtoBufVsMessageShark/MessageShark.Samples.ProtoBufVsMessageShark/SimpleObject.cs
+
+#### ZeroFormatter
+
+*   https://github.com/neuecc/ZeroFormatter/
+
+#### protobuf
 
 *   https://developers.google.com/protocol-buffers/docs/csharptutorial
 
@@ -88,7 +98,7 @@ Terms:
 
 *   https://github.com/protobuf-net/protobuf-net/wiki/Attributes
 
-### bond
+#### bond
 
 *   http://microsoft.github.io/bond/manual/bond_cs.html#attributes
 
@@ -102,7 +112,7 @@ Terms:
 
 *   https://github.com/jterry75/Bond-ASP.NET-Core-Formatters/tree/master/test/Bond.AspNetCore.Mvc.Formatters.Tests
 
-### flatbuffers
+#### flatbuffers
 
 *   https://github.com/google/flatbuffers
 
@@ -119,13 +129,17 @@ Terms:
 
 *   https://medium.com/@icex33/beyond-json-introduction-to-flatbuffers-fba1dfd0dcfe
 
-### BinaryPack
+#### BinaryPack
 
 *   https://github.com/Sergio0694/BinaryPack
 
 *   https://github.com/SubnauticaNitrox/BinaryPack
 
-### avro
+##### References
+
+*   https://www.reddit.com/r/csharp/comments/drz89h/i_made_binarypack_the_fastest_and_most_efficient/
+
+#### avro
 
 *   https://github.com/AdrianStrugala/AvroConvert
 
@@ -137,7 +151,7 @@ Terms:
 
 *   https://github.com/apache/avro/pull/307
 
-### thrift
+#### thrift
 
 *   https://livebook.manning.com/book/programmers-guide-to-apache-thrift/chapter-13/86
 
@@ -149,43 +163,33 @@ Terms:
 
 *   https://thrift.apache.org/tutorial/netstd
 
-### MessageShark
-
-*   https://github.com/rpgmaker/MessageShark
-
-*   https://github.com/rpgmaker/MessageShark/blob/master/Samples/MessageShark.Samples.ProtoBufVsMessageShark/MessageShark.Samples.ProtoBufVsMessageShark/SimpleObject.cs
-
-### ZeroFormatter
-
-*   https://github.com/neuecc/ZeroFormatter/
-
-### Binaron
+#### Binaron
 
 *   https://github.com/zachsaw/Binaron.Serializer
 
 *   https://github.com/salarcode/Bois
 
-### Hyperion
+#### Hyperion
 
 *   https://github.com/akkadotnet/Hyperion
 
-### bebop
+#### bebop
 
 *   https://github.com/betwixt-labs/bebop
 
-### netserializer
+#### netserializer
 
 *   https://github.com/tomba/netserializer
 
-### Wire
+#### Wire
 
 *   https://github.com/asynkron/Wire
 
-### Apex.Serialization
+#### Apex.Serialization
 
 *   https://github.com/dbolin/Apex.Serialization
 
-### BinarySerializer
+#### BinarySerializer
 
 *   https://github.com/jefffhaynes/BinarySerializer
 
@@ -195,25 +199,32 @@ Terms:
 
 *   https://github.com/AoxeTech/Aoxe.Serialization
 
+*   XSerializer
+
+    *   https://github.com/bfriesen/XSerializer
+
+
+
 #### Bender
 
 *   https://github.com/mikeobrien/Bender
 
-
+####
 
 https://github.com/xfrogcn/Xfrogcn.BinaryFormatter
 
+####
 
 *   https://github.com/Mallos/Mallos.Serialization
 
-https://github.com/ReubenBond/Hagar
+*   https://github.com/ReubenBond/Hagar
 
-https://github.com/skbkontur/GroBuf
+*   https://github.com/skbkontur/GroBuf
 
 
-## Textual
+## Textual - Human Readable
 
-### JSON
+#### JSON
 
 *   `System.Text.Json`
 
@@ -288,62 +299,12 @@ https://github.com/skbkontur/GroBuf
 
 *   https://github.com/libla/TinyJSON
 
-#### JSON Schema
+##### JSON Schema
 
 *   https://github.com/dansiegel/Mobile.BuildTools/blob/master/tools/Mobile.BuildTools.SchemaGenerator/Program.cs#L34-L45
 
-## Online Tools
 
-*   JSON to C#
-
-    *   https://json2csharp.com/
-
-    *   https://app.quicktype.io/?l=csharp
-
-    *   https://www.site24x7.com/tools/json-to-csharp.html
-
-    *   https://wtools.io/convert-json-to-csharp-class
-
-    *   https://jsonutils.com/
-
-*   https://transform.tools/json-to-json-schema
-
-*   https://github.com/jsonsystems/public#cli
-
-#### References / Links
-
-
-#### Benchmarks
-
-*   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
-
-*   https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
-
-*   https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
-
-*   https://theburningmonk.com/2014/08/json-serializers-benchmarks-updated-2/
-
-*   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
-
-*   https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
-
-*   https://github.com/maximn/SerializationPerformanceTest_CSharp
-
-*   JSON schema generators proposed so far:
-
-    *   Online:
-
-        *   https://www.liquid-technologies.com/online-json-to-schema-converter
-
-        *   http://www.jsonschema.net (1 input)
-
-        *   https://easy-json-schema.github.io (1 input)
-
-*   https://github.com/Alois-xx/SerializerTests
-
-*   https://github.com/Im5tu/SerializationBenchmarks
-
-### XML
+#### XML
 
 *   https://www.reddit.com/r/csharp/comments/s8wky4/which_xml_parser_should_i_use/
 
@@ -428,47 +389,43 @@ XmlSerializer xs = new XmlSerializer
 ```
 
 
+*   YAXLib
+
+    *   https://github.com/YAXLib/YAXLib
+
+*   NetBike.Xml
+
+    *   https://github.com/netbike/netbike.xml
+
 *   PerfXml
 
     *   https://github.com/CoderWeather/PerfXml
 
         *   https://www.nuget.org/packages/PerfXml
 
-ExtendedXmlSerializer
+*   https://github.com/tangdf/FastXmlSerialization
 
-    https://github.com/ExtendedXmlSerializer/home
+*   https://github.com/leonbreedt/xmapper
 
-NetBike.Xml
+*   ExtendedXmlSerializer
 
-    https://github.com/netbike/netbike.xml
+    *   https://github.com/ExtendedXmlSerializer/home
 
-https://github.com/JonCanning/CerealBox
+*   SharpSerializer
 
-YAXLib
-
-    https://github.com/YAXLib/YAXLib
-
-SharpSerializer
-
-    https://github.com/polenter/SharpSerializer
+    *   https://github.com/polenter/SharpSerializer
     
-        https://www.sharpserializer.net/en/index.html
-
-XSerializer
-
-    https://github.com/bfriesen/XSerializer
+        *   https://www.sharpserializer.net/en/index.html
 
 *   AtlasXmlSerializer
 
     *   https://github.com/Atlas-Project/AtlasXmlSerializer
 
-https://github.com/tangdf/FastXmlSerialization
+*   https://github.com/JonCanning/CerealBox
 
-https://github.com/leonbreedt/xmapper
+##### Performance
 
-https://www.erikthecoder.net/2019/08/02/xml-parsing-performance-csharp-versus-go/
-
-https://www.reddit.com/r/csharp/comments/drz89h/i_made_binarypack_the_fastest_and_most_efficient/
+*   https://www.erikthecoder.net/2019/08/02/xml-parsing-performance-csharp-versus-go/
 
 #### `xsd`
 
@@ -528,6 +485,58 @@ https://www.reddit.com/r/csharp/comments/drz89h/i_made_binarypack_the_fastest_an
 *   https://github.com/karlseguin/Metsys.Bson
 
 *   https://github.com/atheken/NoRM
+
+
+## Online Tools
+
+*   JSON to C#
+
+    *   https://json2csharp.com/
+
+    *   https://app.quicktype.io/?l=csharp
+
+    *   https://www.site24x7.com/tools/json-to-csharp.html
+
+    *   https://wtools.io/convert-json-to-csharp-class
+
+    *   https://jsonutils.com/
+
+*   https://transform.tools/json-to-json-schema
+
+*   https://github.com/jsonsystems/public#cli
+
+#### References / Links
+
+
+## Benchmarks
+
+*   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
+
+*   https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
+
+*   https://aloiskraus.wordpress.com/2019/09/29/net-serialization-benchmark-2019-roundup/
+
+*   https://theburningmonk.com/2014/08/json-serializers-benchmarks-updated-2/
+
+*   https://www.codeproject.com/Articles/159450/fastJSON-Smallest-Fastest-Polymorphic-JSON-Seriali
+
+*   https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
+
+*   https://github.com/maximn/SerializationPerformanceTest_CSharp
+
+*   JSON schema generators proposed so far:
+
+    *   Online:
+
+        *   https://www.liquid-technologies.com/online-json-to-schema-converter
+
+        *   http://www.jsonschema.net (1 input)
+
+        *   https://easy-json-schema.github.io (1 input)
+
+*   https://github.com/Alois-xx/SerializerTests
+
+*   https://github.com/Im5tu/SerializationBenchmarks
 
 
 ## Code Generation
