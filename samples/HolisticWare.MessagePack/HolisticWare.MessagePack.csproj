@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MessagePack" Version="2.5.172" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Ph4ct3x\HolisticWare.Ph4ct3x.csproj" />
+      <ProjectReference Include="..\OSV\OSV.csproj" />
+    </ItemGroup>
+
+</Project>
