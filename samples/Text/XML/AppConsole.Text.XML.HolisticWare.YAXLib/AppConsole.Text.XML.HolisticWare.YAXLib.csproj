@@ -9,14 +9,13 @@
     </PropertyGroup>
     
     <ItemGroup>
-      <PackageReference Include="ExtendedXmlSerializer" Version="3.7.18" />
-      <PackageReference Include="FlatSharp" Version="6.3.5" />
-    </ItemGroup>
-
-    <ItemGroup>
         <!--
         <ProjectReference Include="..\OSV\OSV.csproj" />
         -->
-        <ProjectReference Include="..\..\..\Maven.POM.ProjectObjectModel\Maven.POM.ProjectObjectModel.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="YAXLib" Version="4.3.0" />
+    </ItemGroup>
+
 </Project>

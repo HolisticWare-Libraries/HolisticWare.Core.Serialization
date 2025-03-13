@@ -9,14 +9,16 @@
     </PropertyGroup>
     
     <ItemGroup>
-      <PackageReference Include="ExtendedXmlSerializer" Version="3.7.18" />
-      <PackageReference Include="FlatSharp" Version="6.3.5" />
-    </ItemGroup>
-
-    <ItemGroup>
         <!--
         <ProjectReference Include="..\OSV\OSV.csproj" />
         -->
+    
+      <PackageReference Include="FlatSharp" Version="6.3.5" />
+    
+      <PackageReference Include="System.Runtime.Serialization.Xml" Version="4.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
         <ProjectReference Include="..\..\..\Maven.POM.ProjectObjectModel\Maven.POM.ProjectObjectModel.csproj" />
     </ItemGroup>
 </Project>

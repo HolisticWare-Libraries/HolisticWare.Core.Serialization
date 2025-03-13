@@ -6,7 +6,6 @@ serialization and deserialization
 */
 
 using AppConsole.Text.XML.Benchmarks;
-using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Reports;
 using BenchmarkDotNet.Running;
 

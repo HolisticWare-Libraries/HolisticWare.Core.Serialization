@@ -14,12 +14,22 @@ public static class CustomMessagePackSerializer
                                             .WithResolver(ContractlessStandardResolver.Instance)
                                             .WithCompression(MessagePackCompression.Lz4BlockArray);
 
-    public static byte[] Serialize<T>(T obj)
+    public static 
+        byte[]
+                                        Serialize<T>
+                                        (
+                                            T obj
+                                        )
     {
         return MessagePackSerializer.Serialize(obj, Options);
     }
 
-    public static T Deserialize<T>(byte[] data)
+    public static 
+        T
+                                        Deserialize<T>
+                                        (
+                                            byte[] data
+                                        )
     {
         return MessagePackSerializer.Deserialize<T>(data, Options);
     }
