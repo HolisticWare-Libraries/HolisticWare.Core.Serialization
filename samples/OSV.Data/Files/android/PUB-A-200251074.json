@@ -1,0 +1,52 @@
+{
+  "id": "PUB-A-200251074",
+  "summary": "Native crash - AID_ROOT - signal 11 (SIGSEGV)../wfc-pkt-router (delete_protocol)../wfc-pkt-router (io_reader)",
+  "details": "In delete_protocol of main.c, there is a possible arbitrary code execution due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-200251074",
+    "CVE-2021-39681"
+  ],
+  "modified": "2024-08-29T07:12:57.430258Z",
+  "published": "2022-01-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-01-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "sc-v2:0"
+            },
+            {
+              "fixed": "sc-v2:2022-01-05"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "sc-v2"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-01-05",
+        "severity": "Moderate",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-200251074.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

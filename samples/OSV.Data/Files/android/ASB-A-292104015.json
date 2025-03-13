@@ -1,0 +1,958 @@
+{
+  "id": "ASB-A-292104015",
+  "summary": "Dataset.mInlinePresentation` can contains cross user slice, which will lead to cross user image render",
+  "details": "In applyCustomDescription of SaveUi.java, there is a possible way to view images belonging to a different user due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-292104015",
+    "CVE-2024-0037"
+  ],
+  "modified": "2024-08-07T19:29:47.761269Z",
+  "published": "2024-02-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-02-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/bf7fbbccd920596e514d1559fb3feaca70e55e78"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/ed132ae5552fb7080e4c9f73ab32d42bccae7849"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14-next:0"
+            },
+            {
+              "fixed": "14-next:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14-next"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-7330bfa0",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/ed132ae5552fb7080e4c9f73ab32d42bccae7849",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-99ad82eb",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/ed132ae5552fb7080e4c9f73ab32d42bccae7849",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/ed132ae5552fb7080e4c9f73ab32d42bccae7849"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-018f5b79",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "112952464657230451295373430336711070277",
+                "213242121108263414533176388173764621",
+                "284941637186884576196230685734131204928",
+                "321634460043371652687586406768793962657",
+                "289366947562006151229857786952402180915",
+                "193943010465166432163737506361443001835",
+                "211838578195068104099508692525501844031",
+                "250169775779716262098479289038361735106",
+                "325377119551318670331077072736210979542",
+                "277591822674160709559676687053562326858",
+                "173131988331465702442932404114481572319",
+                "21486416942560900997186924977493908859",
+                "210725813622199945237354985780156527502",
+                "336903288044557023701705779291860779033",
+                "33379483823330199745001603645193499184"
+              ]
+            },
+            "id": "ASB-A-292104015-7cbfb0d2",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "200862853780378720348640037330789933907",
+                "17313944253611234045688364596866441050",
+                "285199099437841853788243777921881450983",
+                "99948937744765183478018849530354293151",
+                "109535534066620136114047541315525119830",
+                "39969641276167070584553621571552279175",
+                "273102936699452161018250453562184661223",
+                "336957761749332893969238411852890882197",
+                "129960398606289640900436180927353833227",
+                "237703053832879051061104204999411942989",
+                "163913456718500460619567237726221108710",
+                "207422323756427847318687779668421267848",
+                "90656393623779830526015349851986904249",
+                "136483317192978289448188539767753986557",
+                "162016040917808076471911659073216628590",
+                "58915646493387186588182974914160953951",
+                "248943584820202994872759346386167068984",
+                "260697254239794973846077706164223601082"
+              ]
+            },
+            "id": "ASB-A-292104015-855ccc08",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "11"
+            ],
+            "digest": {
+              "length": 348.0,
+              "function_hash": "153158990732941846506093926013815013472"
+            },
+            "id": "ASB-A-292104015-b7c7c171",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java",
+              "function": "renderSuggestion"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-bca05283",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 314.0,
+              "function_hash": "188489595388106952960806512309835331279"
+            },
+            "id": "ASB-A-292104015-edc4dc1f",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java",
+              "function": "checkRemoteViewUriPermissions"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/91fb94942778c8907575a0eed674187dde854a5b"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 314.0,
+              "function_hash": "188489595388106952960806512309835331279"
+            },
+            "id": "ASB-A-292104015-43ff7884",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java",
+              "function": "checkRemoteViewUriPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 348.0,
+              "function_hash": "153158990732941846506093926013815013472"
+            },
+            "id": "ASB-A-292104015-69978573",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java",
+              "function": "renderSuggestion"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-76439e00",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "112952464657230451295373430336711070277",
+                "213242121108263414533176388173764621",
+                "284941637186884576196230685734131204928",
+                "321634460043371652687586406768793962657",
+                "110285166450574441902084564330346162982",
+                "142548056876858934317447270565251659585",
+                "303175247934198869648397341081908772561",
+                "250169775779716262098479289038361735106",
+                "325377119551318670331077072736210979542",
+                "277591822674160709559676687053562326858",
+                "173131988331465702442932404114481572319",
+                "21486416942560900997186924977493908859",
+                "210725813622199945237354985780156527502",
+                "336903288044557023701705779291860779033",
+                "33379483823330199745001603645193499184"
+              ]
+            },
+            "id": "ASB-A-292104015-ad54f7ce",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-b7915e2d",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "200862853780378720348640037330789933907",
+                "17313944253611234045688364596866441050",
+                "285199099437841853788243777921881450983",
+                "99948937744765183478018849530354293151",
+                "109535534066620136114047541315525119830",
+                "39969641276167070584553621571552279175",
+                "273102936699452161018250453562184661223",
+                "336957761749332893969238411852890882197",
+                "129960398606289640900436180927353833227",
+                "237703053832879051061104204999411942989",
+                "163913456718500460619567237726221108710",
+                "207422323756427847318687779668421267848",
+                "90656393623779830526015349851986904249",
+                "319878405943239932225760530864971781909",
+                "333330205953434566825133141790243117107",
+                "58915646493387186588182974914160953951",
+                "248943584820202994872759346386167068984",
+                "260697254239794973846077706164223601082"
+              ]
+            },
+            "id": "ASB-A-292104015-cf2d9645",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/36875556fca3a0e9715d1cbd6cebff8e5720b2a0"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 348.0,
+              "function_hash": "153158990732941846506093926013815013472"
+            },
+            "id": "ASB-A-292104015-11eba817",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java",
+              "function": "renderSuggestion"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "112952464657230451295373430336711070277",
+                "213242121108263414533176388173764621",
+                "284941637186884576196230685734131204928",
+                "321634460043371652687586406768793962657",
+                "110285166450574441902084564330346162982",
+                "142548056876858934317447270565251659585",
+                "303175247934198869648397341081908772561",
+                "250169775779716262098479289038361735106",
+                "325377119551318670331077072736210979542",
+                "277591822674160709559676687053562326858",
+                "173131988331465702442932404114481572319",
+                "21486416942560900997186924977493908859",
+                "210725813622199945237354985780156527502",
+                "336903288044557023701705779291860779033",
+                "33379483823330199745001603645193499184"
+              ]
+            },
+            "id": "ASB-A-292104015-136cf0d5",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "200862853780378720348640037330789933907",
+                "17313944253611234045688364596866441050",
+                "285199099437841853788243777921881450983",
+                "99948937744765183478018849530354293151",
+                "109535534066620136114047541315525119830",
+                "39969641276167070584553621571552279175",
+                "273102936699452161018250453562184661223",
+                "336957761749332893969238411852890882197",
+                "129960398606289640900436180927353833227",
+                "237703053832879051061104204999411942989",
+                "163913456718500460619567237726221108710",
+                "207422323756427847318687779668421267848",
+                "90656393623779830526015349851986904249",
+                "319878405943239932225760530864971781909",
+                "333330205953434566825133141790243117107",
+                "58915646493387186588182974914160953951",
+                "248943584820202994872759346386167068984",
+                "260697254239794973846077706164223601082"
+              ]
+            },
+            "id": "ASB-A-292104015-23f3de4d",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-570af101",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-bf43137a",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 314.0,
+              "function_hash": "188489595388106952960806512309835331279"
+            },
+            "id": "ASB-A-292104015-e8e91a28",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java",
+              "function": "checkRemoteViewUriPermissions"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/c5846894b27b4a1d8e7753611352844f31679158"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-53299b71",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 348.0,
+              "function_hash": "153158990732941846506093926013815013472"
+            },
+            "id": "ASB-A-292104015-5769fb34",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java",
+              "function": "renderSuggestion"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "200862853780378720348640037330789933907",
+                "17313944253611234045688364596866441050",
+                "285199099437841853788243777921881450983",
+                "99948937744765183478018849530354293151",
+                "109535534066620136114047541315525119830",
+                "39969641276167070584553621571552279175",
+                "273102936699452161018250453562184661223",
+                "336957761749332893969238411852890882197",
+                "129960398606289640900436180927353833227",
+                "237703053832879051061104204999411942989",
+                "163913456718500460619567237726221108710",
+                "207422323756427847318687779668421267848",
+                "90656393623779830526015349851986904249",
+                "319878405943239932225760530864971781909",
+                "333330205953434566825133141790243117107",
+                "58915646493387186588182974914160953951",
+                "248943584820202994872759346386167068984",
+                "260697254239794973846077706164223601082"
+              ]
+            },
+            "id": "ASB-A-292104015-61660bac",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-660620fa",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 314.0,
+              "function_hash": "188489595388106952960806512309835331279"
+            },
+            "id": "ASB-A-292104015-ad8be912",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java",
+              "function": "checkRemoteViewUriPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "112952464657230451295373430336711070277",
+                "213242121108263414533176388173764621",
+                "284941637186884576196230685734131204928",
+                "321634460043371652687586406768793962657",
+                "110285166450574441902084564330346162982",
+                "142548056876858934317447270565251659585",
+                "303175247934198869648397341081908772561",
+                "250169775779716262098479289038361735106",
+                "325377119551318670331077072736210979542",
+                "277591822674160709559676687053562326858",
+                "173131988331465702442932404114481572319",
+                "21486416942560900997186924977493908859",
+                "210725813622199945237354985780156527502",
+                "336903288044557023701705779291860779033",
+                "33379483823330199745001603645193499184"
+              ]
+            },
+            "id": "ASB-A-292104015-de8f71ff",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/046cc236501e4f12bfc4a26948b5b6b76695afb9"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-02-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "200862853780378720348640037330789933907",
+                "17313944253611234045688364596866441050",
+                "285199099437841853788243777921881450983",
+                "99948937744765183478018849530354293151",
+                "109535534066620136114047541315525119830",
+                "39969641276167070584553621571552279175",
+                "273102936699452161018250453562184661223",
+                "336957761749332893969238411852890882197",
+                "129960398606289640900436180927353833227",
+                "237703053832879051061104204999411942989",
+                "163913456718500460619567237726221108710",
+                "207422323756427847318687779668421267848",
+                "90656393623779830526015349851986904249",
+                "5563047589043757462169386622850731423",
+                "143759379317545216397527536916097700704",
+                "189102626901464415316969655810919033406",
+                "245131540180806575368969544734024544462",
+                "159888205038063237398178461743637855398",
+                "67217958381954166457199508546200067698",
+                "240567232716717344909651784978029474606",
+                "286541530287770368649486844991579581516",
+                "166274331552122355056395927718241162762",
+                "137975847977573320425778059453991540263",
+                "132810242104132405657307340012094167302",
+                "183142955510329644846449222720220875517",
+                "333330205953434566825133141790243117107",
+                "58915646493387186588182974914160953951",
+                "248943584820202994872759346386167068984",
+                "260697254239794973846077706164223601082"
+              ]
+            },
+            "id": "ASB-A-292104015-8ab1cbcf",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 348.0,
+              "function_hash": "153158990732941846506093926013815013472"
+            },
+            "id": "ASB-A-292104015-9eef5516",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/RemoteInlineSuggestionViewConnector.java",
+              "function": "renderSuggestion"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "112952464657230451295373430336711070277",
+                "213242121108263414533176388173764621",
+                "131797680883177356094980231743236799214",
+                "13743237982565477192462131139233942864",
+                "220855508336303408398916928186082455251",
+                "329619481055895590037036631590622970823",
+                "142548056876858934317447270565251659585",
+                "303175247934198869648397341081908772561",
+                "250169775779716262098479289038361735106",
+                "325377119551318670331077072736210979542",
+                "277591822674160709559676687053562326858",
+                "173131988331465702442932404114481572319",
+                "21486416942560900997186924977493908859",
+                "210725813622199945237354985780156527502",
+                "336903288044557023701705779291860779033",
+                "33379483823330199745001603645193499184"
+              ]
+            },
+            "id": "ASB-A-292104015-b41df20a",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3718.0,
+              "function_hash": "146126191384554906066663087368571267907"
+            },
+            "id": "ASB-A-292104015-c6021f94",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java",
+              "function": "applyCustomDescription"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 314.0,
+              "function_hash": "188489595388106952960806512309835331279"
+            },
+            "id": "ASB-A-292104015-cc10c67e",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/Helper.java",
+              "function": "checkRemoteViewUriPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "286441232365397093711237365480635901637",
+                "50700799141270583952450401580627784040",
+                "214274456044980043678109479360566617655",
+                "324417098881712109557143259217049528559"
+              ]
+            },
+            "id": "ASB-A-292104015-e737c584",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/autofill/java/com/android/server/autofill/ui/SaveUi.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/df893defcf8cc6e1e223111e79ad3daf0ec7cd8b"
+        ],
+        "spl": "2024-02-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-292104015.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

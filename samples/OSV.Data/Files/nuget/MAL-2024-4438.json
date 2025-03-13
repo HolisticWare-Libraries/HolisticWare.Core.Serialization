@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-4438",
+  "summary": "Malicious code in CData.Snowflake.API (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:28:41Z",
+  "published": "2024-06-25T13:28:41Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:28:41Z",
+        "import_time": "2024-06-28T02:47:38.332087321Z",
+        "versions": [
+          "23.0.8669",
+          "23.0.8671",
+          "23.0.8670"
+        ],
+        "id": "RLMA-2024-03229",
+        "source": "reversing-labs",
+        "sha256": "b5083cff7035cd8e0780f5440a23217b2aeeab320b05d97efab4b1b19edd9218"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "CData.Snowflake.API",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/CData.Snowflake.API"
+      },
+      "versions": [
+        "23.0.8669",
+        "23.0.8671",
+        "23.0.8670"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/cdata.snowflake.api/MAL-2024-4438.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

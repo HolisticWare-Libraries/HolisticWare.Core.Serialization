@@ -1,0 +1,199 @@
+{
+  "id": "ASB-A-317048338",
+  "summary": "A bug in Notification class which can bypass of the restriction of starting activity from background due to token leak to uer process",
+  "details": "In onTransact of ParcelableListBinder.java , there is a possible way to steal mAllowlistToken to launch an app from background due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-317048338",
+    "CVE-2024-34723"
+  ],
+  "modified": "2024-08-07T19:29:29.821568Z",
+  "published": "2024-07-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-07-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/c702bb71811993960debe0c18fcf8834cfa2454f"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14-next:0"
+            },
+            {
+              "fixed": "14-next:2024-07-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/c5fc8ea92c0aabbb2fdccc23b743c18a8bf62e64"
+        ],
+        "spl": "2024-07-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-317048338.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-07-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/df3584bb93ab89d7e174f7d39e42d4b22cb92fe0"
+        ],
+        "spl": "2024-07-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-317048338.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-07-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/df3584bb93ab89d7e174f7d39e42d4b22cb92fe0"
+        ],
+        "spl": "2024-07-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-317048338.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-07-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/df3584bb93ab89d7e174f7d39e42d4b22cb92fe0"
+        ],
+        "spl": "2024-07-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-317048338.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-07-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/df3584bb93ab89d7e174f7d39e42d4b22cb92fe0"
+        ],
+        "spl": "2024-07-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-317048338.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

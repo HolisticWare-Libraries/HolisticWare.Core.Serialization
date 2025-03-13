@@ -1,0 +1,52 @@
+{
+  "id": "PUB-A-204421047",
+  "summary": "Crash in /apex/com.google.pixel.camera.hal/bin/hw/android.hardware.camera.provider@2.7-service-google,  HWAddressSanitizer: tag-mismatch on address 0x0040ad98f840 at pc 0x007e37dfe41c READ of size 8 at 0x0040ad98f840 tags: f0/04 (ptr/mem) in thread T324",
+  "details": "In HandleTransactionIoEvent of actuator_driver.cc, there is a possible out of bounds read due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-204421047",
+    "CVE-2021-39687"
+  ],
+  "modified": "2024-08-29T07:12:57.875532Z",
+  "published": "2022-02-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-02-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "Pixel-family specific:0"
+            },
+            {
+              "fixed": "Pixel-family specific:2022-02-05"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "Pixel-family specific"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-02-05",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-204421047.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

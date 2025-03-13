@@ -1,0 +1,309 @@
+{
+  "id": "ASB-A-324321147",
+  "summary": "Device administration API factory reset can be interrupted by an attacker with physical access (long-term fix)",
+  "details": "In rebootRecoveryWithCommand of RecoverySystemService.java, there is a possible way to bypass a factory reset due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-324321147",
+    "CVE-2024-32896"
+  ],
+  "modified": "2024-09-05T15:27:10.089292Z",
+  "published": "2024-09-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-09-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/sepolicy/+/92cbf8d4f18ccb2c488f50b7300bd6bfc33023aa"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/8b7b2c66ca96d711fb364cbcc9d655197d9743e0"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/build/soong",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/build/soong/+/c8170926f66853d4ff38e48c7af4ab9fdf0ae5ae"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/05b1440e06c84212b4353be7f5cbe97fd1bccafb"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/hardware/interfaces",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/hardware/interfaces/+/ea595e8e4f01272c0d2664bf7d7ec3710a697709"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/sepolicy",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/system/sepolicy/+/d157988ec5b5f057894fe7ff785f163291d9d767",
+          "https://android.googlesource.com/platform/system/sepolicy/+/ca6c75b9572904b0bd8f9d06c8aff2f85e73e30e"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/sepolicy",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/system/sepolicy/+/837b024352038cb552b7c2473bf0707345550b78"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/sepolicy",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/system/sepolicy/+/844c799e6091c23d1dec8dc1a57b1c5c0f9ff7da"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/sepolicy",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/system/sepolicy/+/72313f580e19af6fbbe95187881c4771a0f2416b"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/sepolicy",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/system/sepolicy/+/414d63d9d869912a12c23b19d273bccaa7b077d8"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-324321147.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

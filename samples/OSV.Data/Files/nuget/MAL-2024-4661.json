@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-4661",
+  "summary": "Malicious code in Stl.RestEase.Net (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:26Z",
+  "published": "2024-06-25T13:31:26Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:26Z",
+        "import_time": "2024-06-28T02:48:05.123666724Z",
+        "versions": [
+          "6.5.9",
+          "6.5.8"
+        ],
+        "id": "RLMA-2024-03452",
+        "source": "reversing-labs",
+        "sha256": "7d88b152b3b024b1e0da9f69b686ddefbac427735ab5b0cc72ee6052b51756f4"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Stl.RestEase.Net",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Stl.RestEase.Net"
+      },
+      "versions": [
+        "6.5.9",
+        "6.5.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/stl.restease.net/MAL-2024-4661.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

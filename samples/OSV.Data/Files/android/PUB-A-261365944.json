@@ -1,0 +1,55 @@
+{
+  "id": "PUB-A-261365944",
+  "summary": "libxml2_xml_fuzzer: Heap-buffer-overflow in xmlParseTryOrFinish",
+  "details": "In xmlParseTryOrFinish of parser.c, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-261365944",
+    "CVE-2023-21180"
+  ],
+  "modified": "2024-08-29T07:13:14.089403Z",
+  "published": "2023-06-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2023-06-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/external/libxml2",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13-next:0"
+            },
+            {
+              "fixed": "13-next:2023-06-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libxml2/+/38b5bb8f7920334ff401fa52fcd0f9a637edbce5"
+        ],
+        "spl": "2023-06-01",
+        "severity": "Moderate",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-261365944.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

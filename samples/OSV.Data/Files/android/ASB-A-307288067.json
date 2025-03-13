@@ -1,0 +1,556 @@
+{
+  "id": "ASB-A-307288067",
+  "summary": "Integer overflow in BinaryXmlSerializer allows modification of files as system_server",
+  "details": "In attributeBytesBase64 and attributeBytesHex of BinaryXmlSerializer.java, there is a possible arbitrary XML injection due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-307288067",
+    "CVE-2024-34740"
+  ],
+  "modified": "2024-08-16T19:15:56Z",
+  "published": "2024-08-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-08-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/e8b6505647be558ed3a167a1e13c53dfc227d22b"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e8b6505647be558ed3a167a1e13c53dfc227d22b"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/libs/modules-utils",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 308.0,
+              "function_hash": "123285881540088161321404136447312297041"
+            },
+            "id": "ASB-A-307288067-39c87afa",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesBase64"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "283722049743732542501552246218868566890",
+                "124536555656711251714595757169315741186",
+                "122184924213693488507879712964387799493",
+                "112442495831665481300647493341313298518",
+                "185107612995023145594395780461092034037",
+                "146258699207377061517294099540023252159",
+                "78225582879338290131721514303224868112",
+                "84475282677288083217541497316840726603",
+                "185107612995023145594395780461092034037"
+              ]
+            },
+            "id": "ASB-A-307288067-5a826dac",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 305.0,
+              "function_hash": "276202928956936777865925272387699035005"
+            },
+            "id": "ASB-A-307288067-fefe5bd6",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesHex"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e8b6505647be558ed3a167a1e13c53dfc227d22b"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/libs/modules-utils",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "283722049743732542501552246218868566890",
+                "124536555656711251714595757169315741186",
+                "122184924213693488507879712964387799493",
+                "112442495831665481300647493341313298518",
+                "185107612995023145594395780461092034037",
+                "146258699207377061517294099540023252159",
+                "78225582879338290131721514303224868112",
+                "84475282677288083217541497316840726603",
+                "185107612995023145594395780461092034037"
+              ]
+            },
+            "id": "ASB-A-307288067-bbf190e7",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 308.0,
+              "function_hash": "123285881540088161321404136447312297041"
+            },
+            "id": "ASB-A-307288067-cb77a726",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesBase64"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 305.0,
+              "function_hash": "276202928956936777865925272387699035005"
+            },
+            "id": "ASB-A-307288067-f7facef7",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesHex"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e8b6505647be558ed3a167a1e13c53dfc227d22b"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/libs/modules-utils",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 305.0,
+              "function_hash": "276202928956936777865925272387699035005"
+            },
+            "id": "ASB-A-307288067-331a00a7",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesHex"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 308.0,
+              "function_hash": "123285881540088161321404136447312297041"
+            },
+            "id": "ASB-A-307288067-e22202e6",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesBase64"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "283722049743732542501552246218868566890",
+                "124536555656711251714595757169315741186",
+                "122184924213693488507879712964387799493",
+                "112442495831665481300647493341313298518",
+                "185107612995023145594395780461092034037",
+                "146258699207377061517294099540023252159",
+                "78225582879338290131721514303224868112",
+                "84475282677288083217541497316840726603",
+                "185107612995023145594395780461092034037"
+              ]
+            },
+            "id": "ASB-A-307288067-f9bff0f1",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e8b6505647be558ed3a167a1e13c53dfc227d22b"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/libs/modules-utils",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "283722049743732542501552246218868566890",
+                "124536555656711251714595757169315741186",
+                "122184924213693488507879712964387799493",
+                "112442495831665481300647493341313298518",
+                "185107612995023145594395780461092034037",
+                "146258699207377061517294099540023252159",
+                "78225582879338290131721514303224868112",
+                "84475282677288083217541497316840726603",
+                "185107612995023145594395780461092034037"
+              ]
+            },
+            "id": "ASB-A-307288067-621a1d2f",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 305.0,
+              "function_hash": "276202928956936777865925272387699035005"
+            },
+            "id": "ASB-A-307288067-b6c77bd8",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesHex"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 308.0,
+              "function_hash": "123285881540088161321404136447312297041"
+            },
+            "id": "ASB-A-307288067-b7f45dc6",
+            "source": "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "java/com/android/modules/utils/BinaryXmlSerializer.java",
+              "function": "attributeBytesBase64"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/libs/modules-utils/+/700c28908051ceb55e1456d2d21229bc17c6895a"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-307288067.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

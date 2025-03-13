@@ -1,0 +1,164 @@
+{
+  "id": "ASB-A-314333719",
+  "summary": "Disable show media on lock screen, but still accessible via pull down notificaion",
+  "details": "In multiple locations, there is a possible information leak due to a missing permission check. This could lead to local information disclosure exposing played media with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-314333719",
+    "CVE-2024-31312"
+  ],
+  "modified": "2024-08-07T19:29:48.193338Z",
+  "published": "2024-06-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-06-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/748055291460bcaafa3e53c7da1601a687959477"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14-next:0"
+            },
+            {
+              "fixed": "14-next:2024-06-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/f837163596ca6fef691e1931223209002cf3d9d0"
+        ],
+        "spl": "2024-06-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-314333719.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-06-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/0d533a9c5107d47d6259028f1371c9bba276bb40"
+        ],
+        "spl": "2024-06-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-314333719.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-06-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/007313b88e830ab9f0a8119406a61c89ca412fb5"
+        ],
+        "spl": "2024-06-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-314333719.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-06-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/a441f4acd62cce1059818ce8e9b7ab93b0079e50"
+        ],
+        "spl": "2024-06-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-314333719.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,394 @@
+{
+  "id": "ASB-A-157650336",
+  "summary": "NFC - Memory disclosure in rw_i93_sm_format",
+  "details": "In rw_i93_sm_format of rw_i93.cc, there is a possible out of bounds read due to uninitialized data. This could lead to remote information disclosure over NFC with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-157650336",
+    "CVE-2020-0450"
+  ],
+  "modified": "2024-08-07T19:30:01.934984Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/system/nfc",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "154963762155651629960931236683129418141",
+                "333916888871439669055388686053626198732",
+                "67372517558228822731127329421284046779",
+                "270583259168256560006516691405503002495",
+                "49195663521341752171776885931041511099",
+                "218073476827453719293910530457084865506",
+                "201333054149423822752511375754527146868"
+              ]
+            },
+            "id": "ASB-A-157650336-432f389c",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 7959.0,
+              "function_hash": "320229391380427264361609096140733638758"
+            },
+            "id": "ASB-A-157650336-9d8ea5d4",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc",
+              "function": "rw_i93_sm_format"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157650336.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/nfc",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 7959.0,
+              "function_hash": "320229391380427264361609096140733638758"
+            },
+            "id": "ASB-A-157650336-2236ddb2",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc",
+              "function": "rw_i93_sm_format"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "154963762155651629960931236683129418141",
+                "333916888871439669055388686053626198732",
+                "67372517558228822731127329421284046779",
+                "270583259168256560006516691405503002495",
+                "49195663521341752171776885931041511099",
+                "218073476827453719293910530457084865506",
+                "201333054149423822752511375754527146868"
+              ]
+            },
+            "id": "ASB-A-157650336-69b5d9c1",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157650336.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/nfc",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "154963762155651629960931236683129418141",
+                "333916888871439669055388686053626198732",
+                "67372517558228822731127329421284046779",
+                "270583259168256560006516691405503002495",
+                "49195663521341752171776885931041511099",
+                "218073476827453719293910530457084865506",
+                "201333054149423822752511375754527146868"
+              ]
+            },
+            "id": "ASB-A-157650336-83528b51",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 7959.0,
+              "function_hash": "320229391380427264361609096140733638758"
+            },
+            "id": "ASB-A-157650336-f1299036",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc",
+              "function": "rw_i93_sm_format"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157650336.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/nfc",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 7959.0,
+              "function_hash": "320229391380427264361609096140733638758"
+            },
+            "id": "ASB-A-157650336-95bad54f",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc",
+              "function": "rw_i93_sm_format"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "154963762155651629960931236683129418141",
+                "333916888871439669055388686053626198732",
+                "67372517558228822731127329421284046779",
+                "270583259168256560006516691405503002495",
+                "49195663521341752171776885931041511099",
+                "218073476827453719293910530457084865506",
+                "201333054149423822752511375754527146868"
+              ]
+            },
+            "id": "ASB-A-157650336-98e48521",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157650336.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/nfc",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 7959.0,
+              "function_hash": "320229391380427264361609096140733638758"
+            },
+            "id": "ASB-A-157650336-40539a9c",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc",
+              "function": "rw_i93_sm_format"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "154963762155651629960931236683129418141",
+                "333916888871439669055388686053626198732",
+                "67372517558228822731127329421284046779",
+                "270583259168256560006516691405503002495",
+                "49195663521341752171776885931041511099",
+                "218073476827453719293910530457084865506",
+                "201333054149423822752511375754527146868"
+              ]
+            },
+            "id": "ASB-A-157650336-7a06f007",
+            "source": "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/nfc/tags/rw_i93.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/nfc/+/914f67b39b6eed2515da93410df88f1162aaf831"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157650336.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

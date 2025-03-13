@@ -1,0 +1,72 @@
+{
+  "id": "MAL-2024-4472",
+  "summary": "Malicious code in dnlib.net (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:58Z",
+  "published": "2024-06-25T13:31:58Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:58Z",
+        "import_time": "2024-06-28T02:48:10.039129839Z",
+        "versions": [
+          "4.4.1",
+          "4.4.2",
+          "4.2.8",
+          "4.2.9",
+          "4.3.7",
+          "4.3.3",
+          "4.3.2",
+          "4.3.6",
+          "4.3.0",
+          "4.3.4",
+          "4.3.5",
+          "4.3.8",
+          "4.3.1",
+          "4.4.0"
+        ],
+        "id": "RLMA-2024-03495",
+        "source": "reversing-labs",
+        "sha256": "979c6cc47221ab483f409dc3258e0c0773adef11e8a6f5a5bebfd0e719bb278b"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "dnlib.net",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/dnlib.net"
+      },
+      "versions": [
+        "4.4.1",
+        "4.4.2",
+        "4.2.8",
+        "4.2.9",
+        "4.3.7",
+        "4.3.3",
+        "4.3.2",
+        "4.3.6",
+        "4.3.0",
+        "4.3.4",
+        "4.3.5",
+        "4.3.8",
+        "4.3.1",
+        "4.4.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/dnlib.net/MAL-2024-4472.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

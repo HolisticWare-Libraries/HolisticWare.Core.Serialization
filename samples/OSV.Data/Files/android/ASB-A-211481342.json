@@ -1,0 +1,164 @@
+{
+  "id": "ASB-A-211481342",
+  "summary": "Race Condition when Start Activities can Cause Not-Paused Background Activity",
+  "details": "In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, there is a possible way to overlay an app that believes it's still in the foreground, when it is not, due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-211481342",
+    "CVE-2022-20007"
+  ],
+  "modified": "2024-08-07T19:30:19.345686Z",
+  "published": "2022-05-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-05-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/9a1dfd9a9de3bb33cd81e3003251b49f7862f276"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2022-05-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/f2d4787451c80b47e6af8ebf274394e2388b713b"
+        ],
+        "spl": "2022-05-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-211481342.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2022-05-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/43b8bcc01474bce480642acae2c554393c3bfb6a"
+        ],
+        "spl": "2022-05-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-211481342.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2022-05-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/51d287d831364cb158330e132cd11b4c596c04c2"
+        ],
+        "spl": "2022-05-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-211481342.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2022-05-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/0a4f661ec6a18a0ddc47b6d9280a10b8d16c9457"
+        ],
+        "spl": "2022-05-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-211481342.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

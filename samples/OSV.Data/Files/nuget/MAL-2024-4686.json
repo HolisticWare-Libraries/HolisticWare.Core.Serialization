@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-4686",
+  "summary": "Malicious code in Tessa.Windows.V2 (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:39Z",
+  "published": "2024-06-25T13:31:39Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:39Z",
+        "import_time": "2024-06-28T02:48:07.219137076Z",
+        "versions": [
+          "3.4.0"
+        ],
+        "id": "RLMA-2024-03470",
+        "source": "reversing-labs",
+        "sha256": "f82ccd4ab8578aba72f77f7752b301deac4d2961cf833f0e4a2c723d865113ff"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Tessa.Windows.V2",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Tessa.Windows.V2"
+      },
+      "versions": [
+        "3.4.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/tessa.windows.v2/MAL-2024-4686.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

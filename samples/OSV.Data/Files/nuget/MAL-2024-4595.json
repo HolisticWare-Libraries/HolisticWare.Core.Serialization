@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-4595",
+  "summary": "Malicious code in OCI.DotNetSDK.Osubsubscription.Net (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:30:34Z",
+  "published": "2024-06-25T13:30:34Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:30:34Z",
+        "import_time": "2024-06-28T02:47:56.899546239Z",
+        "versions": [
+          "73.0.0"
+        ],
+        "id": "RLMA-2024-03381",
+        "source": "reversing-labs",
+        "sha256": "334731d7a99770e4ce37e16e71b16056489138899381ece77e8b33dac5bc0e80"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "OCI.DotNetSDK.Osubsubscription.Net",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/OCI.DotNetSDK.Osubsubscription.Net"
+      },
+      "versions": [
+        "73.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/oci.dotnetsdk.osubsubscription.net/MAL-2024-4595.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

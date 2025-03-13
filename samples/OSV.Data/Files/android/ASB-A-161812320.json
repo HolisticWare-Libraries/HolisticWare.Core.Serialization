@@ -1,0 +1,362 @@
+{
+  "id": "ASB-A-161812320",
+  "summary": "AIBinder_Class constructor doesn't initialize onDump or handleShellCommand.",
+  "details": "In the AIBinder_Class constructor of ibinder.cpp, there is a possible arbitrary code execution due to uninitialized data. This could lead to local escalation of privilege if a process were using libbinder_ndk in a vulnerable way with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-161812320",
+    "CVE-2020-0438"
+  ],
+  "modified": "2024-08-07T19:29:02.937356Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/native",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 432.0,
+              "function_hash": "24222033419103900466493647316503210414"
+            },
+            "id": "ASB-A-161812320-136659ce",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/iface.cpp",
+              "function": "IFoo::addService"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "315785499823683027533714458595445267303",
+                "186193274819663599976554617998107598682",
+                "75193321492464836734796987614755455116",
+                "160750622868819087105985984949384490650",
+                "116552410365698554304017692825057346924",
+                "142696787752292026367259100555575150769",
+                "58627899538112562548751526190996095836",
+                "83498136934319160209930637927120875644",
+                "59564831642801405582725424701065084564"
+              ]
+            },
+            "id": "ASB-A-161812320-26162d56",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/iface.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "337953460655781670954193138801848487872",
+                "129737973091506341549555497449437046760",
+                "166341565519246474420017384019488169919",
+                "43085590477963808790312978891684483105"
+              ]
+            },
+            "id": "ASB-A-161812320-34f52067",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "13922026013675028407001722743555010547",
+                "237617003093890210114359234712291170391",
+                "219405424050546884940338494511715324280",
+                "119566248312543600779338226999319230832",
+                "182581632736243370490049382777622835574",
+                "236572504900660911225729334021913050525",
+                "301431736978975864467937568986792238562",
+                "218907331790811812538155140498544355941"
+              ]
+            },
+            "id": "ASB-A-161812320-3d5bd8ef",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder_internal.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1507.0,
+              "function_hash": "6692660950372729705060540801180559721"
+            },
+            "id": "ASB-A-161812320-bf6e1f39",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder.cpp",
+              "function": "ABBinder::onTransact"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "166853182971095957477295542990318855226",
+                "2714496182692667837940115498659040009",
+                "127929062338231145922199514350132922165"
+              ]
+            },
+            "id": "ASB-A-161812320-e5c1f64e",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/libbinder_ndk_unit_test.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "166846193524674178006558397101840566531",
+                "190330214196064866872130790560553921089",
+                "126345581594453208055667319110442750718"
+              ]
+            },
+            "id": "ASB-A-161812320-f467587e",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/include/iface/iface.h"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Moderate",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-161812320.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/native",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "166846193524674178006558397101840566531",
+                "190330214196064866872130790560553921089",
+                "126345581594453208055667319110442750718"
+              ]
+            },
+            "id": "ASB-A-161812320-19ed0ed3",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/include/iface/iface.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "166853182971095957477295542990318855226",
+                "2714496182692667837940115498659040009",
+                "127929062338231145922199514350132922165"
+              ]
+            },
+            "id": "ASB-A-161812320-325abcb1",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/libbinder_ndk_unit_test.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1507.0,
+              "function_hash": "6692660950372729705060540801180559721"
+            },
+            "id": "ASB-A-161812320-6e8fe08e",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder.cpp",
+              "function": "ABBinder::onTransact"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 432.0,
+              "function_hash": "24222033419103900466493647316503210414"
+            },
+            "id": "ASB-A-161812320-9ad941ec",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/iface.cpp",
+              "function": "IFoo::addService"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "315785499823683027533714458595445267303",
+                "186193274819663599976554617998107598682",
+                "75193321492464836734796987614755455116",
+                "160750622868819087105985984949384490650",
+                "116552410365698554304017692825057346924",
+                "142696787752292026367259100555575150769",
+                "58627899538112562548751526190996095836",
+                "83498136934319160209930637927120875644",
+                "59564831642801405582725424701065084564"
+              ]
+            },
+            "id": "ASB-A-161812320-bda1d0a8",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/test/iface.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "337953460655781670954193138801848487872",
+                "129737973091506341549555497449437046760",
+                "166341565519246474420017384019488169919",
+                "43085590477963808790312978891684483105"
+              ]
+            },
+            "id": "ASB-A-161812320-d3fc1de8",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "13922026013675028407001722743555010547",
+                "237617003093890210114359234712291170391",
+                "219405424050546884940338494511715324280",
+                "119566248312543600779338226999319230832",
+                "182581632736243370490049382777622835574",
+                "236572504900660911225729334021913050525",
+                "301431736978975864467937568986792238562",
+                "218907331790811812538155140498544355941"
+              ]
+            },
+            "id": "ASB-A-161812320-d40b299c",
+            "source": "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libs/binder/ndk/ibinder_internal.h"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/native/+/10b19f86d9d8bec6f47f31449593711479f336a5"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-161812320.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

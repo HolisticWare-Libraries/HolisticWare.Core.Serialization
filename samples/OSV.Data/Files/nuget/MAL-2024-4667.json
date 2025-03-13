@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-4667",
+  "summary": "Malicious code in Syntellect.Winium.Element (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:30Z",
+  "published": "2024-06-25T13:31:30Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:30Z",
+        "import_time": "2024-06-28T02:48:05.882811941Z",
+        "versions": [
+          "0.2.1"
+        ],
+        "id": "RLMA-2024-03458",
+        "source": "reversing-labs",
+        "sha256": "c894ed92781513900a788f2cde1737bb0f15ac39d573fef57abebedd637afc47"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Syntellect.Winium.Element",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Syntellect.Winium.Element"
+      },
+      "versions": [
+        "0.2.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/syntellect.winium.element/MAL-2024-4667.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

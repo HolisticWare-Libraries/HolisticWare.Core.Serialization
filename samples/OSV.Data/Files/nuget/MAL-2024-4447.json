@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-4447",
+  "summary": "Malicious code in CitizenFX (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:28:48Z",
+  "published": "2024-06-25T13:28:48Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:28:48Z",
+        "import_time": "2024-06-28T02:47:39.50252551Z",
+        "versions": [
+          "2.54.9",
+          "2.54.7",
+          "2.54.8"
+        ],
+        "id": "RLMA-2024-03239",
+        "source": "reversing-labs",
+        "sha256": "64ff87a81d4411bdd8c56b2b78d291b0c10aaaa9e9456e2a030e9b20b75c402c"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "CitizenFX",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/CitizenFX"
+      },
+      "versions": [
+        "2.54.9",
+        "2.54.7",
+        "2.54.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/citizenfx/MAL-2024-4447.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

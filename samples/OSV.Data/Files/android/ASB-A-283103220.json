@@ -1,0 +1,544 @@
+{
+  "id": "ASB-A-283103220",
+  "summary": "setAspectRatio of PiP feature can cause foreground restriction bypass",
+  "details": "In ensureSetPipAspectRatioQuotaTracker of ActivityClientController.java, there is a possible way to generate unmovable and undeletable pip windows due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-283103220",
+    "CVE-2024-34737"
+  ],
+  "modified": "2024-08-16T19:15:56Z",
+  "published": "2024-08-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-08-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 306.0,
+              "function_hash": "7661186528491046079776168913862366150"
+            },
+            "id": "ASB-A-283103220-2111d5bc",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "enterPictureInPictureMode"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "20560361139697493239572078327654212989",
+                "196262081544903997256622560234058652990",
+                "145238596617758854685942466458763067341",
+                "326992242035176952179496944564668797731",
+                "72418101577272531642169052641560536056",
+                "40965393509565060126570078348139740403",
+                "233729006949429976137466122228001314313",
+                "9931488221603652907270801078703318456",
+                "196762249137715562813091058727356286363",
+                "220791316988420571958160381080647469192",
+                "21976226700441314954244461939528232298",
+                "49755412345419449558839851993022800668",
+                "213850530987789803621289675567474844135",
+                "105547404261213397132339546868903007659",
+                "67961713532094020957387950966994654375",
+                "324137957251426102315950415493378396369",
+                "213850530987789803621289675567474844135",
+                "94292210717988007472389600877455246396",
+                "329270710114063937963407335338271385794",
+                "272050194766935735912611777789447609548",
+                "71606650987266817749258932982127628827",
+                "175949891527355317870643126605712918573",
+                "133121324755513759455518452290437880526",
+                "227720175068353148805243015656664751219"
+              ]
+            },
+            "id": "ASB-A-283103220-7a76be2f",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 1391.0,
+              "function_hash": "43442668249358473115613429488493375157"
+            },
+            "id": "ASB-A-283103220-c5e0cf22",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "ensureValidPictureInPictureActivityParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "12"
+            ],
+            "digest": {
+              "length": 281.0,
+              "function_hash": "101739474889880265372477014927441160066"
+            },
+            "id": "ASB-A-283103220-cc1f6e69",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "setPictureInPictureParams"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-283103220.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 1391.0,
+              "function_hash": "43442668249358473115613429488493375157"
+            },
+            "id": "ASB-A-283103220-22934576",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "ensureValidPictureInPictureActivityParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 281.0,
+              "function_hash": "101739474889880265372477014927441160066"
+            },
+            "id": "ASB-A-283103220-27fa6a36",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "setPictureInPictureParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "20560361139697493239572078327654212989",
+                "196262081544903997256622560234058652990",
+                "145238596617758854685942466458763067341",
+                "326992242035176952179496944564668797731",
+                "72418101577272531642169052641560536056",
+                "40965393509565060126570078348139740403",
+                "233729006949429976137466122228001314313",
+                "9931488221603652907270801078703318456",
+                "196762249137715562813091058727356286363",
+                "220791316988420571958160381080647469192",
+                "21976226700441314954244461939528232298",
+                "49755412345419449558839851993022800668",
+                "213850530987789803621289675567474844135",
+                "105547404261213397132339546868903007659",
+                "67961713532094020957387950966994654375",
+                "324137957251426102315950415493378396369",
+                "213850530987789803621289675567474844135",
+                "94292210717988007472389600877455246396",
+                "329270710114063937963407335338271385794",
+                "272050194766935735912611777789447609548",
+                "71606650987266817749258932982127628827",
+                "175949891527355317870643126605712918573",
+                "133121324755513759455518452290437880526",
+                "227720175068353148805243015656664751219"
+              ]
+            },
+            "id": "ASB-A-283103220-73485188",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "12L"
+            ],
+            "digest": {
+              "length": 306.0,
+              "function_hash": "7661186528491046079776168913862366150"
+            },
+            "id": "ASB-A-283103220-817665d1",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "enterPictureInPictureMode"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-283103220.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "20560361139697493239572078327654212989",
+                "196262081544903997256622560234058652990",
+                "145238596617758854685942466458763067341",
+                "326992242035176952179496944564668797731",
+                "72418101577272531642169052641560536056",
+                "40965393509565060126570078348139740403",
+                "233729006949429976137466122228001314313",
+                "9931488221603652907270801078703318456",
+                "196762249137715562813091058727356286363",
+                "220791316988420571958160381080647469192",
+                "21976226700441314954244461939528232298",
+                "49755412345419449558839851993022800668",
+                "213850530987789803621289675567474844135",
+                "105547404261213397132339546868903007659",
+                "67961713532094020957387950966994654375",
+                "324137957251426102315950415493378396369",
+                "213850530987789803621289675567474844135",
+                "94292210717988007472389600877455246396",
+                "329270710114063937963407335338271385794",
+                "272050194766935735912611777789447609548",
+                "71606650987266817749258932982127628827",
+                "175949891527355317870643126605712918573",
+                "133121324755513759455518452290437880526",
+                "227720175068353148805243015656664751219"
+              ]
+            },
+            "id": "ASB-A-283103220-ab8b4852",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 306.0,
+              "function_hash": "7661186528491046079776168913862366150"
+            },
+            "id": "ASB-A-283103220-af9028de",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "enterPictureInPictureMode"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 1391.0,
+              "function_hash": "43442668249358473115613429488493375157"
+            },
+            "id": "ASB-A-283103220-e229678d",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "ensureValidPictureInPictureActivityParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "13"
+            ],
+            "digest": {
+              "length": 281.0,
+              "function_hash": "101739474889880265372477014927441160066"
+            },
+            "id": "ASB-A-283103220-f1784c00",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "setPictureInPictureParams"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-283103220.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "20560361139697493239572078327654212989",
+                "196262081544903997256622560234058652990",
+                "145238596617758854685942466458763067341",
+                "326992242035176952179496944564668797731",
+                "72418101577272531642169052641560536056",
+                "40965393509565060126570078348139740403",
+                "233729006949429976137466122228001314313",
+                "9931488221603652907270801078703318456",
+                "196762249137715562813091058727356286363",
+                "220791316988420571958160381080647469192",
+                "21976226700441314954244461939528232298",
+                "49755412345419449558839851993022800668",
+                "213850530987789803621289675567474844135",
+                "105547404261213397132339546868903007659",
+                "67961713532094020957387950966994654375",
+                "324137957251426102315950415493378396369",
+                "213850530987789803621289675567474844135",
+                "94292210717988007472389600877455246396",
+                "329270710114063937963407335338271385794",
+                "272050194766935735912611777789447609548",
+                "71606650987266817749258932982127628827",
+                "175949891527355317870643126605712918573",
+                "133121324755513759455518452290437880526",
+                "227720175068353148805243015656664751219"
+              ]
+            },
+            "id": "ASB-A-283103220-117ccd7b",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 281.0,
+              "function_hash": "101739474889880265372477014927441160066"
+            },
+            "id": "ASB-A-283103220-20fc0a0c",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "setPictureInPictureParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 1391.0,
+              "function_hash": "43442668249358473115613429488493375157"
+            },
+            "id": "ASB-A-283103220-5bb8e0b5",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "ensureValidPictureInPictureActivityParams"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "14"
+            ],
+            "digest": {
+              "length": 306.0,
+              "function_hash": "7661186528491046079776168913862366150"
+            },
+            "id": "ASB-A-283103220-e9d90cca",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/wm/ActivityClientController.java",
+              "function": "enterPictureInPictureMode"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/8b473b3f79642f42eeeffbfe572df6c6cbe9d79e"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-283103220.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

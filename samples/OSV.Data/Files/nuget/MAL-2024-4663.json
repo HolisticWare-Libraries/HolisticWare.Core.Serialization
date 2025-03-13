@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-4663",
+  "summary": "Malicious code in Stl.Rpc.Server.Net.Fx (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:27Z",
+  "published": "2024-06-25T13:31:27Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:27Z",
+        "import_time": "2024-06-28T02:48:05.426122016Z",
+        "versions": [
+          "6.5.9",
+          "6.5.8"
+        ],
+        "id": "RLMA-2024-03454",
+        "source": "reversing-labs",
+        "sha256": "a59250ba4b15e6e577f62cb511b536a46c5c051320a251a86c41ad10a5a0cfa4"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Stl.Rpc.Server.Net.Fx",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Stl.Rpc.Server.Net.Fx"
+      },
+      "versions": [
+        "6.5.9",
+        "6.5.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/stl.rpc.server.net.fx/MAL-2024-4663.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}
