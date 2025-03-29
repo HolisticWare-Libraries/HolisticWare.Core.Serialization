@@ -1,0 +1,3176 @@
+{
+  "id": "ASB-A-157038281",
+  "summary": "(Silent pairing with contact tracing apps)",
+  "details": "In smp_decide_association_model of smp_act.cc, there is a possible silent bluetooth pairing due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-157038281",
+    "CVE-2020-12856"
+  ],
+  "modified": "2024-08-07T19:29:02.724408Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/apps/Bluetooth",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 1239.0,
+              "function_hash": "155855738231520385688484377649189203670"
+            },
+            "id": "ASB-A-157038281-6c9277d4",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp",
+              "function": "initNative"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2982.0,
+              "function_hash": "137359662711384033555401531596273223141"
+            },
+            "id": "ASB-A-157038281-a22f8cc7",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249155751675739173061982842698514683037",
+                "48792780398728695737032316806225580866",
+                "207796549628479039852285369483806286441",
+                "106573758444075036668187541698252402115",
+                "319422919324659566297527754931896857022",
+                "53188278251663659449657951678385580537",
+                "119113750231612246241101347763991305274",
+                "129034523212900623210058103927582883669"
+              ]
+            },
+            "id": "ASB-A-157038281-a5762622",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "288327712671115562056437202506249381106",
+                "25548363474466877580975290976515731870",
+                "339892665512476015852888128590203461165",
+                "148743557554913228454559440812808510847",
+                "115106482513511501719911639524346661980",
+                "90881898225197608731121919960385592230",
+                "337089620781201760668371408715330922788",
+                "35880480334431437822633427399773108164",
+                "57804317503493548264184627133055206049",
+                "201301814969488626260507196024346419192",
+                "266123164595982624943977120530212926234",
+                "233231375868369285399011583927497592973"
+              ]
+            },
+            "id": "ASB-A-157038281-ca7f3332",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "201105367067295881108327400277602669309",
+                "109290394494576233149924833268248687560",
+                "91680129304714548443582013432500229276",
+                "72411920253374876434362967695253770334"
+              ]
+            },
+            "id": "ASB-A-157038281-160ba389",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_dm.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 708.0,
+              "function_hash": "183730808488633129915486933260154190576"
+            },
+            "id": "ASB-A-157038281-170eac11",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc",
+              "function": "init"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "90231861124166576716631393770209491471",
+                "262919668639691396372267090129829472033",
+                "3929289543587825306264691193889620341"
+              ]
+            },
+            "id": "ASB-A-157038281-171f5904",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 818.0,
+              "function_hash": "221659570648865965525421496542649177014"
+            },
+            "id": "ASB-A-157038281-2bb657bb",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_ble_sec_req_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 8855.0,
+              "function_hash": "301500401311809862687108872924756327413"
+            },
+            "id": "ASB-A-157038281-35c34107",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_upstreams_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "330930546012496514480377423014314423137",
+                "11762145032635374166917589579194723394",
+                "212324269000609916859401293746816447272",
+                "50711425529424856186509447722249800526",
+                "69957093265416678526444556296639252141",
+                "62730281375438910381615232323374447355",
+                "34125414874109382394381153167807856652",
+                "5800152430043191926972187857753457575",
+                "246090430726045246919215407815706952352",
+                "86931941911930631524932446579475818443",
+                "88311774435730366746427194464095652777",
+                "28608564074422652099868710087852289461",
+                "217530098881144130588114515166845879456"
+              ]
+            },
+            "id": "ASB-A-157038281-37cd8e82",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 823.0,
+              "function_hash": "73525069259940577685262770473378256743"
+            },
+            "id": "ASB-A-157038281-5a6d8583",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc",
+              "function": "TEST_F"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 636.0,
+              "function_hash": "246153933052974361789822017565183904379"
+            },
+            "id": "ASB-A-157038281-5c4d2b5d",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc",
+              "function": "SMP_SecurityGrant"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2457.0,
+              "function_hash": "58032923757447706296194816290075680608"
+            },
+            "id": "ASB-A-157038281-6362a076",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "218970800081116559407926911014695050496",
+                "28752692510458970851215673540425411574",
+                "144800924775981393640188425135665654160",
+                "242123068893093735929387451833999928898"
+              ]
+            },
+            "id": "ASB-A-157038281-6d6b5821",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2613.0,
+              "function_hash": "177717406543718616803153195811938820665"
+            },
+            "id": "ASB-A-157038281-870a131c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3108.0,
+              "function_hash": "94067362944700076155000881134038373824"
+            },
+            "id": "ASB-A-157038281-8b0a5bdf",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc",
+              "function": "bta_dm_ble_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "68599573647872116472271697077200424983",
+                "241074427353561119903090828946207714020",
+                "295167890463962589213365298662758012221",
+                "264188018885457521536388811907697171954",
+                "82693602646323038071625361874850585753"
+              ]
+            },
+            "id": "ASB-A-157038281-8c38a226",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "include/hardware/bluetooth.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 877.0,
+              "function_hash": "48412460430649862069629733227252173627"
+            },
+            "id": "ASB-A-157038281-8f99957b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc",
+              "function": "HeadlessStack::SetUp"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3103.0,
+              "function_hash": "190576750034893619371197752065645279342"
+            },
+            "id": "ASB-A-157038281-962da3f2",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc",
+              "function": "btm_proc_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "46777931121321814917792688150621230972",
+                "52655362989620007884359709445123264808",
+                "313373449252906525744916017602189160371"
+              ]
+            },
+            "id": "ASB-A-157038281-96ef3d3c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "160988574818648045133452576739688002343",
+                "240870636011088180370829429628466994321",
+                "60117286582660210777101523870384208747",
+                "296308211328737926597102699369725720268",
+                "180358173052943379436390497427348916775",
+                "27521223860331743510505543005265943209",
+                "303659173795356049130873341624669390480",
+                "250655365373067874507724832328356518791",
+                "182327012827900646547860126244818884924",
+                "67759012002076478743727694836429673344",
+                "17962296294351550147144561614037666838",
+                "290135092260527780819718481599472826656",
+                "167490547900741455867861361222334077880",
+                "201489628729130620300528514067139794673",
+                "116387438248469091424848017118123145982",
+                "146081442578038738350582837327465713623"
+              ]
+            },
+            "id": "ASB-A-157038281-989e4c53",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2159.0,
+              "function_hash": "173196413699773906299450659831894584493"
+            },
+            "id": "ASB-A-157038281-9b3bcddf",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "309782153556352844433453468330448468610",
+                "213650834033151209462433404578898540240",
+                "310006113108550276715647563512425052163",
+                "308447674401386975680872017084724830574",
+                "161570466466584278519717595942550205984",
+                "258578022259534054938217620213695529729",
+                "108634015673300762312708773322201415038",
+                "21168526646248503884774206334622813483",
+                "263250159863457400228753717539171861160",
+                "29184605076671599232902218087759630569",
+                "111215805723849299818269808941268237431",
+                "323232948365542865886526141932497078062",
+                "307311562104523348912836184924430361538",
+                "277843493990694882029197741729245789053",
+                "271764704495591571364725308159872016017"
+              ]
+            },
+            "id": "ASB-A-157038281-b28c2374",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "100312520963221166822909340435732755797",
+                "252018229085176352179725647313523222909",
+                "2389996442223139815109936882975344444"
+              ]
+            },
+            "id": "ASB-A-157038281-c4103d6b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_api.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "174201675099952091244892563207032646819",
+                "276236007049963091572252930970349775353",
+                "98074242501461545505889035942004767405",
+                "132792386158014892288826772949877551148",
+                "230069431199743055292584521389567950009",
+                "120734870774512651547171550728500556383",
+                "280530058120438830441945882566253731192"
+              ]
+            },
+            "id": "ASB-A-157038281-e292485a",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2320.0,
+              "function_hash": "112531274067660169268062259614344347861"
+            },
+            "id": "ASB-A-157038281-e933deb0",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "176103410811009822097556401636563885618",
+                "326490954156002775452442993458585371566",
+                "287686748106459835459635583097803592685",
+                "21850808014058208439706052864824505449",
+                "215286734471788301462172763351269138097",
+                "72302893932110133953091051322614727724",
+                "91069740820198552936149551775401004886",
+                "46992582389263274585267871847049564345",
+                "107953717633874826501417479474095573065",
+                "8411505967920724976014306905107544475",
+                "203198767036545510457665387136201217868",
+                "170093116442350688427886899181125299416",
+                "86690973309943697197758634197245326472",
+                "280479236762625444599915445867070601376",
+                "168036837319234141147137813481152560444",
+                "34534745296281539977631947187478373397"
+              ]
+            },
+            "id": "ASB-A-157038281-ec95bae1",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "151850068518970980094369690902463771450",
+                "330047973550245822927638766639398483319",
+                "137813909334542411229860095083399436128",
+                "146617051137074450298532346701639865123"
+              ]
+            },
+            "id": "ASB-A-157038281-f90b715c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "service/hal/bluetooth_interface.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "30148307350815998296314777258510693288",
+                "278557482957938877632908176032573439805",
+                "46337723722176881129002724885692143631",
+                "98622714097174249811723005629041394069"
+              ]
+            },
+            "id": "ASB-A-157038281-fb6975c7",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c",
+          "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+          "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/Bluetooth",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2982.0,
+              "function_hash": "137359662711384033555401531596273223141"
+            },
+            "id": "ASB-A-157038281-0ef2069c",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249155751675739173061982842698514683037",
+                "48792780398728695737032316806225580866",
+                "207796549628479039852285369483806286441",
+                "106573758444075036668187541698252402115",
+                "319422919324659566297527754931896857022",
+                "53188278251663659449657951678385580537",
+                "119113750231612246241101347763991305274",
+                "129034523212900623210058103927582883669"
+              ]
+            },
+            "id": "ASB-A-157038281-3d1648d4",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1239.0,
+              "function_hash": "155855738231520385688484377649189203670"
+            },
+            "id": "ASB-A-157038281-85e0e8b8",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp",
+              "function": "initNative"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "288327712671115562056437202506249381106",
+                "25548363474466877580975290976515731870",
+                "339892665512476015852888128590203461165",
+                "148743557554913228454559440812808510847",
+                "115106482513511501719911639524346661980",
+                "90881898225197608731121919960385592230",
+                "337089620781201760668371408715330922788",
+                "35880480334431437822633427399773108164",
+                "57804317503493548264184627133055206049",
+                "201301814969488626260507196024346419192",
+                "266123164595982624943977120530212926234",
+                "233231375868369285399011583927497592973"
+              ]
+            },
+            "id": "ASB-A-157038281-d90bdc2a",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 877.0,
+              "function_hash": "48412460430649862069629733227252173627"
+            },
+            "id": "ASB-A-157038281-01c8e98c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc",
+              "function": "HeadlessStack::SetUp"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3103.0,
+              "function_hash": "190576750034893619371197752065645279342"
+            },
+            "id": "ASB-A-157038281-042a2de8",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc",
+              "function": "btm_proc_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "218970800081116559407926911014695050496",
+                "28752692510458970851215673540425411574",
+                "144800924775981393640188425135665654160",
+                "242123068893093735929387451833999928898"
+              ]
+            },
+            "id": "ASB-A-157038281-142d004e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 818.0,
+              "function_hash": "221659570648865965525421496542649177014"
+            },
+            "id": "ASB-A-157038281-19011539",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_ble_sec_req_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "176103410811009822097556401636563885618",
+                "326490954156002775452442993458585371566",
+                "287686748106459835459635583097803592685",
+                "21850808014058208439706052864824505449",
+                "215286734471788301462172763351269138097",
+                "72302893932110133953091051322614727724",
+                "91069740820198552936149551775401004886",
+                "46992582389263274585267871847049564345",
+                "107953717633874826501417479474095573065",
+                "8411505967920724976014306905107544475",
+                "203198767036545510457665387136201217868",
+                "170093116442350688427886899181125299416",
+                "86690973309943697197758634197245326472",
+                "280479236762625444599915445867070601376",
+                "168036837319234141147137813481152560444",
+                "34534745296281539977631947187478373397"
+              ]
+            },
+            "id": "ASB-A-157038281-1cf96b45",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 8855.0,
+              "function_hash": "301500401311809862687108872924756327413"
+            },
+            "id": "ASB-A-157038281-27e70f7e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_upstreams_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "68599573647872116472271697077200424983",
+                "241074427353561119903090828946207714020",
+                "295167890463962589213365298662758012221",
+                "264188018885457521536388811907697171954",
+                "82693602646323038071625361874850585753"
+              ]
+            },
+            "id": "ASB-A-157038281-2d32599f",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "include/hardware/bluetooth.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "30148307350815998296314777258510693288",
+                "278557482957938877632908176032573439805",
+                "46337723722176881129002724885692143631",
+                "98622714097174249811723005629041394069"
+              ]
+            },
+            "id": "ASB-A-157038281-315fbd16",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 636.0,
+              "function_hash": "246153933052974361789822017565183904379"
+            },
+            "id": "ASB-A-157038281-3be025b3",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc",
+              "function": "SMP_SecurityGrant"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "100312520963221166822909340435732755797",
+                "252018229085176352179725647313523222909",
+                "2389996442223139815109936882975344444"
+              ]
+            },
+            "id": "ASB-A-157038281-647b0238",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_api.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "309782153556352844433453468330448468610",
+                "213650834033151209462433404578898540240",
+                "310006113108550276715647563512425052163",
+                "308447674401386975680872017084724830574",
+                "161570466466584278519717595942550205984",
+                "258578022259534054938217620213695529729",
+                "108634015673300762312708773322201415038",
+                "21168526646248503884774206334622813483",
+                "263250159863457400228753717539171861160",
+                "29184605076671599232902218087759630569",
+                "111215805723849299818269808941268237431",
+                "323232948365542865886526141932497078062",
+                "307311562104523348912836184924430361538",
+                "277843493990694882029197741729245789053",
+                "271764704495591571364725308159872016017"
+              ]
+            },
+            "id": "ASB-A-157038281-650d6aec",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "201105367067295881108327400277602669309",
+                "109290394494576233149924833268248687560",
+                "91680129304714548443582013432500229276",
+                "72411920253374876434362967695253770334"
+              ]
+            },
+            "id": "ASB-A-157038281-687274d2",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_dm.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "174201675099952091244892563207032646819",
+                "276236007049963091572252930970349775353",
+                "98074242501461545505889035942004767405",
+                "132792386158014892288826772949877551148",
+                "230069431199743055292584521389567950009",
+                "120734870774512651547171550728500556383",
+                "280530058120438830441945882566253731192"
+              ]
+            },
+            "id": "ASB-A-157038281-6bd3d086",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2159.0,
+              "function_hash": "173196413699773906299450659831894584493"
+            },
+            "id": "ASB-A-157038281-9b136857",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2613.0,
+              "function_hash": "177717406543718616803153195811938820665"
+            },
+            "id": "ASB-A-157038281-9f1fd4a9",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "160988574818648045133452576739688002343",
+                "240870636011088180370829429628466994321",
+                "60117286582660210777101523870384208747",
+                "296308211328737926597102699369725720268",
+                "180358173052943379436390497427348916775",
+                "27521223860331743510505543005265943209",
+                "303659173795356049130873341624669390480",
+                "250655365373067874507724832328356518791",
+                "182327012827900646547860126244818884924",
+                "67759012002076478743727694836429673344",
+                "17962296294351550147144561614037666838",
+                "290135092260527780819718481599472826656",
+                "167490547900741455867861361222334077880",
+                "201489628729130620300528514067139794673",
+                "116387438248469091424848017118123145982",
+                "146081442578038738350582837327465713623"
+              ]
+            },
+            "id": "ASB-A-157038281-a7511fcc",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "90231861124166576716631393770209491471",
+                "262919668639691396372267090129829472033",
+                "3929289543587825306264691193889620341"
+              ]
+            },
+            "id": "ASB-A-157038281-c164814b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "151850068518970980094369690902463771450",
+                "330047973550245822927638766639398483319",
+                "137813909334542411229860095083399436128",
+                "146617051137074450298532346701639865123"
+              ]
+            },
+            "id": "ASB-A-157038281-c7ba28d3",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "service/hal/bluetooth_interface.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2320.0,
+              "function_hash": "112531274067660169268062259614344347861"
+            },
+            "id": "ASB-A-157038281-d1aa5449",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2457.0,
+              "function_hash": "58032923757447706296194816290075680608"
+            },
+            "id": "ASB-A-157038281-d3d55dd1",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3108.0,
+              "function_hash": "94067362944700076155000881134038373824"
+            },
+            "id": "ASB-A-157038281-d4f9b210",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc",
+              "function": "bta_dm_ble_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 708.0,
+              "function_hash": "183730808488633129915486933260154190576"
+            },
+            "id": "ASB-A-157038281-e287408e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc",
+              "function": "init"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "46777931121321814917792688150621230972",
+                "52655362989620007884359709445123264808",
+                "313373449252906525744916017602189160371"
+              ]
+            },
+            "id": "ASB-A-157038281-f0d08ee6",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 823.0,
+              "function_hash": "73525069259940577685262770473378256743"
+            },
+            "id": "ASB-A-157038281-f3275ff7",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc",
+              "function": "TEST_F"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "330930546012496514480377423014314423137",
+                "11762145032635374166917589579194723394",
+                "212324269000609916859401293746816447272",
+                "50711425529424856186509447722249800526",
+                "69957093265416678526444556296639252141",
+                "62730281375438910381615232323374447355",
+                "34125414874109382394381153167807856652",
+                "5800152430043191926972187857753457575",
+                "246090430726045246919215407815706952352",
+                "86931941911930631524932446579475818443",
+                "88311774435730366746427194464095652777",
+                "28608564074422652099868710087852289461",
+                "217530098881144130588114515166845879456"
+              ]
+            },
+            "id": "ASB-A-157038281-f8bbd775",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c",
+          "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+          "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/Bluetooth",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 1239.0,
+              "function_hash": "155855738231520385688484377649189203670"
+            },
+            "id": "ASB-A-157038281-0b6b6506",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp",
+              "function": "initNative"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2982.0,
+              "function_hash": "137359662711384033555401531596273223141"
+            },
+            "id": "ASB-A-157038281-6f214d41",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249155751675739173061982842698514683037",
+                "48792780398728695737032316806225580866",
+                "207796549628479039852285369483806286441",
+                "106573758444075036668187541698252402115",
+                "319422919324659566297527754931896857022",
+                "53188278251663659449657951678385580537",
+                "119113750231612246241101347763991305274",
+                "129034523212900623210058103927582883669"
+              ]
+            },
+            "id": "ASB-A-157038281-8580c46c",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "288327712671115562056437202506249381106",
+                "25548363474466877580975290976515731870",
+                "339892665512476015852888128590203461165",
+                "148743557554913228454559440812808510847",
+                "115106482513511501719911639524346661980",
+                "90881898225197608731121919960385592230",
+                "337089620781201760668371408715330922788",
+                "35880480334431437822633427399773108164",
+                "57804317503493548264184627133055206049",
+                "201301814969488626260507196024346419192",
+                "266123164595982624943977120530212926234",
+                "233231375868369285399011583927497592973"
+              ]
+            },
+            "id": "ASB-A-157038281-92b7ad71",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 823.0,
+              "function_hash": "73525069259940577685262770473378256743"
+            },
+            "id": "ASB-A-157038281-0bcce84c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc",
+              "function": "TEST_F"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "218970800081116559407926911014695050496",
+                "28752692510458970851215673540425411574",
+                "144800924775981393640188425135665654160",
+                "242123068893093735929387451833999928898"
+              ]
+            },
+            "id": "ASB-A-157038281-290383b8",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 877.0,
+              "function_hash": "48412460430649862069629733227252173627"
+            },
+            "id": "ASB-A-157038281-2a6f0374",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc",
+              "function": "HeadlessStack::SetUp"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "46777931121321814917792688150621230972",
+                "52655362989620007884359709445123264808",
+                "313373449252906525744916017602189160371"
+              ]
+            },
+            "id": "ASB-A-157038281-40ae91f0",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3108.0,
+              "function_hash": "94067362944700076155000881134038373824"
+            },
+            "id": "ASB-A-157038281-4100012b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc",
+              "function": "bta_dm_ble_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2457.0,
+              "function_hash": "58032923757447706296194816290075680608"
+            },
+            "id": "ASB-A-157038281-594fe8ab",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "330930546012496514480377423014314423137",
+                "11762145032635374166917589579194723394",
+                "212324269000609916859401293746816447272",
+                "50711425529424856186509447722249800526",
+                "69957093265416678526444556296639252141",
+                "62730281375438910381615232323374447355",
+                "34125414874109382394381153167807856652",
+                "5800152430043191926972187857753457575",
+                "246090430726045246919215407815706952352",
+                "86931941911930631524932446579475818443",
+                "88311774435730366746427194464095652777",
+                "28608564074422652099868710087852289461",
+                "217530098881144130588114515166845879456"
+              ]
+            },
+            "id": "ASB-A-157038281-5cd7bac6",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "100312520963221166822909340435732755797",
+                "252018229085176352179725647313523222909",
+                "2389996442223139815109936882975344444"
+              ]
+            },
+            "id": "ASB-A-157038281-5ea63777",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_api.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "176103410811009822097556401636563885618",
+                "326490954156002775452442993458585371566",
+                "287686748106459835459635583097803592685",
+                "21850808014058208439706052864824505449",
+                "215286734471788301462172763351269138097",
+                "72302893932110133953091051322614727724",
+                "91069740820198552936149551775401004886",
+                "46992582389263274585267871847049564345",
+                "107953717633874826501417479474095573065",
+                "8411505967920724976014306905107544475",
+                "203198767036545510457665387136201217868",
+                "170093116442350688427886899181125299416",
+                "86690973309943697197758634197245326472",
+                "280479236762625444599915445867070601376",
+                "168036837319234141147137813481152560444",
+                "34534745296281539977631947187478373397"
+              ]
+            },
+            "id": "ASB-A-157038281-637d52f3",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "160988574818648045133452576739688002343",
+                "240870636011088180370829429628466994321",
+                "60117286582660210777101523870384208747",
+                "296308211328737926597102699369725720268",
+                "180358173052943379436390497427348916775",
+                "27521223860331743510505543005265943209",
+                "303659173795356049130873341624669390480",
+                "250655365373067874507724832328356518791",
+                "182327012827900646547860126244818884924",
+                "67759012002076478743727694836429673344",
+                "17962296294351550147144561614037666838",
+                "290135092260527780819718481599472826656",
+                "167490547900741455867861361222334077880",
+                "201489628729130620300528514067139794673",
+                "116387438248469091424848017118123145982",
+                "146081442578038738350582837327465713623"
+              ]
+            },
+            "id": "ASB-A-157038281-6ad67f52",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3103.0,
+              "function_hash": "190576750034893619371197752065645279342"
+            },
+            "id": "ASB-A-157038281-6d570d62",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc",
+              "function": "btm_proc_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "201105367067295881108327400277602669309",
+                "109290394494576233149924833268248687560",
+                "91680129304714548443582013432500229276",
+                "72411920253374876434362967695253770334"
+              ]
+            },
+            "id": "ASB-A-157038281-7ef4e318",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_dm.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2320.0,
+              "function_hash": "112531274067660169268062259614344347861"
+            },
+            "id": "ASB-A-157038281-81fa1447",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "30148307350815998296314777258510693288",
+                "278557482957938877632908176032573439805",
+                "46337723722176881129002724885692143631",
+                "98622714097174249811723005629041394069"
+              ]
+            },
+            "id": "ASB-A-157038281-82b21225",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 708.0,
+              "function_hash": "183730808488633129915486933260154190576"
+            },
+            "id": "ASB-A-157038281-852b1e07",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc",
+              "function": "init"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "90231861124166576716631393770209491471",
+                "262919668639691396372267090129829472033",
+                "3929289543587825306264691193889620341"
+              ]
+            },
+            "id": "ASB-A-157038281-87be788d",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "174201675099952091244892563207032646819",
+                "276236007049963091572252930970349775353",
+                "98074242501461545505889035942004767405",
+                "132792386158014892288826772949877551148",
+                "230069431199743055292584521389567950009",
+                "120734870774512651547171550728500556383",
+                "280530058120438830441945882566253731192"
+              ]
+            },
+            "id": "ASB-A-157038281-9d77a312",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "68599573647872116472271697077200424983",
+                "241074427353561119903090828946207714020",
+                "295167890463962589213365298662758012221",
+                "264188018885457521536388811907697171954",
+                "82693602646323038071625361874850585753"
+              ]
+            },
+            "id": "ASB-A-157038281-a110f189",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "include/hardware/bluetooth.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 8855.0,
+              "function_hash": "301500401311809862687108872924756327413"
+            },
+            "id": "ASB-A-157038281-aeca31da",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_upstreams_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "151850068518970980094369690902463771450",
+                "330047973550245822927638766639398483319",
+                "137813909334542411229860095083399436128",
+                "146617051137074450298532346701639865123"
+              ]
+            },
+            "id": "ASB-A-157038281-bade10eb",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "service/hal/bluetooth_interface.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "309782153556352844433453468330448468610",
+                "213650834033151209462433404578898540240",
+                "310006113108550276715647563512425052163",
+                "308447674401386975680872017084724830574",
+                "161570466466584278519717595942550205984",
+                "258578022259534054938217620213695529729",
+                "108634015673300762312708773322201415038",
+                "21168526646248503884774206334622813483",
+                "263250159863457400228753717539171861160",
+                "29184605076671599232902218087759630569",
+                "111215805723849299818269808941268237431",
+                "323232948365542865886526141932497078062",
+                "307311562104523348912836184924430361538",
+                "277843493990694882029197741729245789053",
+                "271764704495591571364725308159872016017"
+              ]
+            },
+            "id": "ASB-A-157038281-bb214518",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 636.0,
+              "function_hash": "246153933052974361789822017565183904379"
+            },
+            "id": "ASB-A-157038281-be966570",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc",
+              "function": "SMP_SecurityGrant"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2159.0,
+              "function_hash": "173196413699773906299450659831894584493"
+            },
+            "id": "ASB-A-157038281-beaebf15",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2613.0,
+              "function_hash": "177717406543718616803153195811938820665"
+            },
+            "id": "ASB-A-157038281-cb3157b4",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 818.0,
+              "function_hash": "221659570648865965525421496542649177014"
+            },
+            "id": "ASB-A-157038281-ffe5af2a",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_ble_sec_req_evt"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c",
+          "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+          "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/Bluetooth",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2982.0,
+              "function_hash": "137359662711384033555401531596273223141"
+            },
+            "id": "ASB-A-157038281-1c758713",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1239.0,
+              "function_hash": "155855738231520385688484377649189203670"
+            },
+            "id": "ASB-A-157038281-57816d78",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp",
+              "function": "initNative"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249155751675739173061982842698514683037",
+                "48792780398728695737032316806225580866",
+                "207796549628479039852285369483806286441",
+                "106573758444075036668187541698252402115",
+                "319422919324659566297527754931896857022",
+                "53188278251663659449657951678385580537",
+                "119113750231612246241101347763991305274",
+                "129034523212900623210058103927582883669"
+              ]
+            },
+            "id": "ASB-A-157038281-8e097eb6",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "288327712671115562056437202506249381106",
+                "25548363474466877580975290976515731870",
+                "339892665512476015852888128590203461165",
+                "148743557554913228454559440812808510847",
+                "115106482513511501719911639524346661980",
+                "90881898225197608731121919960385592230",
+                "337089620781201760668371408715330922788",
+                "35880480334431437822633427399773108164",
+                "57804317503493548264184627133055206049",
+                "201301814969488626260507196024346419192",
+                "266123164595982624943977120530212926234",
+                "233231375868369285399011583927497592973"
+              ]
+            },
+            "id": "ASB-A-157038281-9ed275c6",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2320.0,
+              "function_hash": "112531274067660169268062259614344347861"
+            },
+            "id": "ASB-A-157038281-17f1c523",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2159.0,
+              "function_hash": "173196413699773906299450659831894584493"
+            },
+            "id": "ASB-A-157038281-2841dc4e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "160988574818648045133452576739688002343",
+                "240870636011088180370829429628466994321",
+                "60117286582660210777101523870384208747",
+                "296308211328737926597102699369725720268",
+                "180358173052943379436390497427348916775",
+                "27521223860331743510505543005265943209",
+                "303659173795356049130873341624669390480",
+                "250655365373067874507724832328356518791",
+                "182327012827900646547860126244818884924",
+                "67759012002076478743727694836429673344",
+                "17962296294351550147144561614037666838",
+                "290135092260527780819718481599472826656",
+                "167490547900741455867861361222334077880",
+                "201489628729130620300528514067139794673",
+                "116387438248469091424848017118123145982",
+                "146081442578038738350582837327465713623"
+              ]
+            },
+            "id": "ASB-A-157038281-304f9214",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "68599573647872116472271697077200424983",
+                "241074427353561119903090828946207714020",
+                "295167890463962589213365298662758012221",
+                "264188018885457521536388811907697171954",
+                "82693602646323038071625361874850585753"
+              ]
+            },
+            "id": "ASB-A-157038281-4123985e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "include/hardware/bluetooth.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "218970800081116559407926911014695050496",
+                "28752692510458970851215673540425411574",
+                "144800924775981393640188425135665654160",
+                "242123068893093735929387451833999928898"
+              ]
+            },
+            "id": "ASB-A-157038281-52a3e79c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "151850068518970980094369690902463771450",
+                "330047973550245822927638766639398483319",
+                "137813909334542411229860095083399436128",
+                "146617051137074450298532346701639865123"
+              ]
+            },
+            "id": "ASB-A-157038281-54207f11",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "service/hal/bluetooth_interface.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2457.0,
+              "function_hash": "58032923757447706296194816290075680608"
+            },
+            "id": "ASB-A-157038281-5e7d6b9e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "30148307350815998296314777258510693288",
+                "278557482957938877632908176032573439805",
+                "46337723722176881129002724885692143631",
+                "98622714097174249811723005629041394069"
+              ]
+            },
+            "id": "ASB-A-157038281-67fc90c7",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 823.0,
+              "function_hash": "73525069259940577685262770473378256743"
+            },
+            "id": "ASB-A-157038281-6b5fe9bc",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc",
+              "function": "TEST_F"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 877.0,
+              "function_hash": "48412460430649862069629733227252173627"
+            },
+            "id": "ASB-A-157038281-6fa7648a",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc",
+              "function": "HeadlessStack::SetUp"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "90231861124166576716631393770209491471",
+                "262919668639691396372267090129829472033",
+                "3929289543587825306264691193889620341"
+              ]
+            },
+            "id": "ASB-A-157038281-7f309a41",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 8855.0,
+              "function_hash": "301500401311809862687108872924756327413"
+            },
+            "id": "ASB-A-157038281-90d9bf3e",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_upstreams_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "174201675099952091244892563207032646819",
+                "276236007049963091572252930970349775353",
+                "98074242501461545505889035942004767405",
+                "132792386158014892288826772949877551148",
+                "230069431199743055292584521389567950009",
+                "120734870774512651547171550728500556383",
+                "280530058120438830441945882566253731192"
+              ]
+            },
+            "id": "ASB-A-157038281-92b54f55",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3103.0,
+              "function_hash": "190576750034893619371197752065645279342"
+            },
+            "id": "ASB-A-157038281-94a1b767",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc",
+              "function": "btm_proc_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "309782153556352844433453468330448468610",
+                "213650834033151209462433404578898540240",
+                "310006113108550276715647563512425052163",
+                "308447674401386975680872017084724830574",
+                "161570466466584278519717595942550205984",
+                "258578022259534054938217620213695529729",
+                "108634015673300762312708773322201415038",
+                "21168526646248503884774206334622813483",
+                "263250159863457400228753717539171861160",
+                "29184605076671599232902218087759630569",
+                "111215805723849299818269808941268237431",
+                "323232948365542865886526141932497078062",
+                "307311562104523348912836184924430361538",
+                "277843493990694882029197741729245789053",
+                "271764704495591571364725308159872016017"
+              ]
+            },
+            "id": "ASB-A-157038281-9bb06621",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3108.0,
+              "function_hash": "94067362944700076155000881134038373824"
+            },
+            "id": "ASB-A-157038281-a0cf66ef",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc",
+              "function": "bta_dm_ble_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "176103410811009822097556401636563885618",
+                "326490954156002775452442993458585371566",
+                "287686748106459835459635583097803592685",
+                "21850808014058208439706052864824505449",
+                "215286734471788301462172763351269138097",
+                "72302893932110133953091051322614727724",
+                "91069740820198552936149551775401004886",
+                "46992582389263274585267871847049564345",
+                "107953717633874826501417479474095573065",
+                "8411505967920724976014306905107544475",
+                "203198767036545510457665387136201217868",
+                "170093116442350688427886899181125299416",
+                "86690973309943697197758634197245326472",
+                "280479236762625444599915445867070601376",
+                "168036837319234141147137813481152560444",
+                "34534745296281539977631947187478373397"
+              ]
+            },
+            "id": "ASB-A-157038281-a4d6df7b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "330930546012496514480377423014314423137",
+                "11762145032635374166917589579194723394",
+                "212324269000609916859401293746816447272",
+                "50711425529424856186509447722249800526",
+                "69957093265416678526444556296639252141",
+                "62730281375438910381615232323374447355",
+                "34125414874109382394381153167807856652",
+                "5800152430043191926972187857753457575",
+                "246090430726045246919215407815706952352",
+                "86931941911930631524932446579475818443",
+                "88311774435730366746427194464095652777",
+                "28608564074422652099868710087852289461",
+                "217530098881144130588114515166845879456"
+              ]
+            },
+            "id": "ASB-A-157038281-af615cc5",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "100312520963221166822909340435732755797",
+                "252018229085176352179725647313523222909",
+                "2389996442223139815109936882975344444"
+              ]
+            },
+            "id": "ASB-A-157038281-b2aec594",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_api.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 636.0,
+              "function_hash": "246153933052974361789822017565183904379"
+            },
+            "id": "ASB-A-157038281-b7184387",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc",
+              "function": "SMP_SecurityGrant"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 818.0,
+              "function_hash": "221659570648865965525421496542649177014"
+            },
+            "id": "ASB-A-157038281-c627398d",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_ble_sec_req_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "46777931121321814917792688150621230972",
+                "52655362989620007884359709445123264808",
+                "313373449252906525744916017602189160371"
+              ]
+            },
+            "id": "ASB-A-157038281-cc6c8a6b",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 708.0,
+              "function_hash": "183730808488633129915486933260154190576"
+            },
+            "id": "ASB-A-157038281-db7cc9c5",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc",
+              "function": "init"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "201105367067295881108327400277602669309",
+                "109290394494576233149924833268248687560",
+                "91680129304714548443582013432500229276",
+                "72411920253374876434362967695253770334"
+              ]
+            },
+            "id": "ASB-A-157038281-e42f6762",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_dm.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2613.0,
+              "function_hash": "177717406543718616803153195811938820665"
+            },
+            "id": "ASB-A-157038281-f84702ad",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c",
+          "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+          "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/Bluetooth",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249155751675739173061982842698514683037",
+                "48792780398728695737032316806225580866",
+                "207796549628479039852285369483806286441",
+                "106573758444075036668187541698252402115",
+                "319422919324659566297527754931896857022",
+                "53188278251663659449657951678385580537",
+                "119113750231612246241101347763991305274",
+                "129034523212900623210058103927582883669"
+              ]
+            },
+            "id": "ASB-A-157038281-31d1dd99",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "288327712671115562056437202506249381106",
+                "25548363474466877580975290976515731870",
+                "339892665512476015852888128590203461165",
+                "148743557554913228454559440812808510847",
+                "115106482513511501719911639524346661980",
+                "90881898225197608731121919960385592230",
+                "337089620781201760668371408715330922788",
+                "35880480334431437822633427399773108164",
+                "57804317503493548264184627133055206049",
+                "201301814969488626260507196024346419192",
+                "266123164595982624943977120530212926234",
+                "233231375868369285399011583927497592973"
+              ]
+            },
+            "id": "ASB-A-157038281-5457ad5a",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2982.0,
+              "function_hash": "137359662711384033555401531596273223141"
+            },
+            "id": "ASB-A-157038281-71237e83",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/bluetooth/btservice/AdapterService.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1239.0,
+              "function_hash": "155855738231520385688484377649189203670"
+            },
+            "id": "ASB-A-157038281-f350f790",
+            "source": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "jni/com_android_bluetooth_btservice_AdapterService.cpp",
+              "function": "initNative"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/81c1c7d2d1681434413a615eea532e85fee43db0"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "46777931121321814917792688150621230972",
+                "52655362989620007884359709445123264808",
+                "313373449252906525744916017602189160371"
+              ]
+            },
+            "id": "ASB-A-157038281-07b871fa",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 8855.0,
+              "function_hash": "301500401311809862687108872924756327413"
+            },
+            "id": "ASB-A-157038281-0cbde395",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_upstreams_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 823.0,
+              "function_hash": "73525069259940577685262770473378256743"
+            },
+            "id": "ASB-A-157038281-10cf4628",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc",
+              "function": "TEST_F"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "160988574818648045133452576739688002343",
+                "240870636011088180370829429628466994321",
+                "60117286582660210777101523870384208747",
+                "296308211328737926597102699369725720268",
+                "180358173052943379436390497427348916775",
+                "27521223860331743510505543005265943209",
+                "303659173795356049130873341624669390480",
+                "250655365373067874507724832328356518791",
+                "182327012827900646547860126244818884924",
+                "67759012002076478743727694836429673344",
+                "17962296294351550147144561614037666838",
+                "290135092260527780819718481599472826656",
+                "167490547900741455867861361222334077880",
+                "201489628729130620300528514067139794673",
+                "116387438248469091424848017118123145982",
+                "146081442578038738350582837327465713623"
+              ]
+            },
+            "id": "ASB-A-157038281-143bea0a",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 636.0,
+              "function_hash": "246153933052974361789822017565183904379"
+            },
+            "id": "ASB-A-157038281-3a1cc5ef",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc",
+              "function": "SMP_SecurityGrant"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "30148307350815998296314777258510693288",
+                "278557482957938877632908176032573439805",
+                "46337723722176881129002724885692143631",
+                "98622714097174249811723005629041394069"
+              ]
+            },
+            "id": "ASB-A-157038281-4f130f98",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/suite/adapter/adapter_unittest.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2457.0,
+              "function_hash": "58032923757447706296194816290075680608"
+            },
+            "id": "ASB-A-157038281-4f9f7347",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3108.0,
+              "function_hash": "94067362944700076155000881134038373824"
+            },
+            "id": "ASB-A-157038281-52c8fea2",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "bta/dm/bta_dm_act.cc",
+              "function": "bta_dm_ble_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "176103410811009822097556401636563885618",
+                "326490954156002775452442993458585371566",
+                "287686748106459835459635583097803592685",
+                "21850808014058208439706052864824505449",
+                "215286734471788301462172763351269138097",
+                "72302893932110133953091051322614727724",
+                "91069740820198552936149551775401004886",
+                "46992582389263274585267871847049564345",
+                "107953717633874826501417479474095573065",
+                "8411505967920724976014306905107544475",
+                "203198767036545510457665387136201217868",
+                "170093116442350688427886899181125299416",
+                "86690973309943697197758634197245326472",
+                "280479236762625444599915445867070601376",
+                "168036837319234141147137813481152560444",
+                "34534745296281539977631947187478373397"
+              ]
+            },
+            "id": "ASB-A-157038281-63494dac",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "68599573647872116472271697077200424983",
+                "241074427353561119903090828946207714020",
+                "295167890463962589213365298662758012221",
+                "264188018885457521536388811907697171954",
+                "82693602646323038071625361874850585753"
+              ]
+            },
+            "id": "ASB-A-157038281-6703e869",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "include/hardware/bluetooth.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2159.0,
+              "function_hash": "173196413699773906299450659831894584493"
+            },
+            "id": "ASB-A-157038281-6c1cd240",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_decide_association_model"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2613.0,
+              "function_hash": "177717406543718616803153195811938820665"
+            },
+            "id": "ASB-A-157038281-6dd8b3bf",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 708.0,
+              "function_hash": "183730808488633129915486933260154190576"
+            },
+            "id": "ASB-A-157038281-6fb932c6",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc",
+              "function": "init"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "309782153556352844433453468330448468610",
+                "213650834033151209462433404578898540240",
+                "310006113108550276715647563512425052163",
+                "308447674401386975680872017084724830574",
+                "161570466466584278519717595942550205984",
+                "258578022259534054938217620213695529729",
+                "108634015673300762312708773322201415038",
+                "21168526646248503884774206334622813483",
+                "263250159863457400228753717539171861160",
+                "29184605076671599232902218087759630569",
+                "111215805723849299818269808941268237431",
+                "323232948365542865886526141932497078062",
+                "307311562104523348912836184924430361538",
+                "277843493990694882029197741729245789053",
+                "271764704495591571364725308159872016017"
+              ]
+            },
+            "id": "ASB-A-157038281-791f3696",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/bluetooth.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "201105367067295881108327400277602669309",
+                "109290394494576233149924833268248687560",
+                "91680129304714548443582013432500229276",
+                "72411920253374876434362967695253770334"
+              ]
+            },
+            "id": "ASB-A-157038281-7e05ba07",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_dm.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 877.0,
+              "function_hash": "48412460430649862069629733227252173627"
+            },
+            "id": "ASB-A-157038281-8fe134b9",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc",
+              "function": "HeadlessStack::SetUp"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "174201675099952091244892563207032646819",
+                "276236007049963091572252930970349775353",
+                "98074242501461545505889035942004767405",
+                "132792386158014892288826772949877551148",
+                "230069431199743055292584521389567950009",
+                "120734870774512651547171550728500556383",
+                "280530058120438830441945882566253731192"
+              ]
+            },
+            "id": "ASB-A-157038281-c4015aee",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "330930546012496514480377423014314423137",
+                "11762145032635374166917589579194723394",
+                "212324269000609916859401293746816447272",
+                "50711425529424856186509447722249800526",
+                "69957093265416678526444556296639252141",
+                "62730281375438910381615232323374447355",
+                "34125414874109382394381153167807856652",
+                "5800152430043191926972187857753457575",
+                "246090430726045246919215407815706952352",
+                "86931941911930631524932446579475818443",
+                "88311774435730366746427194464095652777",
+                "28608564074422652099868710087852289461",
+                "217530098881144130588114515166845879456"
+              ]
+            },
+            "id": "ASB-A-157038281-c50e5606",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "100312520963221166822909340435732755797",
+                "252018229085176352179725647313523222909",
+                "2389996442223139815109936882975344444"
+              ]
+            },
+            "id": "ASB-A-157038281-c59adafa",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/include/btif_api.h"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2320.0,
+              "function_hash": "112531274067660169268062259614344347861"
+            },
+            "id": "ASB-A-157038281-c98858ec",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_act.cc",
+              "function": "smp_process_peer_nonce"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "151850068518970980094369690902463771450",
+                "330047973550245822927638766639398483319",
+                "137813909334542411229860095083399436128",
+                "146617051137074450298532346701639865123"
+              ]
+            },
+            "id": "ASB-A-157038281-cbf6e2fa",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "service/hal/bluetooth_interface.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "218970800081116559407926911014695050496",
+                "28752692510458970851215673540425411574",
+                "144800924775981393640188425135665654160",
+                "242123068893093735929387451833999928898"
+              ]
+            },
+            "id": "ASB-A-157038281-cf8752fa",
+            "source": "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "test/headless/headless.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 818.0,
+              "function_hash": "221659570648865965525421496542649177014"
+            },
+            "id": "ASB-A-157038281-d908ce99",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "btif/src/btif_dm.cc",
+              "function": "btif_dm_ble_sec_req_evt"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3103.0,
+              "function_hash": "190576750034893619371197752065645279342"
+            },
+            "id": "ASB-A-157038281-dc63ea40",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_ble.cc",
+              "function": "btm_proc_smp_cback"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "90231861124166576716631393770209491471",
+                "262919668639691396372267090129829472033",
+                "3929289543587825306264691193889620341"
+              ]
+            },
+            "id": "ASB-A-157038281-fefbec13",
+            "source": "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/smp/smp_api.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/73b4e5c4ba4c0c96a26ec84564cd9653da50a26c",
+          "https://android.googlesource.com/platform/system/bt/+/b3f12befdc4def7d695b6f1049cd02238eb1e4a8",
+          "https://android.googlesource.com/platform/system/bt/+/05243b881764136d3ca67b438d2e500d6f134f6a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-157038281.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

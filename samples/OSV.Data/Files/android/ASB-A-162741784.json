@@ -1,0 +1,739 @@
+{
+  "id": "ASB-A-162741784",
+  "summary": "Tempering  Cell Broadcast Read State",
+  "details": "In CellBroadcastReceiver's intent handlers, there is a possible denial of service due to a missing permission check. This could lead to local denial of service of emergency alerts with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-162741784",
+    "CVE-2020-0437"
+  ],
+  "modified": "2024-08-07T19:29:34.872092Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/apps/CellBroadcastReceiver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 217.0,
+              "function_hash": "269087824171694009133927737010472296432"
+            },
+            "id": "ASB-A-162741784-2d009953",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "createMarkAsReadIntent"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2444.0,
+              "function_hash": "109663615653882719457134920328822968316"
+            },
+            "id": "ASB-A-162741784-4ce12bd9",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java",
+              "function": "onReceive"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "292166707387796780054576385086075055732",
+                "221088539864607633882507119959814066704",
+                "265486665336528944067627402104849281894",
+                "105793467079018943203554543127410074330",
+                "95297607468711927293344526861790250759",
+                "24216375294554272832201445221429788857",
+                "189552614737704129844583145077789799395",
+                "63153729000450205001510472738833552733",
+                "285462367752790229971643635538051092289"
+              ]
+            },
+            "id": "ASB-A-162741784-963e2367",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "206860692485908322302056367900321426879",
+                "205483417074566406026857603419518316573",
+                "105575669682321437784150733382467616054",
+                "266876437242677489061462059473201144371",
+                "269230044694997041766778126024011296891",
+                "136113702685387714425983873653391171715",
+                "273657432937895444355320124472241872517",
+                "78072888455040555767983768793276216800",
+                "279059698783102931710413506457256170224",
+                "101570434176416051763224201543795185300",
+                "175579181965432286973317471907631797754",
+                "141977235254827918242481209501193730292",
+                "290355427736541740431074072487573795570",
+                "144826177328991476327978044324263671618",
+                "250806415009287311767273685124732870857",
+                "264739209815203220168375031182825769177",
+                "221223053137679290038064798063907596762",
+                "64111058578822059423245338501990627030",
+                "284583331630669303380999951249643732669",
+                "233723446226480574607284025286984739552",
+                "50374201447594708691546380839673904134",
+                "136749332104763012258625916042179972251"
+              ]
+            },
+            "id": "ASB-A-162741784-cd873772",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2875.0,
+              "function_hash": "142430306102217338848873039596916079492"
+            },
+            "id": "ASB-A-162741784-f78a6e5e",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "addToNotificationBar"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162741784.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/CellBroadcastReceiver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "292166707387796780054576385086075055732",
+                "221088539864607633882507119959814066704",
+                "265486665336528944067627402104849281894",
+                "105793467079018943203554543127410074330",
+                "95297607468711927293344526861790250759",
+                "24216375294554272832201445221429788857",
+                "189552614737704129844583145077789799395",
+                "63153729000450205001510472738833552733",
+                "285462367752790229971643635538051092289"
+              ]
+            },
+            "id": "ASB-A-162741784-03090e79",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 217.0,
+              "function_hash": "269087824171694009133927737010472296432"
+            },
+            "id": "ASB-A-162741784-26199701",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "createMarkAsReadIntent"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2444.0,
+              "function_hash": "109663615653882719457134920328822968316"
+            },
+            "id": "ASB-A-162741784-b5251b47",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java",
+              "function": "onReceive"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2875.0,
+              "function_hash": "142430306102217338848873039596916079492"
+            },
+            "id": "ASB-A-162741784-d46765a9",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "addToNotificationBar"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "206860692485908322302056367900321426879",
+                "205483417074566406026857603419518316573",
+                "105575669682321437784150733382467616054",
+                "266876437242677489061462059473201144371",
+                "269230044694997041766778126024011296891",
+                "136113702685387714425983873653391171715",
+                "273657432937895444355320124472241872517",
+                "78072888455040555767983768793276216800",
+                "279059698783102931710413506457256170224",
+                "101570434176416051763224201543795185300",
+                "175579181965432286973317471907631797754",
+                "141977235254827918242481209501193730292",
+                "290355427736541740431074072487573795570",
+                "144826177328991476327978044324263671618",
+                "250806415009287311767273685124732870857",
+                "264739209815203220168375031182825769177",
+                "221223053137679290038064798063907596762",
+                "64111058578822059423245338501990627030",
+                "284583331630669303380999951249643732669",
+                "233723446226480574607284025286984739552",
+                "50374201447594708691546380839673904134",
+                "136749332104763012258625916042179972251"
+              ]
+            },
+            "id": "ASB-A-162741784-fc831dfd",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162741784.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/CellBroadcastReceiver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "292166707387796780054576385086075055732",
+                "221088539864607633882507119959814066704",
+                "265486665336528944067627402104849281894",
+                "105793467079018943203554543127410074330",
+                "95297607468711927293344526861790250759",
+                "24216375294554272832201445221429788857",
+                "189552614737704129844583145077789799395",
+                "63153729000450205001510472738833552733",
+                "285462367752790229971643635538051092289"
+              ]
+            },
+            "id": "ASB-A-162741784-42d0317a",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2444.0,
+              "function_hash": "109663615653882719457134920328822968316"
+            },
+            "id": "ASB-A-162741784-5717c7c2",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java",
+              "function": "onReceive"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 217.0,
+              "function_hash": "269087824171694009133927737010472296432"
+            },
+            "id": "ASB-A-162741784-5f5b9b1e",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "createMarkAsReadIntent"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2875.0,
+              "function_hash": "142430306102217338848873039596916079492"
+            },
+            "id": "ASB-A-162741784-7db50986",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "addToNotificationBar"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "206860692485908322302056367900321426879",
+                "205483417074566406026857603419518316573",
+                "105575669682321437784150733382467616054",
+                "266876437242677489061462059473201144371",
+                "269230044694997041766778126024011296891",
+                "136113702685387714425983873653391171715",
+                "273657432937895444355320124472241872517",
+                "78072888455040555767983768793276216800",
+                "279059698783102931710413506457256170224",
+                "101570434176416051763224201543795185300",
+                "175579181965432286973317471907631797754",
+                "141977235254827918242481209501193730292",
+                "290355427736541740431074072487573795570",
+                "144826177328991476327978044324263671618",
+                "250806415009287311767273685124732870857",
+                "264739209815203220168375031182825769177",
+                "221223053137679290038064798063907596762",
+                "64111058578822059423245338501990627030",
+                "284583331630669303380999951249643732669",
+                "233723446226480574607284025286984739552",
+                "50374201447594708691546380839673904134",
+                "136749332104763012258625916042179972251"
+              ]
+            },
+            "id": "ASB-A-162741784-8adb3339",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162741784.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/CellBroadcastReceiver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2444.0,
+              "function_hash": "109663615653882719457134920328822968316"
+            },
+            "id": "ASB-A-162741784-01f4f333",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java",
+              "function": "onReceive"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 2875.0,
+              "function_hash": "142430306102217338848873039596916079492"
+            },
+            "id": "ASB-A-162741784-2e62a5e6",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "addToNotificationBar"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 217.0,
+              "function_hash": "269087824171694009133927737010472296432"
+            },
+            "id": "ASB-A-162741784-588a513c",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "createMarkAsReadIntent"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "206860692485908322302056367900321426879",
+                "205483417074566406026857603419518316573",
+                "105575669682321437784150733382467616054",
+                "266876437242677489061462059473201144371",
+                "269230044694997041766778126024011296891",
+                "136113702685387714425983873653391171715",
+                "273657432937895444355320124472241872517",
+                "78072888455040555767983768793276216800",
+                "279059698783102931710413506457256170224",
+                "101570434176416051763224201543795185300",
+                "175579181965432286973317471907631797754",
+                "141977235254827918242481209501193730292",
+                "290355427736541740431074072487573795570",
+                "144826177328991476327978044324263671618",
+                "250806415009287311767273685124732870857",
+                "264739209815203220168375031182825769177",
+                "221223053137679290038064798063907596762",
+                "64111058578822059423245338501990627030",
+                "284583331630669303380999951249643732669",
+                "233723446226480574607284025286984739552",
+                "50374201447594708691546380839673904134",
+                "136749332104763012258625916042179972251"
+              ]
+            },
+            "id": "ASB-A-162741784-991860d6",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "292166707387796780054576385086075055732",
+                "221088539864607633882507119959814066704",
+                "265486665336528944067627402104849281894",
+                "105793467079018943203554543127410074330",
+                "95297607468711927293344526861790250759",
+                "24216375294554272832201445221429788857",
+                "189552614737704129844583145077789799395",
+                "63153729000450205001510472738833552733",
+                "285462367752790229971643635538051092289"
+              ]
+            },
+            "id": "ASB-A-162741784-aef87c2c",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162741784.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/CellBroadcastReceiver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 217.0,
+              "function_hash": "269087824171694009133927737010472296432"
+            },
+            "id": "ASB-A-162741784-0cc0b4f1",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "createMarkAsReadIntent"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "206860692485908322302056367900321426879",
+                "205483417074566406026857603419518316573",
+                "105575669682321437784150733382467616054",
+                "266876437242677489061462059473201144371",
+                "269230044694997041766778126024011296891",
+                "136113702685387714425983873653391171715",
+                "273657432937895444355320124472241872517",
+                "78072888455040555767983768793276216800",
+                "279059698783102931710413506457256170224",
+                "101570434176416051763224201543795185300",
+                "175579181965432286973317471907631797754",
+                "141977235254827918242481209501193730292",
+                "290355427736541740431074072487573795570",
+                "144826177328991476327978044324263671618",
+                "250806415009287311767273685124732870857",
+                "264739209815203220168375031182825769177",
+                "221223053137679290038064798063907596762",
+                "64111058578822059423245338501990627030",
+                "284583331630669303380999951249643732669",
+                "233723446226480574607284025286984739552",
+                "50374201447594708691546380839673904134",
+                "136749332104763012258625916042179972251"
+              ]
+            },
+            "id": "ASB-A-162741784-0e8d71ac",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2444.0,
+              "function_hash": "109663615653882719457134920328822968316"
+            },
+            "id": "ASB-A-162741784-3b9ea0e9",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java",
+              "function": "onReceive"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "292166707387796780054576385086075055732",
+                "221088539864607633882507119959814066704",
+                "265486665336528944067627402104849281894",
+                "105793467079018943203554543127410074330",
+                "95297607468711927293344526861790250759",
+                "24216375294554272832201445221429788857",
+                "189552614737704129844583145077789799395",
+                "63153729000450205001510472738833552733",
+                "285462367752790229971643635538051092289"
+              ]
+            },
+            "id": "ASB-A-162741784-884a745e",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastReceiver.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2875.0,
+              "function_hash": "142430306102217338848873039596916079492"
+            },
+            "id": "ASB-A-162741784-94f58a92",
+            "source": "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java",
+              "function": "addToNotificationBar"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/ceb90c636ce0d766f80cfcd522bb27b37e6d37c9"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162741784.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

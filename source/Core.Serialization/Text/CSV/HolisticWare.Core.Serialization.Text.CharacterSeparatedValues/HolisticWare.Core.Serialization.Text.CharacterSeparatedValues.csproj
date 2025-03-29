@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.CharacterSeparatedValues</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.CharacterSeparatedValues</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.CharacterSeparatedValues
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.CharacterSeparatedValues
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.CharacterSeparatedValues package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.CharacterSeparatedValues package
+        </Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="CharacterSeparatedValues\" />
+        <Folder Include="CharacterSeparatedValues\CvsHelper\" />
+    </ItemGroup>
+
+     <ItemGroup>
+        <PackageReference Include="CsvHelper" Version="33.0.1" />
+     </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Apache.Thrift</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.Apache.Thrift</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.Apache.Thrift
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.Apache.Thrift
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.Apache.Thrift package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.Apache.Thrift package
+        </Description>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApacheThrift" Version="0.20.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="Apache.Thrift\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

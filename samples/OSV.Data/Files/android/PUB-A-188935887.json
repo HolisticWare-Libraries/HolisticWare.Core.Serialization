@@ -1,0 +1,51 @@
+{
+  "id": "PUB-A-188935887",
+  "summary": "Crash in /vendor/bin/hw/android.hardware.camera.provider@2.7-service-google, HWAddressSanitizer: tag-mismatch on address 0x0043faf6bd08 at pc 0x00744771ffac READ of size 2 at 0x0043faf6bd08 tags: 84/16 (ptr/mem) in thread T50",
+  "aliases": [
+    "A-188935887",
+    "CVE-2022-20381"
+  ],
+  "modified": "2024-08-29T07:12:54.139086Z",
+  "published": "2022-08-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-08-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "Pixel-family specific:0"
+            },
+            {
+              "fixed": "Pixel-family specific:2022-08-05"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "Pixel-family specific"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-08-05",
+        "severity": "Moderate",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-188935887.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

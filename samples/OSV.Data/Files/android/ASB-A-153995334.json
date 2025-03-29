@@ -1,0 +1,379 @@
+{
+  "id": "ASB-A-153995334",
+  "summary": ": Access to stable identifier without any permissions",
+  "details": "In getPhoneAccountsForPackage of TelecomServiceImpl.java, there is a possible way to access a tracking identifier due to a missing permission check. This could lead to local information disclosure of the identifier, which could be used to track an account across devices, with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-153995334",
+    "CVE-2020-0448"
+  ],
+  "modified": "2024-08-07T19:29:57.585342Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "65902722321156028442508315471979085629",
+                "3761417310122585823727483760011672801",
+                "71834074461700890272152205647566934895",
+                "229448736767031868483096161748282211362"
+              ]
+            },
+            "id": "ASB-A-153995334-24f0efc5",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 429.0,
+              "function_hash": "106005899052595636515467162050583809853"
+            },
+            "id": "ASB-A-153995334-8c37dab0",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java",
+              "function": "getPhoneAccountsForPackage"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153995334.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "65902722321156028442508315471979085629",
+                "3761417310122585823727483760011672801",
+                "71834074461700890272152205647566934895",
+                "229448736767031868483096161748282211362"
+              ]
+            },
+            "id": "ASB-A-153995334-3dc57c0d",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 429.0,
+              "function_hash": "106005899052595636515467162050583809853"
+            },
+            "id": "ASB-A-153995334-82fc5b53",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java",
+              "function": "getPhoneAccountsForPackage"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153995334.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 429.0,
+              "function_hash": "106005899052595636515467162050583809853"
+            },
+            "id": "ASB-A-153995334-90228bc4",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java",
+              "function": "getPhoneAccountsForPackage"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "65902722321156028442508315471979085629",
+                "3761417310122585823727483760011672801",
+                "71834074461700890272152205647566934895",
+                "229448736767031868483096161748282211362"
+              ]
+            },
+            "id": "ASB-A-153995334-e2ad4d56",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153995334.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 429.0,
+              "function_hash": "106005899052595636515467162050583809853"
+            },
+            "id": "ASB-A-153995334-4bd835f9",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java",
+              "function": "getPhoneAccountsForPackage"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "65902722321156028442508315471979085629",
+                "3761417310122585823727483760011672801",
+                "71834074461700890272152205647566934895",
+                "229448736767031868483096161748282211362"
+              ]
+            },
+            "id": "ASB-A-153995334-e2ac0ef8",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153995334.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "65902722321156028442508315471979085629",
+                "3761417310122585823727483760011672801",
+                "71834074461700890272152205647566934895",
+                "229448736767031868483096161748282211362"
+              ]
+            },
+            "id": "ASB-A-153995334-34b68fb4",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 429.0,
+              "function_hash": "106005899052595636515467162050583809853"
+            },
+            "id": "ASB-A-153995334-a18e7839",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/TelecomServiceImpl.java",
+              "function": "getPhoneAccountsForPackage"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/1938c5be3be49f2652b84a58f1f448d57871e28e"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153995334.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

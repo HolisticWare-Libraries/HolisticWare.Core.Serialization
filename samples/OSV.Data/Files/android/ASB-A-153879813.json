@@ -1,0 +1,674 @@
+{
+  "id": "ASB-A-153879813",
+  "summary": "privilege escalation through custom permissions with the \"android.permission-group.UNDEFINED\" attribute",
+  "details": "In getPermissionInfosForGroup of Utils.java, there is a logic error. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-153879813",
+    "CVE-2020-0418"
+  ],
+  "modified": "2024-08-07T19:30:01.171863Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/apps/PackageInstaller",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "327884605714745277504937997217095596897",
+                "230459611331252932704968786228486782408",
+                "4439615171372414052146478269376545725",
+                "61418336610958516805053548442293889981"
+              ]
+            },
+            "id": "ASB-A-153879813-05462234",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 211.0,
+              "function_hash": "266955580306784250954883025052735837438"
+            },
+            "id": "ASB-A-153879813-501421d1",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java",
+              "function": "getPermissionInfosForGroup"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3441.0,
+              "function_hash": "155269418000446953758025949038387156254"
+            },
+            "id": "ASB-A-153879813-98e51a47",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "306958079687056447884669764837349335261",
+                "248415811608635560014478564784839317575",
+                "39397916374352069445815716002098561740",
+                "283162938228251623632314616422175742691",
+                "47434107548427479256198968945616336465",
+                "201646817754642558195316124291070889862",
+                "110959809400831136447195181045651190208",
+                "224724940023597329410643627561444504074",
+                "246941056700526996886870170761768140662",
+                "10973729175679088721493329227948590012",
+                "68827460266646834950380429093531413092"
+              ]
+            },
+            "id": "ASB-A-153879813-b6c3a6d2",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/SafetyNetLogger.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "234313598412056486043284828466060306736",
+                "21923750258978695531762103156272468378",
+                "6124665663430185512169264032751165363"
+              ]
+            },
+            "id": "ASB-A-153879813-ea2d10a4",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153879813.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/PackageInstaller",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 211.0,
+              "function_hash": "266955580306784250954883025052735837438"
+            },
+            "id": "ASB-A-153879813-195f6dd2",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java",
+              "function": "getPermissionInfosForGroup"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "327884605714745277504937997217095596897",
+                "230459611331252932704968786228486782408",
+                "4439615171372414052146478269376545725",
+                "61418336610958516805053548442293889981"
+              ]
+            },
+            "id": "ASB-A-153879813-6fa98740",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "234313598412056486043284828466060306736",
+                "21923750258978695531762103156272468378",
+                "6124665663430185512169264032751165363"
+              ]
+            },
+            "id": "ASB-A-153879813-7436dea1",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "306958079687056447884669764837349335261",
+                "248415811608635560014478564784839317575",
+                "39397916374352069445815716002098561740",
+                "283162938228251623632314616422175742691",
+                "47434107548427479256198968945616336465",
+                "201646817754642558195316124291070889862",
+                "110959809400831136447195181045651190208",
+                "224724940023597329410643627561444504074",
+                "246941056700526996886870170761768140662",
+                "10973729175679088721493329227948590012",
+                "68827460266646834950380429093531413092"
+              ]
+            },
+            "id": "ASB-A-153879813-e2f9ca66",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/SafetyNetLogger.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3441.0,
+              "function_hash": "155269418000446953758025949038387156254"
+            },
+            "id": "ASB-A-153879813-fa0b6825",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153879813.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/PackageInstaller",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "306958079687056447884669764837349335261",
+                "248415811608635560014478564784839317575",
+                "39397916374352069445815716002098561740",
+                "283162938228251623632314616422175742691",
+                "47434107548427479256198968945616336465",
+                "201646817754642558195316124291070889862",
+                "110959809400831136447195181045651190208",
+                "224724940023597329410643627561444504074",
+                "246941056700526996886870170761768140662",
+                "10973729175679088721493329227948590012",
+                "68827460266646834950380429093531413092"
+              ]
+            },
+            "id": "ASB-A-153879813-056c06e9",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/SafetyNetLogger.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "327884605714745277504937997217095596897",
+                "230459611331252932704968786228486782408",
+                "4439615171372414052146478269376545725",
+                "61418336610958516805053548442293889981"
+              ]
+            },
+            "id": "ASB-A-153879813-2e2bf98c",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3441.0,
+              "function_hash": "155269418000446953758025949038387156254"
+            },
+            "id": "ASB-A-153879813-4171d461",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 211.0,
+              "function_hash": "266955580306784250954883025052735837438"
+            },
+            "id": "ASB-A-153879813-dacbe7d0",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java",
+              "function": "getPermissionInfosForGroup"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "234313598412056486043284828466060306736",
+                "21923750258978695531762103156272468378",
+                "6124665663430185512169264032751165363"
+              ]
+            },
+            "id": "ASB-A-153879813-efb0997b",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153879813.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/PackageInstaller",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "306958079687056447884669764837349335261",
+                "248415811608635560014478564784839317575",
+                "39397916374352069445815716002098561740",
+                "283162938228251623632314616422175742691",
+                "47434107548427479256198968945616336465",
+                "201646817754642558195316124291070889862",
+                "110959809400831136447195181045651190208",
+                "224724940023597329410643627561444504074",
+                "246941056700526996886870170761768140662",
+                "10973729175679088721493329227948590012",
+                "68827460266646834950380429093531413092"
+              ]
+            },
+            "id": "ASB-A-153879813-235d1113",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/SafetyNetLogger.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "234313598412056486043284828466060306736",
+                "21923750258978695531762103156272468378",
+                "6124665663430185512169264032751165363"
+              ]
+            },
+            "id": "ASB-A-153879813-3764061d",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 211.0,
+              "function_hash": "266955580306784250954883025052735837438"
+            },
+            "id": "ASB-A-153879813-57c39050",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java",
+              "function": "getPermissionInfosForGroup"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 3441.0,
+              "function_hash": "155269418000446953758025949038387156254"
+            },
+            "id": "ASB-A-153879813-62fb0284",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "327884605714745277504937997217095596897",
+                "230459611331252932704968786228486782408",
+                "4439615171372414052146478269376545725",
+                "61418336610958516805053548442293889981"
+              ]
+            },
+            "id": "ASB-A-153879813-684187ba",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153879813.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/apps/PackageInstaller",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "306958079687056447884669764837349335261",
+                "248415811608635560014478564784839317575",
+                "39397916374352069445815716002098561740",
+                "283162938228251623632314616422175742691",
+                "47434107548427479256198968945616336465",
+                "201646817754642558195316124291070889862",
+                "110959809400831136447195181045651190208",
+                "224724940023597329410643627561444504074",
+                "246941056700526996886870170761768140662",
+                "10973729175679088721493329227948590012",
+                "68827460266646834950380429093531413092"
+              ]
+            },
+            "id": "ASB-A-153879813-030a6ac5",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/SafetyNetLogger.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "327884605714745277504937997217095596897",
+                "230459611331252932704968786228486782408",
+                "4439615171372414052146478269376545725",
+                "61418336610958516805053548442293889981"
+              ]
+            },
+            "id": "ASB-A-153879813-6399a2eb",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 3441.0,
+              "function_hash": "155269418000446953758025949038387156254"
+            },
+            "id": "ASB-A-153879813-80fa3205",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 211.0,
+              "function_hash": "266955580306784250954883025052735837438"
+            },
+            "id": "ASB-A-153879813-d9372863",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/utils/Utils.java",
+              "function": "getPermissionInfosForGroup"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "234313598412056486043284828466060306736",
+                "21923750258978695531762103156272468378",
+                "6124665663430185512169264032751165363"
+              ]
+            },
+            "id": "ASB-A-153879813-dcb8f6d3",
+            "source": "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/packageinstaller/permission/ui/GrantPermissionsActivity.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/PackageInstaller/+/5148967312f4d59c456160463bbf120cf58abba2"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-153879813.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

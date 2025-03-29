@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!--
+        <ProjectReference Include="..\OSV\OSV.csproj" />
+        -->
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.HolisticWare.NetBike.Xml\HolisticWare.Core.Serialization.Text.XML.HolisticWare.NetBike.Xml.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.HolisticWare.YAXLib\HolisticWare.Core.Serialization.Text.XML.HolisticWare.YAXLib.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.NetBike.Xml\HolisticWare.Core.Serialization.Text.XML.NetBike.Xml.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.StackXML\HolisticWare.Core.Serialization.Text.XML.StackXML.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.System.Runtime.Serialization\HolisticWare.Core.Serialization.Text.XML.System.Runtime.Serialization.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.System.Xml.Serialization\HolisticWare.Core.Serialization.Text.XML.System.Xml.Serialization.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML.YAXLib\HolisticWare.Core.Serialization.Text.XML.YAXLib.csproj" />
+        <ProjectReference Include="..\..\..\..\source\Core.Serialization\Text\XML\HolisticWare.Core.Serialization.Text.XML\HolisticWare.Core.Serialization.Text.XML.csproj" />
+        <ProjectReference Include="..\..\..\Maven.POM.ProjectObjectModel\Maven.POM.ProjectObjectModel.csproj" />
+    </ItemGroup>
+
+</Project>

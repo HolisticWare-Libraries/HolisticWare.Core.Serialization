@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!--
+        <ProjectReference Include="..\..\HolisticWare.MessagePack\HolisticWare.MessagePack.csproj" />
+        <ProjectReference Include="..\..\HolisticWare.Ph4ct3x\HolisticWare.Ph4ct3x.csproj" />
+        <ProjectReference Include="..\..\OSV\OSV.csproj" />
+        -->
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.FlatBuffers" Version="24.3.25" />
+        <PackageReference Include="FlatSharp.Compiler" Version="7.7.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!--
+        -->
+        <FlatSharpSchema Include="monster.fbs" />
+    </ItemGroup>
+
+</Project>

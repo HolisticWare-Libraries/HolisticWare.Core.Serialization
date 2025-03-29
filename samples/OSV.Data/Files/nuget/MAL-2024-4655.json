@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-4655",
+  "summary": "Malicious code in Stl.Blazor.Authentication.Net (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:22Z",
+  "published": "2024-06-25T13:31:22Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:22Z",
+        "import_time": "2024-06-28T02:48:04.444947925Z",
+        "versions": [
+          "6.5.9",
+          "6.5.8"
+        ],
+        "id": "RLMA-2024-03446",
+        "source": "reversing-labs",
+        "sha256": "c4f39ef23a70baf4557c5fa02ca97062e3ca5c5023ac4010a12944d8ef8db051"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Stl.Blazor.Authentication.Net",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Stl.Blazor.Authentication.Net"
+      },
+      "versions": [
+        "6.5.9",
+        "6.5.8"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/stl.blazor.authentication.net/MAL-2024-4655.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

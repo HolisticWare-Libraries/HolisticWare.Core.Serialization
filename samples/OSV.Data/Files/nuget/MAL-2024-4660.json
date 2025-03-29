@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2024-4660",
+  "summary": "Malicious code in Stl.Plugins.Extensions.Net (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:31:25Z",
+  "published": "2024-06-25T13:31:25Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:31:25Z",
+        "import_time": "2024-06-28T02:48:05.015551992Z",
+        "versions": [
+          "0.2.22",
+          "0.2.23"
+        ],
+        "id": "RLMA-2024-03451",
+        "source": "reversing-labs",
+        "sha256": "b9184bcdb556d5999f56040f6f3eb4520d902352c7fe87c5b0982e4e42469097"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Stl.Plugins.Extensions.Net",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Stl.Plugins.Extensions.Net"
+      },
+      "versions": [
+        "0.2.22",
+        "0.2.23"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/stl.plugins.extensions.net/MAL-2024-4660.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

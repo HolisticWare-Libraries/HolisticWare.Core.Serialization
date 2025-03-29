@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Text.XML.System.Runtime.Serialization</RootNamespace>
+    </PropertyGroup>
+      
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

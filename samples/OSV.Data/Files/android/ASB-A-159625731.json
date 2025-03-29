@@ -1,0 +1,399 @@
+{
+  "id": "ASB-A-159625731",
+  "summary": "libexif: Integer Overflow in exif_entry_get_value",
+  "details": "In exif_entry_get_value of exif-entry.c, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution if a third party app used this library to process remote image data with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-159625731",
+    "CVE-2020-0452"
+  ],
+  "modified": "2024-08-07T19:29:23.337404Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/external/libexif",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "284322438145339945043720915456140922165",
+                "93281639976837326739273976352982873884",
+                "18325982235928269788913677721160134997",
+                "288125191916546280087425276079803197919",
+                "61811470730497895629839865950923936795",
+                "85008742746889107741124549964262222027",
+                "320703541205510993089784264294519513012",
+                "174698835426192614860996725383857514855"
+              ]
+            },
+            "id": "ASB-A-159625731-5ebe907f",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 17254.0,
+              "function_hash": "186927656669605676165013706879416711535"
+            },
+            "id": "ASB-A-159625731-b7a97a2a",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c",
+              "function": "exif_entry_get_value"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-159625731.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/external/libexif",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "284322438145339945043720915456140922165",
+                "93281639976837326739273976352982873884",
+                "18325982235928269788913677721160134997",
+                "288125191916546280087425276079803197919",
+                "61811470730497895629839865950923936795",
+                "85008742746889107741124549964262222027",
+                "320703541205510993089784264294519513012",
+                "174698835426192614860996725383857514855"
+              ]
+            },
+            "id": "ASB-A-159625731-2be2104e",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 17254.0,
+              "function_hash": "186927656669605676165013706879416711535"
+            },
+            "id": "ASB-A-159625731-fab1a3da",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c",
+              "function": "exif_entry_get_value"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-159625731.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/external/libexif",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 17254.0,
+              "function_hash": "186927656669605676165013706879416711535"
+            },
+            "id": "ASB-A-159625731-2afcc349",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c",
+              "function": "exif_entry_get_value"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "284322438145339945043720915456140922165",
+                "93281639976837326739273976352982873884",
+                "18325982235928269788913677721160134997",
+                "288125191916546280087425276079803197919",
+                "61811470730497895629839865950923936795",
+                "85008742746889107741124549964262222027",
+                "320703541205510993089784264294519513012",
+                "174698835426192614860996725383857514855"
+              ]
+            },
+            "id": "ASB-A-159625731-6d105974",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-159625731.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/external/libexif",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 17254.0,
+              "function_hash": "186927656669605676165013706879416711535"
+            },
+            "id": "ASB-A-159625731-33a217bb",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c",
+              "function": "exif_entry_get_value"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "284322438145339945043720915456140922165",
+                "93281639976837326739273976352982873884",
+                "18325982235928269788913677721160134997",
+                "288125191916546280087425276079803197919",
+                "61811470730497895629839865950923936795",
+                "85008742746889107741124549964262222027",
+                "320703541205510993089784264294519513012",
+                "174698835426192614860996725383857514855"
+              ]
+            },
+            "id": "ASB-A-159625731-5c846af4",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-159625731.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/external/libexif",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 17254.0,
+              "function_hash": "186927656669605676165013706879416711535"
+            },
+            "id": "ASB-A-159625731-3afe2825",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c",
+              "function": "exif_entry_get_value"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "284322438145339945043720915456140922165",
+                "93281639976837326739273976352982873884",
+                "18325982235928269788913677721160134997",
+                "288125191916546280087425276079803197919",
+                "61811470730497895629839865950923936795",
+                "85008742746889107741124549964262222027",
+                "320703541205510993089784264294519513012",
+                "174698835426192614860996725383857514855"
+              ]
+            },
+            "id": "ASB-A-159625731-90aa32a5",
+            "source": "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "libexif/exif-entry.c"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/external/libexif/+/8e7345f3bc0bad06ac369d6cbc1124c8ceaf7d4b"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-159625731.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

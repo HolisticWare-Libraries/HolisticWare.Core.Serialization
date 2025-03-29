@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    
+    <ItemGroup>
+    
+      <PackageReference Include="HolisticWare.StackXml" Version="0.0.1-alpha-202409242242" />
+    </ItemGroup>
+    <ItemGroup>
+        <!--
+        <ProjectReference Include="..\OSV\OSV.csproj" />
+        -->
+        <ProjectReference Include="..\..\..\Maven.POM.ProjectObjectModel\Maven.POM.ProjectObjectModel.csproj" />
+    </ItemGroup>
+
+</Project>

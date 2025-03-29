@@ -1,0 +1,52 @@
+{
+  "id": "PUB-A-240919398",
+  "summary": "Crash in /vendor/bin/hw/android.hardware.audio.service,  HWAddressSanitizer: tag-mismatch on address 0x004c321c2720 at pc 0x00734afea32c READ of size 4 at 0x004c321c2720 tags: a3/00 (ptr/mem) in thread T25     #0 0x734afea32c  (/vendor/lib64/soundfx/liboffloadeffect.so+0x1a32c) (BuildId: e33d8c1c6177ad14eb5d6ce36b8415d8)",
+  "details": "In setParameter of EqualizerEffect.cpp, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-240919398",
+    "CVE-2022-20548"
+  ],
+  "modified": "2024-08-29T06:58:01.110847Z",
+  "published": "2022-12-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-12-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2022-12-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-12-01",
+        "severity": "Moderate",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-240919398.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

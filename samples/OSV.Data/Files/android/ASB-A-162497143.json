@@ -1,0 +1,379 @@
+{
+  "id": "ASB-A-162497143",
+  "summary": "Security fix introduced use after free when a remote device uses the sample LTK",
+  "details": "In btm_sec_disconnected of btm_sec.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution in the Bluetooth server with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-162497143",
+    "CVE-2020-0449"
+  ],
+  "modified": "2024-08-07T19:29:58.959174Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249772947756894727392887710939368535576",
+                "248664681227693269870639686329578771093",
+                "204938982121898345627514870929907191075",
+                "195313446493060147881271030988516681257"
+              ]
+            },
+            "id": "ASB-A-162497143-6d8a714c",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2923.0,
+              "function_hash": "254450000106634059056217905432845328540"
+            },
+            "id": "ASB-A-162497143-feb4aaab",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc",
+              "function": "btm_sec_disconnected"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162497143.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249772947756894727392887710939368535576",
+                "248664681227693269870639686329578771093",
+                "204938982121898345627514870929907191075",
+                "195313446493060147881271030988516681257"
+              ]
+            },
+            "id": "ASB-A-162497143-013894d1",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2923.0,
+              "function_hash": "254450000106634059056217905432845328540"
+            },
+            "id": "ASB-A-162497143-891cf4a6",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc",
+              "function": "btm_sec_disconnected"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162497143.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2923.0,
+              "function_hash": "254450000106634059056217905432845328540"
+            },
+            "id": "ASB-A-162497143-00cdc383",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc",
+              "function": "btm_sec_disconnected"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249772947756894727392887710939368535576",
+                "248664681227693269870639686329578771093",
+                "204938982121898345627514870929907191075",
+                "195313446493060147881271030988516681257"
+              ]
+            },
+            "id": "ASB-A-162497143-1dbbd878",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162497143.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2923.0,
+              "function_hash": "254450000106634059056217905432845328540"
+            },
+            "id": "ASB-A-162497143-013c0840",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc",
+              "function": "btm_sec_disconnected"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249772947756894727392887710939368535576",
+                "248664681227693269870639686329578771093",
+                "204938982121898345627514870929907191075",
+                "195313446493060147881271030988516681257"
+              ]
+            },
+            "id": "ASB-A-162497143-b6ec9b1f",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162497143.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/system/bt",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "249772947756894727392887710939368535576",
+                "248664681227693269870639686329578771093",
+                "204938982121898345627514870929907191075",
+                "195313446493060147881271030988516681257"
+              ]
+            },
+            "id": "ASB-A-162497143-14d8827d",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2923.0,
+              "function_hash": "254450000106634059056217905432845328540"
+            },
+            "id": "ASB-A-162497143-d4df1bf5",
+            "source": "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "stack/btm/btm_sec.cc",
+              "function": "btm_sec_disconnected"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/system/bt/+/46bdf4d4145ee022c48b71c30ba5fd45324f796a"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "RCE"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-162497143.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

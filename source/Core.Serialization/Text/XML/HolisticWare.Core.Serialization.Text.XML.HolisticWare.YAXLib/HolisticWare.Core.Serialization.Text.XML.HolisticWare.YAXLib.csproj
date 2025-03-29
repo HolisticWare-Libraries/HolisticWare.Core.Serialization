@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Text.XML.HolisticWare.YAXLib</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HolisticWare.YAXLib" Version="0.0.1-alpha-202409261046" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+
+</Project>

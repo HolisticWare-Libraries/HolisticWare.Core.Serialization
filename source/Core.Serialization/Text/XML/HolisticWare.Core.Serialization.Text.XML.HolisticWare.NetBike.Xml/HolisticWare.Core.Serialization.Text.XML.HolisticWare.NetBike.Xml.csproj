@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Text.XML.HolisticWare.NetBike.Xml</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HolisticWare.NetBike.Xml" Version="0.0.1-alpha-202409272252" />  
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

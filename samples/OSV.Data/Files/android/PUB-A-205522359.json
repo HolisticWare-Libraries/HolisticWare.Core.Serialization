@@ -1,0 +1,52 @@
+{
+  "id": "PUB-A-205522359",
+  "summary": "[B3] Hwasan Crash in com.google.android.GoogleCamera tagged_addr_ctrl: 0000000000000001 signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr -------- Abort message: '==12369==ERROR: HWAddressSanitizer: tag-mismatch on address 0x004d2831dc00 at pc 0x0077e1f21b48 READ of size 32 at 0x004d2831dc00 tags: 4d/1b (ptr/mem) in thread T68",
+  "details": "In TBD of TBD, there is a possible out of bounds read due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-205522359",
+    "CVE-2021-39812"
+  ],
+  "modified": "2024-08-29T07:12:58.262320Z",
+  "published": "2022-04-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-04-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": ":0"
+            },
+            {
+              "fixed": ":2022-04-05"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "Device specific"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-04-05",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-205522359.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

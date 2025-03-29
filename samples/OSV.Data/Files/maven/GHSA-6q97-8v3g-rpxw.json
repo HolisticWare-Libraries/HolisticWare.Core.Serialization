@@ -1,0 +1,76 @@
+{
+  "id": "GHSA-6q97-8v3g-rpxw",
+  "summary": "Apache Submarine Server Core Incorrect Authorization vulnerability",
+  "details": "Incorrect Authorization vulnerability in Apache Submarine Server Core.\n\nThis issue affects Apache Submarine Server Core: from 0.8.0.\n\nAs this project is retired, we do not plan to release a version that fixes this issue. Users are recommended to find an alternative or restrict access to the instance to trusted users.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.\n\n",
+  "aliases": [
+    "CVE-2024-36265"
+  ],
+  "modified": "2024-06-12T20:12:56.273446Z",
+  "published": "2024-06-12T15:31:45Z",
+  "database_specific": {
+    "nvd_published_at": "2024-06-12T15:15:52Z",
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-06-12T19:45:11Z"
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36265"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/submarine"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/prckhhst19qxof064hsm8cccxtofvflz"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/06/12/3"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "org.apache.submarine:submarine-server-core",
+        "ecosystem": "Maven",
+        "purl": "pkg:maven/org.apache.submarine/submarine-server-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.8.0"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.4.0",
+        "0.6.0",
+        "0.7.0",
+        "0.8.0",
+        "0.8.0-RC0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-6q97-8v3g-rpxw/GHSA-6q97-8v3g-rpxw.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ]
+}

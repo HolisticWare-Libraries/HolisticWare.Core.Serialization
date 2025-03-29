@@ -1,0 +1,101 @@
+{
+  "id": "ASB-A-300904123",
+  "summary": "App can keep its while in use permission forever even if it is in background.",
+  "details": "In bindAndGetCallIdentification of CallScreeningServiceHelper.java, there is a possible way to maintain a while-in-use permission in the background due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-300904123",
+    "CVE-2024-40655"
+  ],
+  "modified": "2024-09-05T15:27:10.008189Z",
+  "published": "2024-09-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-09-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/services/Telecomm/+/eeef54b37a362f506ea3aa155baddc545b6a909a"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/services/Telecomm",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "15-next"
+            ],
+            "digest": {
+              "length": 2168.0,
+              "function_hash": "198401407537733887006058687753261895269"
+            },
+            "id": "ASB-A-300904123-3bf4f99b",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/9d97cd5825066ac8e15bbf97f6755663c5341afb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/CallScreeningServiceHelper.java",
+              "function": "bindAndGetCallIdentification"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "15-next"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "273007395339179459318524592803684622704",
+                "142951750098190853354393223095975446028",
+                "204579555969700246112803004237674141628",
+                "108473673675401684701075550158319777465"
+              ]
+            },
+            "id": "ASB-A-300904123-c1d5ac44",
+            "source": "https://android.googlesource.com/platform/packages/services/Telecomm/+/9d97cd5825066ac8e15bbf97f6755663c5341afb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/server/telecom/CallScreeningServiceHelper.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/services/Telecomm/+/9d97cd5825066ac8e15bbf97f6755663c5341afb"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-300904123.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Apache.Parquet</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.Apache.Parquet</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.Apache.Parquet
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.Apache.Parquet
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.Apache.Parquet package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.Apache.Parquet package
+        </Description>
+    </PropertyGroup>
+
+      
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.Parquet" Version="0.21.1" />
+    <PackageReference Include="Parquet.Net" Version="4.24.0" />
+    <PackageReference Include="ParquetSharp" Version="16.1.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="Apache.Parquet\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

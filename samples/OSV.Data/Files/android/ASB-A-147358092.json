@@ -1,0 +1,400 @@
+{
+  "id": "ASB-A-147358092",
+  "summary": "Remotely Crash Android Device",
+  "details": "In Message and toBundle of Notification.java, there is a possible UI slowdown or crash due to improper input validation. This could lead to remote denial of service if a malicious contact file is received, with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-147358092",
+    "CVE-2020-0442"
+  ],
+  "modified": "2024-08-07T19:29:03.077037Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 644.0,
+              "function_hash": "222671025270688948635880737328659672300"
+            },
+            "id": "ASB-A-147358092-000a63de",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "toBundle"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 176.0,
+              "function_hash": "884783211642599066431883859307243095"
+            },
+            "id": "ASB-A-147358092-def5486b",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "Message"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "25693081011143403965924570554327340062",
+                "145135667773462807188212350943050247915",
+                "103801210461441284299338172224434577144",
+                "268695753093872796919241450464110276483",
+                "46261083463634891044944826171838452135",
+                "176910514098118386474826865368856580128",
+                "98526589191053999908616954323828412117",
+                "128177431757207050536224790976428229825",
+                "319607130368601865965098141551601944972",
+                "107251892173742551941786143315072969027",
+                "275639386799706093579977400228926095134",
+                "310687014227499283566324898602218088852"
+              ]
+            },
+            "id": "ASB-A-147358092-e8ef8929",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-147358092.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 644.0,
+              "function_hash": "222671025270688948635880737328659672300"
+            },
+            "id": "ASB-A-147358092-49c3dc23",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "toBundle"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "25693081011143403965924570554327340062",
+                "145135667773462807188212350943050247915",
+                "103801210461441284299338172224434577144",
+                "268695753093872796919241450464110276483",
+                "46261083463634891044944826171838452135",
+                "176910514098118386474826865368856580128",
+                "98526589191053999908616954323828412117",
+                "128177431757207050536224790976428229825",
+                "319607130368601865965098141551601944972",
+                "107251892173742551941786143315072969027",
+                "275639386799706093579977400228926095134",
+                "310687014227499283566324898602218088852"
+              ]
+            },
+            "id": "ASB-A-147358092-741260e8",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 176.0,
+              "function_hash": "884783211642599066431883859307243095"
+            },
+            "id": "ASB-A-147358092-e309ddad",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "Message"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-147358092.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 176.0,
+              "function_hash": "884783211642599066431883859307243095"
+            },
+            "id": "ASB-A-147358092-02e0ce7a",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "Message"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 644.0,
+              "function_hash": "222671025270688948635880737328659672300"
+            },
+            "id": "ASB-A-147358092-48be287c",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "toBundle"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "25693081011143403965924570554327340062",
+                "145135667773462807188212350943050247915",
+                "103801210461441284299338172224434577144",
+                "268695753093872796919241450464110276483",
+                "46261083463634891044944826171838452135",
+                "176910514098118386474826865368856580128",
+                "98526589191053999908616954323828412117",
+                "128177431757207050536224790976428229825",
+                "319607130368601865965098141551601944972",
+                "107251892173742551941786143315072969027",
+                "275639386799706093579977400228926095134",
+                "310687014227499283566324898602218088852"
+              ]
+            },
+            "id": "ASB-A-147358092-f2efbe7f",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-147358092.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 644.0,
+              "function_hash": "222671025270688948635880737328659672300"
+            },
+            "id": "ASB-A-147358092-0fe15081",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "toBundle"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 176.0,
+              "function_hash": "884783211642599066431883859307243095"
+            },
+            "id": "ASB-A-147358092-ac15b87c",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java",
+              "function": "Message"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "25693081011143403965924570554327340062",
+                "145135667773462807188212350943050247915",
+                "103801210461441284299338172224434577144",
+                "268695753093872796919241450464110276483",
+                "46261083463634891044944826171838452135",
+                "176910514098118386474826865368856580128",
+                "98526589191053999908616954323828412117",
+                "128177431757207050536224790976428229825",
+                "319607130368601865965098141551601944972",
+                "107251892173742551941786143315072969027",
+                "275639386799706093579977400228926095134",
+                "310687014227499283566324898602218088852"
+              ]
+            },
+            "id": "ASB-A-147358092-b88f8b4e",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "core/java/android/app/Notification.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/aaf6b40e1746db6189f6078dcd28d8f153a4cc50"
+        ],
+        "spl": "2020-11-01",
+        "severity": "Critical",
+        "types": [
+          "DoS"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-147358092.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

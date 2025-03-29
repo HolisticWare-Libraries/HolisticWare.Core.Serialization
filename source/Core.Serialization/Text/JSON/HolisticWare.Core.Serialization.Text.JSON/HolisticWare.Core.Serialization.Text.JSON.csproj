@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.JSON</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.JSON</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.JSON
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.JSON
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.JSON package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.JSON package
+        </Description>
+    </PropertyGroup>
+
+     
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ThriftSharp" Version="6.0.3" />
+    <PackageReference Include="NJsonSchema" Version="11.0.2" />
+    <PackageReference Include="NJsonSchema.CodeGeneration" Version="11.0.2" />
+    <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="11.0.2" />
+    <PackageReference Include="fastJSON" Version="2.4.0.4" />
+    <PackageReference Include="Utf8Json" Version="1.3.7" />
+    <PackageReference Include="NetJSON" Version="1.4.4" />
+    <PackageReference Include="Jsonics" Version="0.2.0-alpha" />
+    <PackageReference Include="Jil" Version="3.0.0-alpha2" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="JSON\" />
+    <Folder Include="JSON\System.Text.Json\" />
+    <Folder Include="JSON\Newtonsoft.Json\" />
+    <Folder Include="JSON\fastJSON\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="NJsonSchema" />
+      <None Remove="NJsonSchema.CodeGeneration" />
+      <None Remove="NJsonSchema.CodeGeneration.CSharp" />
+      <None Remove="JSON\fastJSON\" />
+      <None Remove="fastJSON" />
+      <None Remove="Utf8Json" />
+      <None Remove="NetJSON" />
+      <None Remove="Jsonics" />
+      <None Remove="Jil" />
+    </ItemGroup>
+</Project>

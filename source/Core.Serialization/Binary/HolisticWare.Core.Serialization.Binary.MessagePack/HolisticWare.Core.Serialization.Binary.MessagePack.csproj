@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.MessagePack</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.MessagePack</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.MessagePack
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.MessagePack
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.MessagePack package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.MessagePack package
+        </Description>
+    </PropertyGroup>
+
+      
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="2.5.172" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Folder Include="MessagePack\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>

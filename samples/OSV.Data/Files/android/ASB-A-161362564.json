@@ -1,0 +1,663 @@
+{
+  "id": "ASB-A-161362564",
+  "summary": "OOB read in DNS Resolver",
+  "details": "In send_vc of res_send.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-161362564",
+    "CVE-2020-0424"
+  ],
+  "modified": "2024-08-07T19:29:03.425304Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/modules/DnsResolver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 224.0,
+              "function_hash": "325040015019392882349216064698903649657"
+            },
+            "id": "ASB-A-161362564-30ea7214",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSRecord::toString"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 4468.0,
+              "function_hash": "187441872549794670462919906892566780987"
+            },
+            "id": "ASB-A-161362564-34d10998",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp",
+              "function": "send_vc"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "142723077593396276012672272027982628999",
+                "92143609247427214686239157749682395901",
+                "126802036219927382060963197075114743988",
+                "290070559627312500572116379896075330011",
+                "194566245163411723997410734521664604283",
+                "263736953840447124277505059261505231321",
+                "63943215951144050748809969911439280451",
+                "130107557102582169396650189605609244043"
+              ]
+            },
+            "id": "ASB-A-161362564-388416bc",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "263625284088241163314098115131266134077",
+                "299915883986698326109224867548386455951",
+                "251312207096666937109133304613388166782",
+                "238074952560735563201118440376118731100",
+                "252601273707750423031494477996971189071",
+                "287819134503134567626415154978180388603",
+                "102538777449873772695991670935344787962",
+                "198869978076792170991500534162856720183",
+                "206318924502649792718994958689036107880",
+                "249332685859500533777568806818787824436",
+                "295018980358402084732345287198605703256",
+                "138410934917367099096807154716970024861",
+                "9013794960335182145933115268529203611",
+                "74325093781113951249297646497496540738",
+                "197043263226415807210935104582421041306",
+                "149497507326108708030571648188552443800",
+                "175332889266629744209431190811420468721",
+                "92559037487774276146700234684393547840",
+                "288587117179188015656690575905629138768",
+                "48039735758259285762908423955466416146",
+                "98078324473702097469785485929797241605",
+                "331718877125383386278057538765233613432",
+                "96260180906215686832630307372501509556",
+                "158190844951187984225430414404463700406"
+              ]
+            },
+            "id": "ASB-A-161362564-9c013b5c",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "19756783086956684939464659653102880438",
+                "214656398470166395329039798452271724855",
+                "274751325116650072209976799435780589298",
+                "167388921186497990951347616861137744971",
+                "314795470702522144478260980722654769921",
+                "119227480009440006782918308909974885162",
+                "37196084167207773175407619960305818969",
+                "12704256509948936188603276781284078475",
+                "51234341079629310342239999201266407578"
+              ]
+            },
+            "id": "ASB-A-161362564-a457f0c1",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "resolv_unit_test.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2686.0,
+              "function_hash": "116951451660065994402049747825323609413"
+            },
+            "id": "ASB-A-161362564-b722282b",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::handleQuery"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 232.0,
+              "function_hash": "50916082365849672789076504343428662564"
+            },
+            "id": "ASB-A-161362564-c4a22806",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSHeader::write"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 227.0,
+              "function_hash": "67678898904299609321920856213437602095"
+            },
+            "id": "ASB-A-161362564-d1fce78d",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSQuestion::toString"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 924.0,
+              "function_hash": "35539502111325755122583892640429564220"
+            },
+            "id": "ASB-A-161362564-f43a3a60",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::makeResponse"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-161362564.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/modules/DnsResolver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 2686.0,
+              "function_hash": "116951451660065994402049747825323609413"
+            },
+            "id": "ASB-A-161362564-44f72ebc",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::handleQuery"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 232.0,
+              "function_hash": "50916082365849672789076504343428662564"
+            },
+            "id": "ASB-A-161362564-6395cba2",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSHeader::write"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "263625284088241163314098115131266134077",
+                "299915883986698326109224867548386455951",
+                "251312207096666937109133304613388166782",
+                "238074952560735563201118440376118731100",
+                "252601273707750423031494477996971189071",
+                "287819134503134567626415154978180388603",
+                "102538777449873772695991670935344787962",
+                "198869978076792170991500534162856720183",
+                "206318924502649792718994958689036107880",
+                "249332685859500533777568806818787824436",
+                "295018980358402084732345287198605703256",
+                "138410934917367099096807154716970024861",
+                "9013794960335182145933115268529203611",
+                "74325093781113951249297646497496540738",
+                "197043263226415807210935104582421041306",
+                "149497507326108708030571648188552443800",
+                "175332889266629744209431190811420468721",
+                "92559037487774276146700234684393547840",
+                "288587117179188015656690575905629138768",
+                "48039735758259285762908423955466416146",
+                "98078324473702097469785485929797241605",
+                "331718877125383386278057538765233613432",
+                "96260180906215686832630307372501509556",
+                "158190844951187984225430414404463700406"
+              ]
+            },
+            "id": "ASB-A-161362564-843c6d4c",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 924.0,
+              "function_hash": "35539502111325755122583892640429564220"
+            },
+            "id": "ASB-A-161362564-86136c3b",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::makeResponse"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 4468.0,
+              "function_hash": "187441872549794670462919906892566780987"
+            },
+            "id": "ASB-A-161362564-bdd974e7",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp",
+              "function": "send_vc"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "19756783086956684939464659653102880438",
+                "214656398470166395329039798452271724855",
+                "274751325116650072209976799435780589298",
+                "167388921186497990951347616861137744971",
+                "314795470702522144478260980722654769921",
+                "119227480009440006782918308909974885162",
+                "37196084167207773175407619960305818969",
+                "12704256509948936188603276781284078475",
+                "51234341079629310342239999201266407578"
+              ]
+            },
+            "id": "ASB-A-161362564-c42a568b",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "resolv_unit_test.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "142723077593396276012672272027982628999",
+                "92143609247427214686239157749682395901",
+                "126802036219927382060963197075114743988",
+                "290070559627312500572116379896075330011",
+                "194566245163411723997410734521664604283",
+                "263736953840447124277505059261505231321",
+                "63943215951144050748809969911439280451",
+                "130107557102582169396650189605609244043"
+              ]
+            },
+            "id": "ASB-A-161362564-d963956b",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 227.0,
+              "function_hash": "67678898904299609321920856213437602095"
+            },
+            "id": "ASB-A-161362564-daccf081",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSQuestion::toString"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 224.0,
+              "function_hash": "325040015019392882349216064698903649657"
+            },
+            "id": "ASB-A-161362564-e2fceda9",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSRecord::toString"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-161362564.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/packages/modules/DnsResolver",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "19756783086956684939464659653102880438",
+                "214656398470166395329039798452271724855",
+                "274751325116650072209976799435780589298",
+                "167388921186497990951347616861137744971",
+                "314795470702522144478260980722654769921",
+                "119227480009440006782918308909974885162",
+                "37196084167207773175407619960305818969",
+                "12704256509948936188603276781284078475",
+                "51234341079629310342239999201266407578"
+              ]
+            },
+            "id": "ASB-A-161362564-05154aa2",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "resolv_unit_test.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 4468.0,
+              "function_hash": "187441872549794670462919906892566780987"
+            },
+            "id": "ASB-A-161362564-0a29b8de",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp",
+              "function": "send_vc"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 232.0,
+              "function_hash": "50916082365849672789076504343428662564"
+            },
+            "id": "ASB-A-161362564-425d35c8",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSHeader::write"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 227.0,
+              "function_hash": "67678898904299609321920856213437602095"
+            },
+            "id": "ASB-A-161362564-86659a32",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSQuestion::toString"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "142723077593396276012672272027982628999",
+                "92143609247427214686239157749682395901",
+                "126802036219927382060963197075114743988",
+                "290070559627312500572116379896075330011",
+                "194566245163411723997410734521664604283",
+                "263736953840447124277505059261505231321",
+                "63943215951144050748809969911439280451",
+                "130107557102582169396650189605609244043"
+              ]
+            },
+            "id": "ASB-A-161362564-8b11fbea",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "res_send.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 924.0,
+              "function_hash": "35539502111325755122583892640429564220"
+            },
+            "id": "ASB-A-161362564-aebf4ad8",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::makeResponse"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "263625284088241163314098115131266134077",
+                "299915883986698326109224867548386455951",
+                "251312207096666937109133304613388166782",
+                "238074952560735563201118440376118731100",
+                "252601273707750423031494477996971189071",
+                "287819134503134567626415154978180388603",
+                "102538777449873772695991670935344787962",
+                "198869978076792170991500534162856720183",
+                "206318924502649792718994958689036107880",
+                "249332685859500533777568806818787824436",
+                "295018980358402084732345287198605703256",
+                "138410934917367099096807154716970024861",
+                "9013794960335182145933115268529203611",
+                "74325093781113951249297646497496540738",
+                "197043263226415807210935104582421041306",
+                "149497507326108708030571648188552443800",
+                "175332889266629744209431190811420468721",
+                "92559037487774276146700234684393547840",
+                "288587117179188015656690575905629138768",
+                "48039735758259285762908423955466416146",
+                "98078324473702097469785485929797241605",
+                "331718877125383386278057538765233613432",
+                "96260180906215686832630307372501509556",
+                "158190844951187984225430414404463700406"
+              ]
+            },
+            "id": "ASB-A-161362564-d2a070ff",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 2686.0,
+              "function_hash": "116951451660065994402049747825323609413"
+            },
+            "id": "ASB-A-161362564-ded623da",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSResponder::handleQuery"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 224.0,
+              "function_hash": "325040015019392882349216064698903649657"
+            },
+            "id": "ASB-A-161362564-ff187db2",
+            "source": "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "tests/dns_responder/dns_responder.cpp",
+              "function": "DNSRecord::toString"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/modules/DnsResolver/+/a9e6f1dffd84ca758721d9cacd08acb49af0a331"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-161362564.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

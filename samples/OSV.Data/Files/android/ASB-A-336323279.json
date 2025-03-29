@@ -1,0 +1,59 @@
+{
+  "id": "ASB-A-336323279",
+  "summary": "Able to query restrictRead app ops from unprivileged app",
+  "details": "In multiple functions of AppOpsService.java, there is a possible way for unprivileged apps to read their own restrictRead app-op states due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-336323279",
+    "CVE-2024-34738"
+  ],
+  "modified": "2024-08-12T22:44:48Z",
+  "published": "2024-08-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-08-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/21d764807b3dcd402d63e2b4c9fbae1c9965400a"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14-next:0"
+            },
+            {
+              "fixed": "14-next:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/955e78071ec49139583056e21f612edba6439436"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-336323279.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

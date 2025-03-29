@@ -1,0 +1,30 @@
+/*
+flatc --csharp monster.fbs
+*/
+
+namespace MyGame.Sample;
+
+enum Color:byte { Red = 0, Green, Blue = 2 }
+
+struct Vec3 {
+  x:float;
+  y:float;
+  z:float;
+}
+
+table Monster {
+  pos:Vec3;
+  mana:short = 150;
+  hp:short = 100;
+  name:string;
+  inventory:[ubyte];
+  color:Color = Blue;
+  weapons:[Weapon];
+}
+
+table Weapon {
+  name:string;
+  damage:short;
+}
+
+root_type Monster;

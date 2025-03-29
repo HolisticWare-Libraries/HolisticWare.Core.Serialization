@@ -1,0 +1,100 @@
+{
+  "id": "ASB-A-327749022",
+  "summary": "(Split 5) (Step 27) - FRP Bypass January 2024 (Android 14)",
+  "details": "In onCreate of SettingsHomepageActivity.java, there is a possible way to access the Settings app while the device is provisioning due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "aliases": [
+    "A-327749022",
+    "CVE-2024-40652"
+  ],
+  "modified": "2024-09-05T15:27:10.150893Z",
+  "published": "2024-09-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-09-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/packages/apps/Settings/+/2909433f7d59dcdd0c74044b1c8e9f48927193dc"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/packages/apps/Settings",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15-next:0"
+            },
+            {
+              "fixed": "15-next:2024-09-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15-next"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "15-next"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "19362163005515750643544123919388329013",
+                "290741224690397986418975891065267248161",
+                "219738665414340179411321010363753811153"
+              ]
+            },
+            "id": "ASB-A-327749022-22ccafea",
+            "source": "https://android.googlesource.com/platform/packages/apps/Settings/+/70a5a0fd353cc6203d2926627de93786155ae5bc",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/settings/homepage/SettingsHomepageActivity.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "match_only_versions": [
+              "15-next"
+            ],
+            "digest": {
+              "length": 2115.0,
+              "function_hash": "238781758302158020989358110392753045614"
+            },
+            "id": "ASB-A-327749022-569b2683",
+            "source": "https://android.googlesource.com/platform/packages/apps/Settings/+/70a5a0fd353cc6203d2926627de93786155ae5bc",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "src/com/android/settings/homepage/SettingsHomepageActivity.java",
+              "function": "onCreate"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/packages/apps/Settings/+/70a5a0fd353cc6203d2926627de93786155ae5bc"
+        ],
+        "spl": "2024-09-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-327749022.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

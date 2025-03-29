@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\HolisticWare.MessagePack\HolisticWare.MessagePack.csproj" />
+      <ProjectReference Include="..\..\..\HolisticWare.Ph4ct3x\HolisticWare.Ph4ct3x.csproj" />
+      <ProjectReference Include="..\HolisticWare.MessagePack\HolisticWare.MessagePack.csproj" />
+      <ProjectReference Include="..\HolisticWare.Ph4ct3x\HolisticWare.Ph4ct3x.csproj" />
+      <ProjectReference Include="..\OSV\OSV.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MessagePack" Version="2.5.172" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,50 @@
+{
+  "id": "MAL-2024-4607",
+  "summary": "Malicious code in Pathoschild.Stardew.Mod.Build.Config (NuGet)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-06-25T13:30:44Z",
+  "published": "2024-06-25T13:30:44Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-06-25T13:30:44Z",
+        "import_time": "2024-06-28T02:47:58.461292626Z",
+        "versions": [
+          "6.5.1",
+          "6.5.3",
+          "6.5.2"
+        ],
+        "id": "RLMA-2024-03395",
+        "source": "reversing-labs",
+        "sha256": "76cc4c70f7d8837e33077b327b246a256119c1db38de00eaae7b4cfca33117f9"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "Pathoschild.Stardew.Mod.Build.Config",
+        "ecosystem": "NuGet",
+        "purl": "pkg:nuget/Pathoschild.Stardew.Mod.Build.Config"
+      },
+      "versions": [
+        "6.5.1",
+        "6.5.3",
+        "6.5.2"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/nuget/pathoschild.stardew.mod.build.config/MAL-2024-4607.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "PUB-A-238602879",
+  "summary": "Intent filter matching bypass using Activity#navigateUpTo() API",
+  "details": "In navigateUpTo of Task.java, there is a possible way to launch an intent handler with a mismatched intent due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-238602879",
+    "CVE-2022-20512"
+  ],
+  "modified": "2024-08-29T07:13:06.691046Z",
+  "published": "2022-12-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2022-12-01"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": ":unknown:",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2022-12-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "spl": "2022-12-01",
+        "severity": "Moderate",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/PUB-A-238602879.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

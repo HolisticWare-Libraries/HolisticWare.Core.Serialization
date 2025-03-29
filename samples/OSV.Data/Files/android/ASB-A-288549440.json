@@ -1,0 +1,199 @@
+{
+  "id": "ASB-A-288549440",
+  "summary": "Screen recording with microphone doesn't play back in sync when viewed on device",
+  "details": "In setupVideoEncoder of StagefrightRecorder.cpp, there is a possible asynchronous playback when B-frame support is enabled. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-288549440",
+    "CVE-2024-34736"
+  ],
+  "modified": "2024-08-13T15:06:00Z",
+  "published": "2024-08-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2024-08-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/av/+/6cfd048292b2cc706811a22c9078208cfa8e6d24"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/av",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14-next:0"
+            },
+            {
+              "fixed": "14-next:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14-next"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/av/+/61ed373ba34ddad4f7bbb3469981ca0a59ed78a8"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-288549440.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/av",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12:0"
+            },
+            {
+              "fixed": "12:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/av/+/da3407f7688f35eb2dce79f1405feeb182241a3c"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-288549440.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/av",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "12L:0"
+            },
+            {
+              "fixed": "12L:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "12L"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/av/+/da3407f7688f35eb2dce79f1405feeb182241a3c"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-288549440.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/av",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13:0"
+            },
+            {
+              "fixed": "13:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/av/+/da3407f7688f35eb2dce79f1405feeb182241a3c"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-288549440.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/av",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14:0"
+            },
+            {
+              "fixed": "14:2024-08-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14"
+      ],
+      "ecosystem_specific": {
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/av/+/da3407f7688f35eb2dce79f1405feeb182241a3c"
+        ],
+        "spl": "2024-08-01",
+        "severity": "High",
+        "types": [
+          "ID"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-288549440.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

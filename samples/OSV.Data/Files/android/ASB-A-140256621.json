@@ -1,0 +1,1028 @@
+{
+  "id": "ASB-A-140256621",
+  "summary": "Instant app restriction may not be verified correctly in restorePermissionState",
+  "details": "In generatePackageInfo of PackageManagerService.java, there is a possible permissions bypass due to an incorrect permission check. This could lead to local escalation of privilege that allows instant apps access to permissions not allowed for instant apps, with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "aliases": [
+    "A-140256621",
+    "CVE-2020-0439"
+  ],
+  "modified": "2024-08-07T19:30:18.669165Z",
+  "published": "2020-11-01T00:00:00Z",
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://source.android.com/security/bulletin/2020-11-01"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb"
+    },
+    {
+      "type": "FIX",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0:0"
+            },
+            {
+              "fixed": "8.0:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "match_only_versions": [
+              "8.0"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "64152874298733692454198516434103997693",
+                "130029551890964590688231571212066845648",
+                "65843965651650544406662993002053427619",
+                "40653486360623649136779285927749846544"
+              ]
+            },
+            "id": "ASB-A-140256621-2bb4f4b1",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1974.0,
+              "function_hash": "19763204206053755134142961679339093143"
+            },
+            "id": "ASB-A-140256621-3609413e",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "generatePackageInfo"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "253396609669921316539394630433713262167",
+                "274687338872487417933184019953377536370",
+                "229916441086580121195326712871713787820",
+                "271971882974451749579940557591877416442",
+                "24205034439355785176021830187153456954",
+                "277788347820877011201586845651849483326",
+                "48931828168504169546684354862307830190",
+                "203368179495368343527892236374747507376",
+                "132729979780175029740819344174108602230",
+                "317538048140426394703782700552642963170",
+                "316114193329233853497416987781912210861",
+                "282888036833976859420609048431743836559",
+                "179381769753002926905070061200602925453",
+                "319442271913114339382921474973474286455",
+                "130644539797941809028862610338135031168",
+                "278866380819965992331105497569401286143",
+                "295462736938616061448171582581747358544",
+                "258657412870096086076187078196382385919",
+                "273169066895788309444405416304601424368",
+                "249647224240407208084773583267060809546",
+                "71926801713946897460438588974137909250",
+                "12710146587421600635359458373273558592",
+                "150591757113947191522548734358004902325",
+                "14038674738183755763715843906656424410",
+                "154182220932586410074947337160373619621",
+                "255046662697187950046489565623395120474",
+                "16028033947526972062713092824742250636",
+                "210005632255543838456910076742488047409",
+                "13261025413385110298317900225382421990",
+                "96740624629439313170082507263211095423",
+                "192656267888217996625533953983747590368",
+                "103483856885971159778518148863166796949",
+                "60046960628806303879729841261698144307",
+                "218247869527752573962619006571764838245",
+                "315737957758846556901948188775760847659"
+              ]
+            },
+            "id": "ASB-A-140256621-39b79145",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1987.0,
+              "function_hash": "77601091537302297658245433915555927035"
+            },
+            "id": "ASB-A-140256621-788feca9",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1469.0,
+              "function_hash": "106663369258781891962193765518869133563"
+            },
+            "id": "ASB-A-140256621-b88f805d",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "getInstantAppInstallerLPr"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 5482.0,
+              "function_hash": "340238328100381865672115798550284685631"
+            },
+            "id": "ASB-A-140256621-bbe30987",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "setEnabledSetting"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1864.0,
+              "function_hash": "178229285840426122445647457169911404261"
+            },
+            "id": "ASB-A-140256621-bc62e99c",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 838.0,
+              "function_hash": "326417311602979837718301016844143032706"
+            },
+            "id": "ASB-A-140256621-f8cfb8f5",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "addPackageHoldingPermissions"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+          "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-140256621.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.1:0"
+            },
+            {
+              "fixed": "8.1:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.1"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 1864.0,
+              "function_hash": "178229285840426122445647457169911404261"
+            },
+            "id": "ASB-A-140256621-32f6fa38",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "253396609669921316539394630433713262167",
+                "274687338872487417933184019953377536370",
+                "229916441086580121195326712871713787820",
+                "271971882974451749579940557591877416442",
+                "24205034439355785176021830187153456954",
+                "277788347820877011201586845651849483326",
+                "48931828168504169546684354862307830190",
+                "203368179495368343527892236374747507376",
+                "132729979780175029740819344174108602230",
+                "317538048140426394703782700552642963170",
+                "316114193329233853497416987781912210861",
+                "282888036833976859420609048431743836559",
+                "179381769753002926905070061200602925453",
+                "319442271913114339382921474973474286455",
+                "130644539797941809028862610338135031168",
+                "278866380819965992331105497569401286143",
+                "295462736938616061448171582581747358544",
+                "258657412870096086076187078196382385919",
+                "273169066895788309444405416304601424368",
+                "249647224240407208084773583267060809546",
+                "71926801713946897460438588974137909250",
+                "12710146587421600635359458373273558592",
+                "150591757113947191522548734358004902325",
+                "14038674738183755763715843906656424410",
+                "154182220932586410074947337160373619621",
+                "255046662697187950046489565623395120474",
+                "16028033947526972062713092824742250636",
+                "210005632255543838456910076742488047409",
+                "13261025413385110298317900225382421990",
+                "96740624629439313170082507263211095423",
+                "192656267888217996625533953983747590368",
+                "103483856885971159778518148863166796949",
+                "60046960628806303879729841261698144307",
+                "218247869527752573962619006571764838245",
+                "315737957758846556901948188775760847659"
+              ]
+            },
+            "id": "ASB-A-140256621-39faf8df",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1974.0,
+              "function_hash": "19763204206053755134142961679339093143"
+            },
+            "id": "ASB-A-140256621-4db6c884",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "generatePackageInfo"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1469.0,
+              "function_hash": "106663369258781891962193765518869133563"
+            },
+            "id": "ASB-A-140256621-7dec6a1c",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "getInstantAppInstallerLPr"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1987.0,
+              "function_hash": "77601091537302297658245433915555927035"
+            },
+            "id": "ASB-A-140256621-8ba6e247",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 5482.0,
+              "function_hash": "340238328100381865672115798550284685631"
+            },
+            "id": "ASB-A-140256621-af59c67f",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "setEnabledSetting"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 838.0,
+              "function_hash": "326417311602979837718301016844143032706"
+            },
+            "id": "ASB-A-140256621-b3ecd2e1",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "addPackageHoldingPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "8.1"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "64152874298733692454198516434103997693",
+                "130029551890964590688231571212066845648",
+                "65843965651650544406662993002053427619",
+                "40653486360623649136779285927749846544"
+              ]
+            },
+            "id": "ASB-A-140256621-d7a15e06",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+          "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-140256621.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9:0"
+            },
+            {
+              "fixed": "9:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 1864.0,
+              "function_hash": "178229285840426122445647457169911404261"
+            },
+            "id": "ASB-A-140256621-60d33a0e",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 5482.0,
+              "function_hash": "340238328100381865672115798550284685631"
+            },
+            "id": "ASB-A-140256621-7c3e7200",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "setEnabledSetting"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "9"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "64152874298733692454198516434103997693",
+                "130029551890964590688231571212066845648",
+                "65843965651650544406662993002053427619",
+                "40653486360623649136779285927749846544"
+              ]
+            },
+            "id": "ASB-A-140256621-90dd72a1",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1469.0,
+              "function_hash": "106663369258781891962193765518869133563"
+            },
+            "id": "ASB-A-140256621-b2a94cbc",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "getInstantAppInstallerLPr"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 838.0,
+              "function_hash": "326417311602979837718301016844143032706"
+            },
+            "id": "ASB-A-140256621-d1df6082",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "addPackageHoldingPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1987.0,
+              "function_hash": "77601091537302297658245433915555927035"
+            },
+            "id": "ASB-A-140256621-df954057",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1974.0,
+              "function_hash": "19763204206053755134142961679339093143"
+            },
+            "id": "ASB-A-140256621-f199ff8d",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "generatePackageInfo"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "253396609669921316539394630433713262167",
+                "274687338872487417933184019953377536370",
+                "229916441086580121195326712871713787820",
+                "271971882974451749579940557591877416442",
+                "24205034439355785176021830187153456954",
+                "277788347820877011201586845651849483326",
+                "48931828168504169546684354862307830190",
+                "203368179495368343527892236374747507376",
+                "132729979780175029740819344174108602230",
+                "317538048140426394703782700552642963170",
+                "316114193329233853497416987781912210861",
+                "282888036833976859420609048431743836559",
+                "179381769753002926905070061200602925453",
+                "319442271913114339382921474973474286455",
+                "130644539797941809028862610338135031168",
+                "278866380819965992331105497569401286143",
+                "295462736938616061448171582581747358544",
+                "258657412870096086076187078196382385919",
+                "273169066895788309444405416304601424368",
+                "249647224240407208084773583267060809546",
+                "71926801713946897460438588974137909250",
+                "12710146587421600635359458373273558592",
+                "150591757113947191522548734358004902325",
+                "14038674738183755763715843906656424410",
+                "154182220932586410074947337160373619621",
+                "255046662697187950046489565623395120474",
+                "16028033947526972062713092824742250636",
+                "210005632255543838456910076742488047409",
+                "13261025413385110298317900225382421990",
+                "96740624629439313170082507263211095423",
+                "192656267888217996625533953983747590368",
+                "103483856885971159778518148863166796949",
+                "60046960628806303879729841261698144307",
+                "218247869527752573962619006571764838245",
+                "315737957758846556901948188775760847659"
+              ]
+            },
+            "id": "ASB-A-140256621-fdacaf86",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+          "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-140256621.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10:0"
+            },
+            {
+              "fixed": "10:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 5482.0,
+              "function_hash": "340238328100381865672115798550284685631"
+            },
+            "id": "ASB-A-140256621-0342bdf4",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "setEnabledSetting"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "10"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "64152874298733692454198516434103997693",
+                "130029551890964590688231571212066845648",
+                "65843965651650544406662993002053427619",
+                "40653486360623649136779285927749846544"
+              ]
+            },
+            "id": "ASB-A-140256621-618200f2",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "253396609669921316539394630433713262167",
+                "274687338872487417933184019953377536370",
+                "229916441086580121195326712871713787820",
+                "271971882974451749579940557591877416442",
+                "24205034439355785176021830187153456954",
+                "277788347820877011201586845651849483326",
+                "48931828168504169546684354862307830190",
+                "203368179495368343527892236374747507376",
+                "132729979780175029740819344174108602230",
+                "317538048140426394703782700552642963170",
+                "316114193329233853497416987781912210861",
+                "282888036833976859420609048431743836559",
+                "179381769753002926905070061200602925453",
+                "319442271913114339382921474973474286455",
+                "130644539797941809028862610338135031168",
+                "278866380819965992331105497569401286143",
+                "295462736938616061448171582581747358544",
+                "258657412870096086076187078196382385919",
+                "273169066895788309444405416304601424368",
+                "249647224240407208084773583267060809546",
+                "71926801713946897460438588974137909250",
+                "12710146587421600635359458373273558592",
+                "150591757113947191522548734358004902325",
+                "14038674738183755763715843906656424410",
+                "154182220932586410074947337160373619621",
+                "255046662697187950046489565623395120474",
+                "16028033947526972062713092824742250636",
+                "210005632255543838456910076742488047409",
+                "13261025413385110298317900225382421990",
+                "96740624629439313170082507263211095423",
+                "192656267888217996625533953983747590368",
+                "103483856885971159778518148863166796949",
+                "60046960628806303879729841261698144307",
+                "218247869527752573962619006571764838245",
+                "315737957758846556901948188775760847659"
+              ]
+            },
+            "id": "ASB-A-140256621-83a6aefc",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 838.0,
+              "function_hash": "326417311602979837718301016844143032706"
+            },
+            "id": "ASB-A-140256621-99b80535",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "addPackageHoldingPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1469.0,
+              "function_hash": "106663369258781891962193765518869133563"
+            },
+            "id": "ASB-A-140256621-b7523b84",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "getInstantAppInstallerLPr"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1974.0,
+              "function_hash": "19763204206053755134142961679339093143"
+            },
+            "id": "ASB-A-140256621-c3f5fb46",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "generatePackageInfo"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1987.0,
+              "function_hash": "77601091537302297658245433915555927035"
+            },
+            "id": "ASB-A-140256621-dc57e027",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1864.0,
+              "function_hash": "178229285840426122445647457169911404261"
+            },
+            "id": "ASB-A-140256621-e4bcdbd7",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+          "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-140256621.json"
+      }
+    },
+    {
+      "package": {
+        "name": "platform/frameworks/base",
+        "ecosystem": "Android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11:0"
+            },
+            {
+              "fixed": "11:2020-11-01"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11"
+      ],
+      "ecosystem_specific": {
+        "vanir_signatures": [
+          {
+            "digest": {
+              "length": 1987.0,
+              "function_hash": "77601091537302297658245433915555927035"
+            },
+            "id": "ASB-A-140256621-1df66dc6",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 5482.0,
+              "function_hash": "340238328100381865672115798550284685631"
+            },
+            "id": "ASB-A-140256621-3bf9f774",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "setEnabledSetting"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "match_only_versions": [
+              "11"
+            ],
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "64152874298733692454198516434103997693",
+                "130029551890964590688231571212066845648",
+                "65843965651650544406662993002053427619",
+                "40653486360623649136779285927749846544"
+              ]
+            },
+            "id": "ASB-A-140256621-70368c4a",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1974.0,
+              "function_hash": "19763204206053755134142961679339093143"
+            },
+            "id": "ASB-A-140256621-8fb09414",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "generatePackageInfo"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "threshold": 0.9,
+              "line_hashes": [
+                "253396609669921316539394630433713262167",
+                "274687338872487417933184019953377536370",
+                "229916441086580121195326712871713787820",
+                "271971882974451749579940557591877416442",
+                "24205034439355785176021830187153456954",
+                "277788347820877011201586845651849483326",
+                "48931828168504169546684354862307830190",
+                "203368179495368343527892236374747507376",
+                "132729979780175029740819344174108602230",
+                "317538048140426394703782700552642963170",
+                "316114193329233853497416987781912210861",
+                "282888036833976859420609048431743836559",
+                "179381769753002926905070061200602925453",
+                "319442271913114339382921474973474286455",
+                "130644539797941809028862610338135031168",
+                "278866380819965992331105497569401286143",
+                "295462736938616061448171582581747358544",
+                "258657412870096086076187078196382385919",
+                "273169066895788309444405416304601424368",
+                "249647224240407208084773583267060809546",
+                "71926801713946897460438588974137909250",
+                "12710146587421600635359458373273558592",
+                "150591757113947191522548734358004902325",
+                "14038674738183755763715843906656424410",
+                "154182220932586410074947337160373619621",
+                "255046662697187950046489565623395120474",
+                "16028033947526972062713092824742250636",
+                "210005632255543838456910076742488047409",
+                "13261025413385110298317900225382421990",
+                "96740624629439313170082507263211095423",
+                "192656267888217996625533953983747590368",
+                "103483856885971159778518148863166796949",
+                "60046960628806303879729841261698144307",
+                "218247869527752573962619006571764838245",
+                "315737957758846556901948188775760847659"
+              ]
+            },
+            "id": "ASB-A-140256621-93c421eb",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java"
+            },
+            "signature_type": "Line"
+          },
+          {
+            "digest": {
+              "length": 1864.0,
+              "function_hash": "178229285840426122445647457169911404261"
+            },
+            "id": "ASB-A-140256621-a55b3295",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "executeDeletePackageLIF"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 838.0,
+              "function_hash": "326417311602979837718301016844143032706"
+            },
+            "id": "ASB-A-140256621-b8233603",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "addPackageHoldingPermissions"
+            },
+            "signature_type": "Function"
+          },
+          {
+            "digest": {
+              "length": 1469.0,
+              "function_hash": "106663369258781891962193765518869133563"
+            },
+            "id": "ASB-A-140256621-ca82e9df",
+            "source": "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+            "deprecated": false,
+            "signature_version": "v1",
+            "target": {
+              "file": "services/core/java/com/android/server/pm/PackageManagerService.java",
+              "function": "getInstantAppInstallerLPr"
+            },
+            "signature_type": "Function"
+          }
+        ],
+        "fixes": [
+          "https://android.googlesource.com/platform/frameworks/base/+/e752ae55522f2657bb26bd2351ef879a73fa6efb",
+          "https://android.googlesource.com/platform/frameworks/base/+/c46491e7da14c620fbe490d50b61aa65f256c5d3"
+        ],
+        "spl": "2020-11-01",
+        "severity": "High",
+        "types": [
+          "EoP"
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/android-osv/ASB-A-140256621.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

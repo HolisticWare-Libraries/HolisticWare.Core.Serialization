@@ -1,0 +1,146 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "mavenRepositoryType": {
+                "type": "string"
+            },
+            "slnFile": {
+                "type": "string"
+            },
+            "strictRuntimeDependencies": {
+                "type": "boolean"
+            },
+            "additionalProjects": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "templates": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "templateFile": {
+                            "type": "string"
+                        },
+                        "outputFileRule": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "templateFile",
+                        "outputFileRule"
+                    ]
+                }
+            },
+            "artifacts": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "groupId": {
+                            "type": "string"
+                        },
+                        "artifactId": {
+                            "type": "string"
+                        },
+                        "version": {
+                            "type": "string"
+                        },
+                        "nugetVersion": {
+                            "type": "string"
+                        },
+                        "nugetId": {
+                            "type": "string"
+                        },
+                        "dependencyOnly": {
+                            "type": "boolean"
+                        },
+                        "extraDependencies": {
+                            "type": "string"
+                        },
+                        "excludedRuntimeDependencies": {
+                            "type": "string"
+                        },
+                        "frozen": {
+                            "type": "boolean"
+                        },
+                        "templateSet": {
+                            "type": "string"
+                        },
+                        "metadata": {
+                            "type": "object",
+                            "properties": {
+                                "friendlyName": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "friendlyName"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "groupId",
+                        "artifactId",
+                        "version",
+                        "nugetVersion",
+                        "nugetId",
+                        "dependencyOnly"
+                    ]
+                }
+            },
+            "templateSets": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "mavenRepositoryType": {
+                            "type": "string"
+                        },
+                        "templates": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "templateFile": {
+                                        "type": "string"
+                                    },
+                                    "outputFileRule": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "templateFile",
+                                    "outputFileRule"
+                                ]
+                            }
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "mavenRepositoryType",
+                        "templates"
+                    ]
+                }
+            }
+        },
+        "required": [
+            "mavenRepositoryType",
+            "slnFile",
+            "strictRuntimeDependencies",
+            "additionalProjects",
+            "templates",
+            "artifacts",
+            "templateSets"
+        ]
+    }
+}
