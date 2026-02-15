@@ -435,11 +435,11 @@ XmlSerializer xs = new XmlSerializer
 
 *   `XmlCodeExporter`
 
-    *   https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlcodeexporter?redirectedfrom=MSDN&view=netframework-4.8
-
+    *   https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlcodeexporter
+    
 #### `XmlSchemaInference`
 
-*   https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference?view=net-5.0
+*   https://docs.microsoft.com/en-us/dotnet/api/system.xml.schema.xmlschemainference
 
 #### Alternatives
 
