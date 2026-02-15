@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Text.XML</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.Text.XML</AssemblyName>
+    </PropertyGroup>
+    
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.Text.XML.HolisticWare.NetBike.Xml</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HolisticWare.NetBike.Xml" />
+        <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\HolisticWare.Core.Data.SerializationMarshalling\HolisticWare.Core.Data.SerializationMarshalling.csproj" />
+    </ItemGroup>
+
+</Project>

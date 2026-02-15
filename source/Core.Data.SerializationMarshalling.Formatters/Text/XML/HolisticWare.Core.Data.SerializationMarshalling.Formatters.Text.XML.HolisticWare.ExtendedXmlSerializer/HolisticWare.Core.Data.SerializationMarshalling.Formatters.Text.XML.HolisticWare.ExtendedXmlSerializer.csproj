@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.XML</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.XML</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.XML
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.XML
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.XML package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.XML package
+        </Description>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Core.Serialization.SOAP</RootNamespace>
+        <AssemblyName>HolisticWare.Core.Serialization.SOAP</AssemblyName>
+    </PropertyGroup>
+      
+    <PropertyGroup>
+        <PackageId>
+            HolisticWare.Core.Serialization.SOAP
+        </PackageId>
+        <Title>
+            HolisticWare.Core.Serialization.SOAP
+        </Title>
+        <summary>
+            HolisticWare.Core.Serialziation.SOAP package
+        </summary>
+        <Description>
+            HolisticWare.Core.Serialziation.SOAP package
+        </Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+    <Folder Include="SOAP\" />
+  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\HolisticWare.Core.Serialization\HolisticWare.Core.Serialization.csproj" />
+    </ItemGroup>
+</Project>
