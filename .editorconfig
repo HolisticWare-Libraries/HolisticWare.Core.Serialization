@@ -1,4 +1,19 @@
-﻿[*.cs]
+﻿# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
+
+
+# C# files
+[*.cs]
+
+#### Core EditorConfig Options ####
+
+# Indentation and spacing
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = false
 
 # CA1707: Identifiers should not contain underscores
 dotnet_diagnostic.CA1707.severity = none
