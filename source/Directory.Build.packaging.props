@@ -1,0 +1,58 @@
+<Project>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)..\'))" />
+
+
+    <PropertyGroup>
+        <PackOnBuild>true</PackOnBuild>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+  <PropertyGroup>
+  <Owners>HolisticWare, moljac</Owners>
+  <Authors>HolisticWare, moljac</Authors>
+  <Copyright>2020</Copyright>
+  <ProjectUrl>
+      https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+  </ProjectUrl>
+  <PackageProjectUrl>
+      https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+  </PackageProjectUrl>
+  <RepositoryUrl>
+      https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+  </RepositoryUrl>
+  <license>LICENSE</license>
+  <PackageLicenseUrl>
+      https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer/blob/master/LICENSE
+  </PackageLicenseUrl>
+  <VersionPrefix>0.0.1</VersionPrefix>
+  <!--
+  VersionSuffix - For debugging and local nuget feed 
+  -->        
+  <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+  <PackageVersion>$(Version)</PackageVersion>
+
+  <!-- 
+  put the package output into a nuget test folder 
+  -->
+  <PackageOutputPath>../../../../../output</PackageOutputPath>
+  </PropertyGroup>
+
+
+  <!--
+      https://github.com/dotnet/roslyn-analyzers
+      Microsoft.CodeAnalysis.NetAnalyzers
+    -->
+  <PropertyGroup>
+    <!--
+      EnableNETAnalyzers  
+      -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <!--
+      AnalysisLevel
+      -->
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+
+
+</Project>
