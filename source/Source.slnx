@@ -1,0 +1,38 @@
+<Solution>
+  <Folder Name="/source/" />
+  <Folder Name="/source/Core.Data.SerializationMarshalling.Formatters/">
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/HolisticWare.Core.Data.SerializationMarshalling.SchemaDeducerInferer/HolisticWare.Core.Serialization.SchemaDeducerInferer.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/HolisticWare.Core.Data.SerializationMarshalling/HolisticWare.Core.Data.SerializationMarshalling.csproj" />
+  </Folder>
+  <Folder Name="/source/Core.Data.SerializationMarshalling.Formatters/Binary/" />
+  <Folder Name="/source/Core.Data.SerializationMarshalling.Formatters/Text/" />
+  <Folder Name="/source/Core.Data.SerializationMarshalling.Formatters/Text/JSON/">
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Jil/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Jil.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Jsonics/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Jsonics.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.NetJSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.NetJSON.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Newtonsoft.JSON.NET/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Newtonsoft.JSON.NET.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Serde.NET/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Serde.NET.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.SpanJSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.SpanJSON.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.System.Text.Json/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.System.Text.Json.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Utf8Json/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.Utf8Json.csproj" />
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.csproj" />
+    <!--
+    errors
+    <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/JSON/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.JsonSrcGen/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.JSON.JsonSrcGen.csproj" />
+    -->
+  </Folder>
+  <Folder Name="/source/Core.Data.SerializationMarshalling.Formatters/Text/XML/">
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.System.Xml.Serialization/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.System.Xml.Serialization.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.System.Runtime.Serialization/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.System.Runtime.Serialization.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.ExtendedXmlSerializer/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.ExtendedXmlSerializer.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.NetBike.Xml/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.NetBike.Xml.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.YAXLib/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.YAXLib.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.StackXML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.StackXML.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.ExtendedXmlSerializer/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.ExtendedXmlSerializer.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.NetBike.Xml/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.NetBike.Xml.csproj" />
+   <Project Path="Core.Data.SerializationMarshalling.Formatters/Text/XML/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.YAXLib/HolisticWare.Core.Data.SerializationMarshalling.Formatters.Text.XML.HolisticWare.YAXLib.csproj" />
+  </Folder>
+ 
+
+ </Solution>
