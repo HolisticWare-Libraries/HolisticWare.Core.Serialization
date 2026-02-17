@@ -1,0 +1,69 @@
+<Project>
+
+    <PropertyGroup>
+        <LangVersion>Latest</LangVersion>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <Nullable>enable</Nullable>
+        <!--
+        Disable XML doc warnings:
+        CS1570: XML comment has badly formed XML - 'Whitespace is not allowed at this location.'
+        CS1572: XML comment has a param tag for 'Bar', but there is no parameter by that name
+        CS1591: Missing XML comment for publicly visible type or member 'Foo'
+        <NoWarn>1570;1572;1591</NoWarn>
+        -->
+
+        <!--
+        The .snk has both private and public keys
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)/build/MSAL.snk</AssemblyOriginatorKeyFile>
+        <DelaySign>false</DelaySign>
+
+        <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)/build/SolutionWideAnalyzerConfig.ruleset</CodeAnalysisRuleSet>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        -->
+    </PropertyGroup>
+
+    <PropertyGroup Condition="$(Configuration.Contains('Release'))">
+        <DebugType>Full</DebugType>
+        <DefineDebug>false</DefineDebug>
+        <DefineTrace>true</DefineTrace>
+        <Optimize>true</Optimize>
+        <OutputPath>bin</OutputPath>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageVersion Include="System.Text.Json" Version="10.0.3" />
+        <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageVersion Include="SpanJson" Version="4.2.1" />
+        <PackageVersion Include="Utf8Json" Version="1.3.7" />
+        <PackageVersion Include="Serde" Version="0.10.2" />
+        <PackageVersion Include="NetJSON" Version="1.4.5" />
+        <PackageVersion Include="Jil" Version="2.17.0" />
+        <PackageVersion Include="Jsonics" Version="0.2.0-alpha" />
+        <PackageVersion Include="JsonSrcGen" Version="1.1.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageVersion Include="System.Runtime.Serialization.Xml" Version="4.3.0" />
+        <PackageVersion Include="System.Xml.XmlSerializer" Version="4.3.0" />
+        <PackageVersion Include="ExtendedXmlSerializer" Version="3.10.0" />
+        <PackageVersion Include="XSerializer" Version="0.4.4" />
+        <PackageVersion Include="YAXLib" Version="4.3.0" />
+        <PackageVersion Include="NetBike.Xml" Version="0.7.0" />
+        <PackageVersion Include="SharpSerializer" Version="4.0.2" />
+        <PackageVersion Include="ExtendedXmlSerializer" Version="3.10.0" />
+        <PackageVersion Include="StackXML" Version="1.0.1" />
+        <PackageVersion Include="HolisticWare.NetBike.Xml" Version="0.0.1-alpha-202409272252" />  
+        <PackageVersion Include="HolisticWare.YAXLib" Version="0.0.1-alpha-202409261046" />
+        <!--
+        There is no nuget
+        -->
+        <PackageVersion Include="HolisticWare.StackXml" Version="0.0.1-alpha-202409272206" />
+    </ItemGroup>
+
+
+</Project>
