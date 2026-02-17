@@ -1,0 +1,8 @@
+<Project>
+  <Import Project="..\Directory.Packages.props" />
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <Import Project=".\Directory.Packages.build.props" />
+</Project>
